@@ -49,3 +49,25 @@ export function wineImageCandidates(wine: Wine): string[] {
   return Array.from(new Set(list))
 }
 
+/**
+ * Encode un chemin d'image pour qu'il soit compatible avec les URLs
+ * Gère les espaces et caractères spéciaux pour Vercel/Next.js
+ * Encode chaque segment séparément pour préserver les slashes
+ */
+export function encodeImagePath(path: string): string {
+  // Si le chemin commence par /, on le garde
+  const isAbsolute = path.startsWith('/')
+  const pathWithoutSlash = isAbsolute ? path.slice(1) : path
+  
+  // Encoder chaque segment du chemin séparément (sans encoder les slashes)
+  const segments = pathWithoutSlash.split('/')
+  const encodedSegments = segments.map(segment => {
+    // Encoder les espaces et caractères spéciaux dans chaque segment
+    // encodeURIComponent encode tout, donc on doit remplacer les slashes après
+    return encodeURIComponent(segment)
+  })
+  
+  // Reconstruire le chemin avec le slash initial si nécessaire
+  return isAbsolute ? '/' + encodedSegments.join('/') : encodedSegments.join('/')
+}
+

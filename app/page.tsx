@@ -10,6 +10,7 @@ import { useGSAP } from "@gsap/react"
 import { ScrollTrigger } from "gsap/ScrollTrigger"
 import { getLatestArticles } from "@/lib/news-data"
 import { getUpcomingEvents } from "@/lib/events-data"
+import { encodeImagePath } from "@/lib/image-utils"
 
 gsap.registerPlugin(ScrollTrigger)
 
@@ -159,7 +160,7 @@ export default function HomePage() {
           className="absolute inset-0 will-change-transform"
         >
           <Image
-            src="/chateau-lastours-hero.jpg"
+            src={encodeImagePath("/chateau-lastours-hero.jpg")}
             alt="Vignoble du Château Lastours au coucher du soleil"
             fill
             priority
@@ -218,7 +219,7 @@ export default function HomePage() {
             <div className="relative wine-image">
               <div className="relative h-[400px] lg:h-[550px] rounded-sm overflow-hidden shadow-2xl">
                 <Image
-                  src="/Page/homepage/Nos vins gamme pétrichor.jpg"
+                  src={encodeImagePath("/Page/homepage/Nos vins gamme pétrichor.jpg")}
                   alt="Gamme de vins Pétrichor du Château Lastours"
                   fill
                   className="object-cover object-center sm:object-[center_center] lg:object-[center_30%] hover:scale-105 transition-transform duration-700"
@@ -277,7 +278,7 @@ export default function HomePage() {
       <section className="relative h-[75vh] lg:h-[90vh] overflow-hidden mt-6 lg:mt-8">
         <div className="absolute inset-0">
           <Image
-            src="/Page/homepage/Château côté jardin.JPG"
+            src={encodeImagePath("/Page/homepage/Château côté jardin.JPG")}
             alt="Château Lastours côté jardin"
             fill
             className="object-cover object-center sm:object-[center_center] lg:object-[center_40%] hover:scale-105 transition-transform duration-700"
@@ -331,7 +332,7 @@ export default function HomePage() {
       <section className="relative h-[70vh] lg:h-[85vh] overflow-hidden mt-6 lg:mt-8">
         <div className="absolute inset-0">
           <Image
-            src="/Page/homepage/Chapelle et vignes.jpeg"
+            src={encodeImagePath("/Page/homepage/Chapelle et vignes.jpeg")}
             alt="Chapelle et vignes du Château Lastours"
             fill
             className="object-cover object-center sm:object-[center_center] lg:object-[center_50%] hover:scale-105 transition-transform duration-700"
@@ -384,7 +385,7 @@ export default function HomePage() {
       <section className="relative h-[70vh] lg:h-[85vh] overflow-hidden mt-6 lg:mt-8 mb-6 lg:mb-8">
         <div className="absolute inset-0">
           <Image
-            src="/Page/homepage/Mariage au château.jpg"
+            src={encodeImagePath("/Page/homepage/Mariage au château.jpg")}
             alt="Mariage au Château Lastours"
             fill
             className="object-cover object-center sm:object-[center_center] lg:object-[center_45%] hover:scale-105 transition-transform duration-700"

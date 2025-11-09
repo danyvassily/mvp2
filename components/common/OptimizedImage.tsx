@@ -3,6 +3,7 @@
 import Image from "next/image"
 import { cn } from "@/lib/utils"
 import { useState } from "react"
+import { encodeImagePath } from "@/lib/image-utils"
 
 interface OptimizedImageProps {
   src: string
@@ -69,13 +70,16 @@ export function OptimizedImage({
   placeholder = "empty",
   blurDataURL
 }: OptimizedImageProps) {
-  const [imgSrc, setImgSrc] = useState(src)
+  // Encoder le chemin d'image pour gérer les espaces et caractères spéciaux
+  const encodedSrc = encodeImagePath(src)
+  const encodedFallback = encodeImagePath(fallbackSrc)
+  const [imgSrc, setImgSrc] = useState(encodedSrc)
   const [isLoading, setIsLoading] = useState(true)
   const [hasError, setHasError] = useState(false)
 
   const handleError = () => {
-    if (imgSrc !== fallbackSrc) {
-      setImgSrc(fallbackSrc)
+    if (imgSrc !== encodedFallback) {
+      setImgSrc(encodedFallback)
       setHasError(true)
     }
   }

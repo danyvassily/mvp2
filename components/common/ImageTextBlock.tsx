@@ -3,6 +3,7 @@
 import Image from "next/image";
 import { cn } from "@/lib/utils";
 import type { StaticImageData } from "next/image";
+import { encodeImagePath } from "@/lib/image-utils";
 
 interface ImageTextBlockProps {
   title: string;
@@ -32,6 +33,18 @@ export function ImageTextBlock({
 }: ImageTextBlockProps) {
   const isLeft = align === "left";
 
+  // Encoder les chemins d'images (seulement pour les chaînes de caractères, pas pour StaticImageData)
+  const encodedImageSrc = typeof imageSrc === "string" ? encodeImagePath(imageSrc) : imageSrc;
+  
+  // Helper pour obtenir le srcSet d'une source
+  const getSrcSet = (source: string | StaticImageData | undefined): string | undefined => {
+    if (!source) return undefined;
+    return typeof source === "string" ? source : source.src;
+  };
+  
+  const encodedPortraitSrc = portraitSrc ? (typeof portraitSrc === "string" ? encodeImagePath(portraitSrc) : portraitSrc) : undefined;
+  const encodedLandscapeSrc = landscapeSrc ? (typeof landscapeSrc === "string" ? encodeImagePath(landscapeSrc) : landscapeSrc) : undefined;
+
   return (
     <section className={cn("relative w-full overflow-hidden", className)}>
       {/* Conteneur image plein écran */}
@@ -39,14 +52,14 @@ export function ImageTextBlock({
         {/* Art direction portrait/paysage */}
         {portraitSrc || landscapeSrc ? (
           <picture>
-            {portraitSrc && (
-              <source media="(orientation: portrait)" srcSet={portraitSrc} />
+            {encodedPortraitSrc && (
+              <source media="(orientation: portrait)" srcSet={getSrcSet(encodedPortraitSrc)} />
             )}
-            {landscapeSrc && (
-              <source media="(orientation: landscape)" srcSet={landscapeSrc} />
+            {encodedLandscapeSrc && (
+              <source media="(orientation: landscape)" srcSet={getSrcSet(encodedLandscapeSrc)} />
             )}
             <Image
-              src={imageSrc}
+              src={encodedImageSrc}
               alt={imageAlt}
               fill
               sizes="(max-width: 768px) 100vw, 100vw"
@@ -55,7 +68,7 @@ export function ImageTextBlock({
           </picture>
         ) : (
           <Image
-            src={imageSrc}
+            src={encodedImageSrc}
             alt={imageAlt}
             fill
             sizes="(max-width: 768px) 100vw, 100vw"
