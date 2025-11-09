@@ -1,0 +1,65 @@
+# Fichiers et dossiers à ignorer lors du déploiement Vercel
+
+# Dossiers de build (générés automatiquement)
+.next/
+out/
+dist/
+build/
+
+# Dépendances (installées par Vercel)
+node_modules/
+
+# Fichiers de configuration locaux
+.env.local
+.env*.local
+
+# Fichiers de développement
+.vscode/
+.idea/
+*.log
+*.bak
+
+# Documentation et guides (non nécessaires en production)
+*.md
+!README.md
+
+# Scripts de nettoyage et utilitaires
+scripts/
+*.sh
+
+# Fichiers Netlify (non nécessaires pour Vercel)
+netlify.toml
+.netlify/
+
+# Fichiers de sauvegarde
+*_backup/
+*_old/
+public_backup_full/
+public/PHOTOS-WEB-LASTOURS*/
+public/photos/
+public/*backup*/
+public/*old*/
+public/*clean*/
+
+# Fichiers temporaires
+*.zip
+*.rar
+*.tar.gz
+*.mov
+*.mp4
+*.avi
+
+# Fichiers d'optimisation temporaires
+.public_used/
+*-optimized.jpg
+*-optimized.png
+
+# Logs
+build-errors.log
+*.log
+
+# Fichiers de structure et audit
+structure.html
+STRUCTURE.md
+audit/
+

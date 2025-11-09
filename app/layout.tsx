@@ -10,16 +10,29 @@ import { Toaster } from "@/components/ui/toaster"
 import { ClientLayout } from "@/components/ClientLayout"
 import { ConditionalMainPadding } from "@/components/ConditionalMainPadding"
 
+// Fonction helper pour obtenir l'URL de base
+function getBaseUrl() {
+  if (process.env.NEXT_PUBLIC_SITE_URL) {
+    return process.env.NEXT_PUBLIC_SITE_URL
+  }
+  if (process.env.VERCEL_URL) {
+    return `https://${process.env.VERCEL_URL}`
+  }
+  return 'https://chateau-lastours.vercel.app'
+}
+
 export const metadata: Metadata = {
-  metadataBase: new URL('https://chateau-lastours.netlify.app'),
+  // Utilisation d'une URL dynamique qui s'adapte au domaine de déploiement
+  // Vercel fournira automatiquement le bon domaine via VERCEL_URL
+  metadataBase: new URL(getBaseUrl()),
   title: "Châteaux Lastours - Domaine Viticole de Prestige",
   description:
     "Découvrez l'excellence viticole du sud de la France avec Châteaux Lastours. Vins d'exception, terroir unique, tradition et savoir-faire.",
-  generator: "v0.app",
+  generator: "Next.js",
   openGraph: {
     title: "Châteaux Lastours - Domaine Viticole de Prestige",
     description: "Découvrez l'excellence viticole du sud de la France avec Châteaux Lastours. Vins d'exception, terroir unique, tradition et savoir-faire.",
-    url: 'https://chateau-lastours.netlify.app',
+    url: getBaseUrl(),
     siteName: 'Châteaux Lastours',
     type: 'website',
   },
