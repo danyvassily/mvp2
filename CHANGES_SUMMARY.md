@@ -408,3 +408,5 @@ npx lighthouse http://localhost:3000 --view
 *Généré le 5 novembre 2025*
 
 
+
+

@@ -156,9 +156,9 @@ export function Footer() {
               <Image
                 src="/PHOTOS-WEB-LASTOURS/LOGO/logo-chateau-lastours.jpg"
                 alt="Château Lastours, logo"
-                width={150}
-                height={125}
-                className="w-[120px] lg:w-[150px] h-auto object-contain"
+                width={160}
+                height={133}
+                className="w-[140px] lg:w-[160px] h-auto object-contain"
                 priority={false}
               />
             </Link>
@@ -229,8 +229,8 @@ function FooterColumn({
 }) {
   return (
     <div>
-      <h4 className="font-semibold text-base mb-2 text-white/90">{title}</h4>
-      <nav className="flex flex-col space-y-1.5" aria-label={title}>
+      <h4 className="font-semibold text-base mb-3 text-white/90 leading-tight">{title}</h4>
+      <nav className="flex flex-col space-y-2" aria-label={title}>
         {items.map((item) => (
           <FooterLink key={item.href} href={item.href}>
             {item.label}
@@ -246,7 +246,7 @@ function FooterLink({ href, children }: { href: string; children: React.ReactNod
   return (
     <Link
       href={href}
-      className="text-sm text-white/70 hover:text-wine-gold transition-colors duration-300 focus:outline-none focus:ring-2 focus:ring-wine-gold focus:ring-offset-2 focus:ring-offset-wine-dark rounded min-h-[36px] flex items-center"
+      className="text-sm text-white/70 hover:text-wine-gold transition-colors duration-300 focus:outline-none focus:ring-2 focus:ring-wine-gold focus:ring-offset-2 focus:ring-offset-wine-dark rounded min-h-[44px] flex items-center"
     >
       {children}
     </Link>
@@ -276,7 +276,7 @@ function SocialList({
             target={isExternal ? "_blank" : undefined}
             rel={isExternal ? "noopener noreferrer" : undefined}
             aria-label={item.ariaLabel}
-            className="text-white/70 hover:text-wine-gold hover:opacity-80 focus:outline-none focus:ring-2 focus:ring-wine-gold focus:ring-offset-2 focus:ring-offset-wine-dark rounded p-1.5 min-w-[36px] min-h-[36px] flex items-center justify-center transition-all duration-300"
+            className="text-white/70 hover:text-wine-gold hover:opacity-80 focus:outline-none focus:ring-2 focus:ring-wine-gold focus:ring-offset-2 focus:ring-offset-wine-dark rounded p-2 min-w-[44px] min-h-[44px] flex items-center justify-center transition-all duration-300"
           >
             <Icon />
           </a>

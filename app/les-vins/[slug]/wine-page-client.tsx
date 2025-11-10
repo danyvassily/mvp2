@@ -60,26 +60,27 @@ export function WinePageClient({ wine }: WinePageClientProps) {
       {/* Wine Details */}
       <section className="relative z-20 pb-16">
         <div className="container mx-auto px-4 lg:px-8">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-16">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 md:gap-12 lg:gap-16">
             {/* Wine Image avec hover et modal */}
-            <div className="bg-muted rounded-lg overflow-hidden flex items-center justify-center p-6">
+            <div className="bg-muted rounded-lg overflow-hidden flex items-center justify-center p-4 sm:p-6 min-h-[300px] sm:min-h-[400px] md:min-h-[500px]">
               <div 
-                className="relative overflow-hidden cursor-pointer group wine-bottle-container"
+                className="relative overflow-hidden cursor-pointer group wine-bottle-container w-full h-full flex items-center justify-center"
                 onClick={() => openModal(wine.image || "/placeholder.svg", wine.name)}
               >
                 <img
                   src={wine.image || "/placeholder.svg"}
                   alt={wine.name}
-                  className="h-[70vh] max-h-[720px] w-auto object-contain mx-auto transition-transform duration-300 ease-out hover:scale-105"
+                  className="max-h-[280px] sm:max-h-[380px] md:max-h-[480px] lg:max-h-[600px] xl:max-h-[720px] h-auto w-auto object-contain mx-auto transition-transform duration-300 ease-out hover:scale-105"
                   style={{
-                    transformOrigin: 'center center'
+                    transformOrigin: 'center center',
+                    maxWidth: '100%'
                   }}
                 />
                 
                 {/* Indicateur de clic */}
                 <div className="absolute inset-0 bg-black/0 group-hover:bg-black/5 transition-colors duration-300 flex items-center justify-center opacity-0 group-hover:opacity-100">
-                  <div className="bg-white/20 backdrop-blur-sm rounded-full p-3 transform scale-75 group-hover:scale-100 transition-transform duration-300">
-                    <svg className="w-6 h-6 text-gray-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <div className="bg-white/20 backdrop-blur-sm rounded-full p-2 sm:p-3 transform scale-75 group-hover:scale-100 transition-transform duration-300">
+                    <svg className="w-5 h-5 sm:w-6 sm:h-6 text-gray-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0zM10 7v3m0 0v3m0-3h3m-3 0H7" />
                     </svg>
                   </div>
@@ -88,7 +89,7 @@ export function WinePageClient({ wine }: WinePageClientProps) {
             </div>
 
             {/* Wine Information */}
-            <div className="space-y-8">
+            <div className="space-y-6 md:space-y-8 flex flex-col justify-center">
               <div>
                 <div className="flex items-center gap-2 mb-4">
                   <Badge variant="secondary">{collectionLabels[wine.collection]}</Badge>
@@ -101,12 +102,27 @@ export function WinePageClient({ wine }: WinePageClientProps) {
                   )}
                 </div>
 
-                <h1 className="text-4xl md:text-5xl font-display mb-4">{wine.name}</h1>
-                <p className="text-xl text-muted-foreground mb-6">Millésime {wine.vintage}</p>
+                <h1 className="text-3xl sm:text-4xl md:text-5xl font-display mb-4">{wine.name}</h1>
+                <p className="text-lg sm:text-xl text-muted-foreground mb-4 sm:mb-6">Millésime {wine.vintage}</p>
 
-                <div className={`text-3xl font-heading mb-8 ${colorTheme.text}`}>{wine.price}€</div>
+                {/* Prix supprimé selon spécifications */}
+                {/* Sélecteur de millésime - structure prête pour données ASSET */}
+                <div className="mb-6 sm:mb-8">
+                  <label className="text-sm font-medium text-muted-foreground mb-2 block">Millésime</label>
+                  <select 
+                    className="w-full sm:w-auto bg-background border border-input rounded-lg px-4 py-2 text-base focus:outline-none focus:ring-2 focus:ring-ring"
+                    value={wine.vintage}
+                    onChange={(e) => {
+                      // TODO: Implémenter le changement de millésime avec données depuis ASSET
+                      // Pour l'instant, juste un placeholder
+                    }}
+                  >
+                    <option value={wine.vintage}>{wine.vintage}</option>
+                    {/* Ajouter d'autres millésimes disponibles ici depuis ASSET */}
+                  </select>
+                </div>
 
-                <p className="text-lg leading-relaxed text-muted-foreground mb-8">{wine.longDescription}</p>
+                <p className="text-base sm:text-lg leading-relaxed text-muted-foreground mb-6 sm:mb-8">{wine.longDescription}</p>
 
                 <div className="flex justify-center">
                   <Button size="lg" variant="outline">
@@ -142,9 +158,9 @@ export function WinePageClient({ wine }: WinePageClientProps) {
       </section>
 
       {/* Detailed Information */}
-      <section className="py-16 bg-muted/30">
-        <div className="container mx-auto px-4 lg:px-8">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
+      <section className="py-12 sm:py-16 bg-muted/30">
+        <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 sm:gap-8">
             {/* Tasting Notes */}
             <Card>
               <CardHeader>
@@ -217,27 +233,28 @@ export function WinePageClient({ wine }: WinePageClientProps) {
       </section>
 
       {/* Related Wines */}
-      <section className="py-16">
-        <div className="container mx-auto px-4 lg:px-8">
-          <h2 className="text-3xl font-display mb-8 text-center">Vins de la même collection</h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+      <section className="py-12 sm:py-16">
+        <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+          <h2 className="text-2xl sm:text-3xl font-display mb-6 sm:mb-8 text-center">Vins de la même collection</h2>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
             {wines
               .filter((w) => w.collection === wine.collection && w.id !== wine.id)
               .slice(0, 3)
               .map((relatedWine) => (
                 <Card key={relatedWine.id} className="group hover:shadow-xl transition-all duration-300">
-                  <div className="bg-muted overflow-hidden flex items-center justify-center p-4 h-80">
+                  <div className="bg-muted overflow-hidden flex items-center justify-center p-4 min-h-[200px] sm:min-h-[250px] md:h-80">
                     <img
                       src={relatedWine.image || "/placeholder.svg"}
                       alt={relatedWine.name}
-                      className="h-full w-auto object-contain mx-auto group-hover:scale-105 transition-transform duration-300"
+                      className="max-h-[180px] sm:max-h-[230px] md:max-h-[280px] h-auto w-auto object-contain mx-auto group-hover:scale-105 transition-transform duration-300"
+                      style={{ maxWidth: '100%' }}
                     />
                   </div>
                   <CardContent className="p-6">
                     <h3 className="text-xl font-heading mb-2">{relatedWine.name}</h3>
                     <p className="text-sm text-muted-foreground mb-4">Millésime {relatedWine.vintage}</p>
-                    <div className="flex items-center justify-between">
-                      <div className="text-xl font-heading text-accent">{relatedWine.price}€</div>
+                    {/* Prix supprimé selon spécifications */}
+                    <div className="flex items-center justify-end">
                       <Button variant="outline" size="sm" asChild>
                         <Link href={`/les-vins/${relatedWine.id}`}>Découvrir</Link>
                       </Button>

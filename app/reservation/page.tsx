@@ -81,7 +81,7 @@ export default function ReservationPage() {
       <Header />
 
       {/* Hero Section */}
-      <section className="relative h-[70vh] flex items-center justify-center overflow-hidden" style={{ minHeight: 'calc(100vh - 80px)' }}>
+      <section className="relative h-[70vh] flex items-center justify-center overflow-hidden" style={{ minHeight: 'calc(100vh - var(--header-height, 80px))' }}>
         <div className="absolute inset-0">
           <Image
             src="/chateau-lastours-hero.jpg"
@@ -107,7 +107,7 @@ export default function ReservationPage() {
               onClick={() => {
                 const target = document.getElementById('experiences')
                 if (target) {
-                  const headerHeight = 80 // Hauteur approximative du header
+                  const headerHeight = parseInt(getComputedStyle(document.documentElement).getPropertyValue('--header-height')) || 80
                   const targetPosition = target.getBoundingClientRect().top + window.pageYOffset - headerHeight
                   window.scrollTo({ top: targetPosition, behavior: 'smooth' })
                   target.focus()
@@ -198,7 +198,7 @@ export default function ReservationPage() {
                       updateFormData("experience", key)
                       const target = document.getElementById('reservation-form')
                       if (target) {
-                        const headerHeight = 80
+                        const headerHeight = parseInt(getComputedStyle(document.documentElement).getPropertyValue('--header-height')) || 80
                         const targetPosition = target.getBoundingClientRect().top + window.pageYOffset - headerHeight
                         window.scrollTo({ top: targetPosition, behavior: 'smooth' })
                         target.focus()

@@ -14,7 +14,8 @@ function TeamImage({
   containerClassName = "",
   fill = false,
   objectFit = "cover",
-  objectPosition = "center center"
+  objectPosition = "center center",
+  overflow = "hidden"
 }: {
   src: string
   alt: string
@@ -23,12 +24,13 @@ function TeamImage({
   fill?: boolean
   objectFit?: "cover" | "contain"
   objectPosition?: string
+  overflow?: "hidden" | "visible"
 }) {
   const [isLoading, setIsLoading] = useState(true)
   const [hasError, setHasError] = useState(false)
 
   return (
-    <div className={cn("relative overflow-hidden", containerClassName)}>
+    <div className={cn("relative", overflow === "hidden" ? "overflow-hidden" : "overflow-visible", containerClassName)}>
       {isLoading && (
         <div className="absolute inset-0 bg-muted animate-pulse" />
       )}
@@ -62,14 +64,15 @@ export default function TeamPage() {
   return (
     <div className="min-h-screen">
       {/* Hero Section */}
-      <section className="relative h-[500px] md:h-[600px] flex items-center justify-center overflow-hidden">
-        <div className="absolute inset-0">
+      <section className="relative min-h-[700px] md:min-h-[900px] lg:min-h-[1000px] flex items-center justify-center">
+        <div className="absolute inset-0 flex items-center justify-center">
           <TeamImage
             src="/Page/Page Team/Photos page team/Photo de groupe.jpeg"
             alt="Équipe du Château Lastours"
             fill
-            objectFit="cover"
-            containerClassName="absolute inset-0"
+            objectFit="contain"
+            overflow="visible"
+            containerClassName="w-full h-full"
             className="w-full h-full"
           />
         </div>
@@ -99,8 +102,8 @@ export default function TeamPage() {
                       src="/Page/Page Team/Photos page team/Louis.jpeg"
                       alt="Louis de Faramond"
                       fill
-                      objectFit="cover"
-                      objectPosition="center top"
+                      objectFit="contain"
+                      objectPosition="center 30%"
                       containerClassName="absolute inset-0"
                       className="w-full h-full"
                     />
@@ -146,13 +149,13 @@ export default function TeamPage() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl mx-auto">
             {/* Adrien */}
             <div className="bg-white rounded-xl overflow-hidden shadow-sm border border-border/50 hover:shadow-lg transition-shadow duration-300">
-              <div className="relative aspect-[4/3]">
+              <div className="relative aspect-[3/4]">
                 <TeamImage
                   src="/Page/Page Team/Photos page team/Adrien.jpeg"
                   alt="Adrien"
                   fill
-                  objectFit="cover"
-                  objectPosition="center top"
+                  objectFit="contain"
+                  objectPosition="center 30%"
                   containerClassName="absolute inset-0"
                   className="w-full h-full"
                 />
@@ -168,13 +171,13 @@ export default function TeamPage() {
 
             {/* Caroline */}
             <div className="bg-white rounded-xl overflow-hidden shadow-sm border border-border/50 hover:shadow-lg transition-shadow duration-300">
-              <div className="relative aspect-[4/3]">
+              <div className="relative aspect-[3/4]">
                 <TeamImage
                   src="/Page/Page Team/Photos page team/Caroline.jpeg"
                   alt="Caroline"
                   fill
-                  objectFit="cover"
-                  objectPosition="center center"
+                  objectFit="contain"
+                  objectPosition="center 30%"
                   containerClassName="absolute inset-0"
                   className="w-full h-full"
                 />
@@ -190,13 +193,13 @@ export default function TeamPage() {
 
             {/* Eva */}
             <div className="bg-white rounded-xl overflow-hidden shadow-sm border border-border/50 hover:shadow-lg transition-shadow duration-300">
-              <div className="relative aspect-[4/3]">
+              <div className="relative aspect-[3/4]">
                 <TeamImage
                   src="/Page/Page Team/Photos page team/Eva.jpeg"
                   alt="Eva"
                   fill
-                  objectFit="cover"
-                  objectPosition="center top"
+                  objectFit="contain"
+                  objectPosition="center 30%"
                   containerClassName="absolute inset-0"
                   className="w-full h-full"
                 />
@@ -212,13 +215,13 @@ export default function TeamPage() {
 
             {/* François */}
             <div className="bg-white rounded-xl overflow-hidden shadow-sm border border-border/50 hover:shadow-lg transition-shadow duration-300">
-              <div className="relative aspect-[4/3]">
+              <div className="relative aspect-[3/4]">
                 <TeamImage
                   src="/Page/Page Team/Photos page team/François.jpeg"
                   alt="François"
                   fill
-                  objectFit="cover"
-                  objectPosition="center top"
+                  objectFit="contain"
+                  objectPosition="center 30%"
                   containerClassName="absolute inset-0"
                   className="w-full h-full"
                 />
@@ -234,13 +237,13 @@ export default function TeamPage() {
 
             {/* Nicolas */}
             <div className="bg-white rounded-xl overflow-hidden shadow-sm border border-border/50 hover:shadow-lg transition-shadow duration-300">
-              <div className="relative aspect-[4/3]">
+              <div className="relative aspect-[3/4]">
                 <TeamImage
                   src="/Page/Page Team/Photos page team/Nicolas.jpeg"
                   alt="Nicolas"
                   fill
-                  objectFit="cover"
-                  objectPosition="center top"
+                  objectFit="contain"
+                  objectPosition="center 30%"
                   containerClassName="absolute inset-0"
                   className="w-full h-full"
                 />
@@ -256,13 +259,13 @@ export default function TeamPage() {
 
             {/* Pauline */}
             <div className="bg-white rounded-xl overflow-hidden shadow-sm border border-border/50 hover:shadow-lg transition-shadow duration-300">
-              <div className="relative aspect-[4/3]">
+              <div className="relative aspect-[3/4]">
                 <TeamImage
                   src="/Page/Page Team/Photos page team/Pauline.jpeg"
                   alt="Pauline"
                   fill
-                  objectFit="cover"
-                  objectPosition="center top"
+                  objectFit="contain"
+                  objectPosition="center 30%"
                   containerClassName="absolute inset-0"
                   className="w-full h-full"
                 />
@@ -278,13 +281,13 @@ export default function TeamPage() {
 
             {/* Stéphane */}
             <div className="bg-white rounded-xl overflow-hidden shadow-sm border border-border/50 hover:shadow-lg transition-shadow duration-300 md:col-span-2 lg:col-span-1">
-              <div className="relative aspect-[4/3]">
+              <div className="relative aspect-[3/4]">
                 <TeamImage
                   src="/Page/Page Team/Photos page team/Stephane.jpeg"
                   alt="Stéphane"
                   fill
-                  objectFit="cover"
-                  objectPosition="center top"
+                  objectFit="contain"
+                  objectPosition="center 30%"
                   containerClassName="absolute inset-0"
                   className="w-full h-full"
                 />

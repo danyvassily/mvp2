@@ -86,31 +86,32 @@ export function WinePageLuxe({ wine, imagePath, pdfPath }: WinePageLuxeProps) {
         </div>
 
         {/* Contenu Hero */}
-        <div className="relative z-20 container mx-auto px-4 py-12 lg:py-20">
-          <div className="grid lg:grid-cols-2 gap-12 items-center">
+        <div className="relative z-20 container mx-auto px-4 py-8 sm:py-12 lg:py-20">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 md:gap-12 items-center">
             
             {/* Image de la bouteille avec hover et modal */}
-            <div className="flex justify-center">
+            <div className="flex justify-center order-2 lg:order-1">
               <ZoomReveal scale={1.05} duration={2.0}>
-                <div className="relative p-8 rounded-2xl backdrop-blur-sm bg-white/5 border border-white/10 hover:bg-white/10 hover:border-white/20 transition-all duration-500 overflow-hidden">
+                <div className="relative p-4 sm:p-6 md:p-8 rounded-2xl backdrop-blur-sm bg-white/5 border border-white/10 hover:bg-white/10 hover:border-white/20 transition-all duration-500 overflow-hidden w-full max-w-full">
                   <div 
-                    className="relative overflow-hidden cursor-pointer group wine-bottle-container"
+                    className="relative overflow-hidden cursor-pointer group wine-bottle-container flex items-center justify-center min-h-[250px] sm:min-h-[350px] md:min-h-[400px] lg:min-h-[450px]"
                     onClick={() => openModal(imagePath, wine.name)}
                   >
                     {/* eslint-disable-next-line @next/next/no-img-element */}
                     <img
                       src={imagePath}
                       alt={wine.name}
-                      className="h-[400px] lg:h-[500px] w-auto object-contain drop-shadow-2xl filter brightness-110 transition-transform duration-300 ease-out hover:scale-105"
+                      className="max-h-[240px] sm:max-h-[340px] md:max-h-[400px] lg:max-h-[450px] xl:max-h-[500px] h-auto w-auto object-contain drop-shadow-2xl filter brightness-110 transition-transform duration-300 ease-out hover:scale-105"
                       style={{
-                        transformOrigin: 'center center'
+                        transformOrigin: 'center center',
+                        maxWidth: '100%'
                       }}
                     />
                     
                     {/* Indicateur de clic */}
                     <div className="absolute inset-0 bg-black/0 group-hover:bg-black/5 transition-colors duration-300 flex items-center justify-center opacity-0 group-hover:opacity-100">
-                      <div className="bg-white/20 backdrop-blur-sm rounded-full p-3 transform scale-75 group-hover:scale-100 transition-transform duration-300">
-                        <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <div className="bg-white/20 backdrop-blur-sm rounded-full p-2 sm:p-3 transform scale-75 group-hover:scale-100 transition-transform duration-300">
+                        <svg className="w-5 h-5 sm:w-6 sm:h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0zM10 7v3m0 0v3m0-3h3m-3 0H7" />
                         </svg>
                       </div>
@@ -121,7 +122,7 @@ export function WinePageLuxe({ wine, imagePath, pdfPath }: WinePageLuxeProps) {
             </div>
 
             {/* Informations principales */}
-            <div className="text-center lg:text-left space-y-6">
+            <div className="text-center lg:text-left space-y-4 sm:space-y-6 order-1 lg:order-2">
               <div className="space-y-4">
                 <ScrollAnimation animation="fadeIn" delay={0.3}>
                   <div className="flex flex-wrap gap-3 justify-center lg:justify-start">
@@ -147,31 +148,31 @@ export function WinePageLuxe({ wine, imagePath, pdfPath }: WinePageLuxeProps) {
                 </ScrollAnimation>
 
                 <ScrollAnimation animation="slideUp" delay={0.5}>
-                  <h1 className="text-4xl lg:text-6xl font-serif font-bold leading-tight text-white tracking-wider">
+                  <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-serif font-bold leading-tight text-white tracking-wider">
                     {wine.name}
                   </h1>
                 </ScrollAnimation>
                 
                 <ScrollAnimation animation="fadeIn" delay={0.7}>
-                  <p className="text-lg lg:text-xl text-gray-400">
+                  <p className="text-base sm:text-lg lg:text-xl text-gray-400">
                     Millésime {wine.vintage}
                   </p>
                 </ScrollAnimation>
 
                 <ScrollAnimation animation="fadeIn" delay={0.9}>
-                  <p className="text-lg lg:text-xl leading-relaxed max-w-2xl text-gray-300">
+                  <p className="text-base sm:text-lg lg:text-xl leading-relaxed max-w-2xl mx-auto lg:mx-0 text-gray-300">
                     {wine.longDescription}
                   </p>
                 </ScrollAnimation>
               </div>
 
               {/* Prix et actions */}
-              <div className="space-y-6">
+              <div className="space-y-4 sm:space-y-6">
                 {/* Sélecteur de millésime */}
-                <div className="flex flex-col gap-4">
+                <div className="flex flex-col gap-3 sm:gap-4">
                   <label className="text-sm font-medium text-gray-300">Millésime</label>
                   <select 
-                    className="bg-white/10 border border-white/20 rounded-lg px-4 py-2 text-white focus:outline-none focus:ring-2 focus:ring-white/30"
+                    className="w-full sm:w-auto bg-white/10 border border-white/20 rounded-lg px-4 py-2 text-white focus:outline-none focus:ring-2 focus:ring-white/30"
                     value={wine.vintage}
                     onChange={(e) => {
                       // TODO: Implémenter le changement de millésime avec données depuis ASSET
@@ -189,11 +190,11 @@ export function WinePageLuxe({ wine, imagePath, pdfPath }: WinePageLuxeProps) {
       </section>
 
       {/* Section détaillée avec onglets */}
-      <section className="py-16 relative z-20">
-        <div className="container mx-auto px-4">
+      <section className="py-12 sm:py-16 relative z-20">
+        <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           
           {/* Navigation des onglets */}
-          <div className="flex flex-wrap justify-center gap-2 mb-12">
+          <div className="flex flex-wrap justify-center gap-2 mb-8 sm:mb-12">
             {[
               { key: "tasting", label: "Dégustation", icon: WineIcon },
               { key: "technical", label: "Informations techniques", icon: Grape },
@@ -204,13 +205,13 @@ export function WinePageLuxe({ wine, imagePath, pdfPath }: WinePageLuxeProps) {
                 key={key}
                 variant={activeTab === key ? "default" : "outline"}
                 onClick={() => setActiveTab(key as typeof activeTab)}
-                className={`px-6 py-3 transition-all duration-300`}
+                className={`px-4 sm:px-6 py-2 sm:py-3 text-sm sm:text-base transition-all duration-300`}
                 style={activeTab === key 
                   ? { backgroundColor: colorTheme.primary, borderColor: colorTheme.primary, color: 'white' }
                   : { borderColor: colorTheme.secondary + '60', color: colorTheme.text.replace('text-', '').replace('-200', '') }
                 }
               >
-                <Icon className="w-4 h-4 mr-2" />
+                <Icon className="w-3 h-3 sm:w-4 sm:h-4 mr-1 sm:mr-2" />
                 {label}
               </Button>
             ))}
@@ -219,13 +220,13 @@ export function WinePageLuxe({ wine, imagePath, pdfPath }: WinePageLuxeProps) {
           {/* Contenu des onglets */}
           <div className="max-w-6xl mx-auto">
             {activeTab === "tasting" && (
-              <Card className={`p-8 bg-gray-900/90 backdrop-blur-md border ${colorTheme.border} shadow-2xl`}>
-                <CardContent className="space-y-8">
-                  <h2 className="text-3xl font-serif font-bold text-center mb-8 text-white tracking-wide">
+              <Card className={`p-4 sm:p-6 md:p-8 bg-gray-900/90 backdrop-blur-md border ${colorTheme.border} shadow-2xl`}>
+                <CardContent className="space-y-6 sm:space-y-8">
+                  <h2 className="text-2xl sm:text-3xl font-serif font-bold text-center mb-6 sm:mb-8 text-white tracking-wide">
                     Notes de Dégustation
                   </h2>
                   
-                  <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+                  <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6">
                     {[
                       { label: "Apparence", content: wine.tastingNotes.appearance },
                       { label: "Nez", content: wine.tastingNotes.nose },
@@ -247,13 +248,13 @@ export function WinePageLuxe({ wine, imagePath, pdfPath }: WinePageLuxeProps) {
             )}
 
             {activeTab === "technical" && (
-              <Card className={`p-8 bg-gray-900/90 backdrop-blur-md border ${colorTheme.border} shadow-2xl`}>
-                <CardContent className="space-y-8">
-                  <h2 className="text-3xl font-serif font-bold text-center mb-8 text-white tracking-wide">
+              <Card className={`p-4 sm:p-6 md:p-8 bg-gray-900/90 backdrop-blur-md border ${colorTheme.border} shadow-2xl`}>
+                <CardContent className="space-y-6 sm:space-y-8">
+                  <h2 className="text-2xl sm:text-3xl font-serif font-bold text-center mb-6 sm:mb-8 text-white tracking-wide">
                     Informations Techniques
                   </h2>
                   
-                  <div className="grid md:grid-cols-2 gap-8">
+                  <div className="grid grid-cols-1 md:grid-cols-2 gap-6 sm:gap-8">
                     <div className="space-y-4 p-6 rounded-xl bg-white/5 border border-white/10">
                       <h3 className="text-xl font-semibold mb-4 text-white">Caractéristiques</h3>
                       {[
@@ -296,18 +297,18 @@ export function WinePageLuxe({ wine, imagePath, pdfPath }: WinePageLuxeProps) {
             )}
 
             {activeTab === "pairing" && (
-              <Card className={`p-8 bg-gray-900/90 backdrop-blur-md border ${colorTheme.border} shadow-2xl`}>
-                <CardContent className="space-y-8">
-                  <div className="text-center space-y-4 mb-8">
-                    <h2 className="text-3xl lg:text-4xl font-serif font-bold text-white tracking-wide">
+              <Card className={`p-4 sm:p-6 md:p-8 bg-gray-900/90 backdrop-blur-md border ${colorTheme.border} shadow-2xl`}>
+                <CardContent className="space-y-6 sm:space-y-8">
+                  <div className="text-center space-y-3 sm:space-y-4 mb-6 sm:mb-8">
+                    <h2 className="text-2xl sm:text-3xl lg:text-4xl font-serif font-bold text-white tracking-wide">
                       Accords Mets & Vins
                     </h2>
-                    <p className="text-gray-400 text-lg max-w-2xl mx-auto">
+                    <p className="text-gray-400 text-base sm:text-lg max-w-2xl mx-auto">
                       Découvrez les meilleures associations pour sublimer cette cuvée d'exception
                     </p>
                   </div>
                   
-                  <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+                  <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6">
                     {[
                       { label: "Apéritifs", items: wine.foodPairing.appetizers, icon: "🍾" },
                       { label: "Plats principaux", items: wine.foodPairing.mainCourses, icon: "🍽️" },
@@ -380,13 +381,13 @@ export function WinePageLuxe({ wine, imagePath, pdfPath }: WinePageLuxeProps) {
             )}
 
             {activeTab === "composition" && (
-              <Card className={`p-8 bg-gray-900/90 backdrop-blur-md border ${colorTheme.border} shadow-2xl`}>
-                <CardContent className="space-y-8">
-                  <h2 className="text-3xl font-serif font-bold text-center mb-8 text-white tracking-wide">
+              <Card className={`p-4 sm:p-6 md:p-8 bg-gray-900/90 backdrop-blur-md border ${colorTheme.border} shadow-2xl`}>
+                <CardContent className="space-y-6 sm:space-y-8">
+                  <h2 className="text-2xl sm:text-3xl font-serif font-bold text-center mb-6 sm:mb-8 text-white tracking-wide">
                     Composition & Terroir
                   </h2>
                   
-                  <div className="grid md:grid-cols-2 gap-8">
+                  <div className="grid grid-cols-1 md:grid-cols-2 gap-6 sm:gap-8">
                     {[
                       { label: "Terroir", content: wine.composition.terroir },
                       { label: "Vendanges", content: wine.composition.harvest },

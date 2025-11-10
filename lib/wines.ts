@@ -53,7 +53,7 @@ export const gammes: Gamme[] = [
         route: "/les-vins/domeni-blanc",
         pdf: getPdfPath("domeni-blanc"),
         colorTag: "Blanc",
-        image: "/wine-domeni-blanc.jpg"
+        image: "/Page/Nos Cuvée-ok/Gamme Domeni/Page Cuvée Domeni blanc/BLANC_DOMENI_sf.png"
       },
       {
         title: "Doméni Rosé", 
@@ -61,7 +61,7 @@ export const gammes: Gamme[] = [
         route: "/les-vins/domeni-rose",
         pdf: getPdfPath("domeni-rose"),
         colorTag: "Rosé",
-        image: "/wine-domeni-rose.jpg"
+        image: "/Page/Nos Cuvée-ok/Gamme Domeni/Page Cuvée domeni Rosé/ROSE DOMENI-sf.png"
       },
       {
         title: "Doméni Rouge",
@@ -69,7 +69,7 @@ export const gammes: Gamme[] = [
         route: "/les-vins/domeni-rouge",
         pdf: getPdfPath("domeni-rouge"),
         colorTag: "Rouge",
-        image: "/wine-domeni-rouge.jpg"
+        image: "/Page/Nos Cuvée-ok/Gamme Domeni/Page Cuvée Domeni Rouge/ROUGE_DOMENI_sf.png"
       }
     ]
   },
@@ -86,7 +86,7 @@ export const gammes: Gamme[] = [
         route: "/les-vins/opus-blanc", 
         pdf: getPdfPath("opus-blanc"),
         colorTag: "Blanc",
-        image: "/wine-opus-blanc.jpg"
+        image: "/Page/Nos Cuvée-ok/Gamme Opus/Page Cuvée Opus Blanc/BLANC_OPUS_sf.png"
       },
       {
         title: "Opus Rouge",
@@ -94,7 +94,7 @@ export const gammes: Gamme[] = [
         route: "/les-vins/opus-rouge",
         pdf: getPdfPath("opus-rouge"),
         colorTag: "Rouge",
-        image: "/wine-opus-rouge.jpg"
+        image: "/Page/Nos Cuvée-ok/Gamme Opus/Page Cuvée Opus Rouge/ROUGE_OPUS_sf.png"
       }
     ]
   },
@@ -111,7 +111,7 @@ export const gammes: Gamme[] = [
         route: "/les-vins/methode-blanc",
         pdf: getPdfPath("methode-blanc"), 
         colorTag: "Effervescent",
-        image: "/wine-methode-blanc.jpg"
+        image: "/Page/Nos Cuvée-ok/Gamme Méthode Ancestral/Page Méthode Blanche/LA_METHODE_BLANC_st.png"
       },
       {
         title: "Méthode Rosé",
@@ -119,7 +119,7 @@ export const gammes: Gamme[] = [
         route: "/les-vins/methode-rose",
         pdf: getPdfPath("methode-rose"),
         colorTag: "Effervescent", 
-        image: "/wine-methode-rose.jpg"
+        image: "/Page/Nos Cuvée-ok/Gamme Méthode Ancestral/Page Méthode Rosé/LA_METHODE_ROSE_SF.png"
       },
       {
         title: "Perlé",
@@ -127,7 +127,7 @@ export const gammes: Gamme[] = [
         route: "/les-vins/perle",
         pdf: getPdfPath("perle"),
         colorTag: "Effervescent",
-        image: "/wine-perle-blanc.jpg"
+        image: "/Page/Nos Cuvée-ok/Gamme perlé/Page cuvée Perlé/BLANC_PERLE_sf.png"
       }
     ]
   },
@@ -144,7 +144,7 @@ export const gammes: Gamme[] = [
         route: "/les-vins/poussin-blanc",
         pdf: getPdfPath("poussin-blanc"),
         colorTag: "Blanc",
-        image: "/wine-poussin-blanc.jpg"
+        image: "/Page/Nos Cuvée-ok/Gamme poussin/Page Cuvée poussin Blanc/POUSSIN BLANC-SF.png"
       },
       {
         title: "Poussin Rosé",
@@ -152,7 +152,7 @@ export const gammes: Gamme[] = [
         route: "/les-vins/poussin-rose",
         pdf: getPdfPath("poussin-rose"),
         colorTag: "Rosé",
-        image: "/wine-poussin-rose.jpg"
+        image: "/Page/Nos Cuvée-ok/Gamme poussin/Page Cuvée Poussin Rosé/POUSSIN ROSE-SF.png"
       }
     ]
   },
@@ -169,7 +169,7 @@ export const gammes: Gamme[] = [
         route: "/les-vins/petrichor-rouge", 
         pdf: getPdfPath("petrichor-rouge"),
         colorTag: "Rouge",
-        image: "/wine-petrichor-rouge.jpg"
+        image: "/Page/Nos Cuvée-ok/Gamme Petrichor/Page Cuvée Pertichor Rouge/PETRICHOR_st.png"
       },
       {
         title: "Petrichor Rosé",
@@ -177,7 +177,7 @@ export const gammes: Gamme[] = [
         route: "/les-vins/petrichor-rose",
         pdf: getPdfPath("petrichor-rose"),
         colorTag: "Rosé",
-        image: "/wine-petrichor-rose.png"
+        image: "/Page/Nos Cuvée-ok/Gamme Petrichor/Page Cuvée Petrichor Rosé/PETRICHOR__Ros_SF.png"
       }
     ]
   },
@@ -194,7 +194,7 @@ export const gammes: Gamme[] = [
         route: "/les-vins/claire-de-lune",
         pdf: getPdfPath("claire-de-lune"),
         colorTag: "Blanc",
-        image: "/wine-claire-de-lune.jpg"
+        image: "/Page/Nos Cuvée-ok/Gamme Confidentiel/Page cuvée Claire de Lune/CLAIRE_DE_LUNE_sf.png"
       },
       {
         title: "Pigeonnier",
@@ -202,7 +202,7 @@ export const gammes: Gamme[] = [
         route: "/les-vins/pigeonnier",
         pdf: getPdfPath("pigeonnier"),
         colorTag: "Rouge",
-        image: "/wine-pigeonnier.jpg"
+        image: "/Page/Nos Cuvée-ok/Gamme Confidentiel/Page Cuvée Pigeonnier/PIGEONNIER_sf.png"
       }
     ]
   }

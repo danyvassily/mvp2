@@ -127,6 +127,16 @@
       "source": "/notre-chai/",
       "destination": "/de-la-vigne-a-la-bouteille/",
       "permanent": true
+    },
+    {
+      "source": "/gastronomie-art-de-la-table",
+      "destination": "/gastronomie",
+      "permanent": true
+    },
+    {
+      "source": "/gastronomie-art-de-la-table/",
+      "destination": "/gastronomie",
+      "permanent": true
     }
   ]
 }

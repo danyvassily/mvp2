@@ -15,7 +15,11 @@ export const ASSETS_MAP: Record<string, string[]> = {
   // Dégustation
   'degustation': [
     '/Page/Asset page dégustation/Degustation.html',
-    '/Page/Dégustation - ok/[images-si-présentes]'
+    '/Page/Degustation - ok/aromes-primaires-vin-chateau-lastours-gaillac-sud-ouest-france.jpg',
+    '/Page/Degustation - ok/barrique-bois-cuve-beton-chateau-lastours-gaillac-sud-ouest-france.jpg',
+    '/Page/Degustation - ok/caveau-degustation-cuvees-chateau-lastours-gaillac-france.jpeg',
+    '/Page/Degustation - ok/degustation-vin-rouge-petrichor-chateau-lastours-gaillac-france.jpeg',
+    '/Page/Degustation - ok/verre-de-vin-brut-de-cuve-chateau-lastours-aop-aoc-gaillac-france.jpg'
   ],
   
   // La vigne
@@ -44,14 +48,6 @@ export const ASSETS_MAP: Record<string, string[]> = {
   'club': [
     '/Page/Page Club/Page présentation club FR EN.html',
     '/Page/Club - ok/[images-si-présentes]'
-  ],
-  
-  // Gastronomie
-  'gastronomie-art-de-la-table': [
-    '/Page/Gastronomie art de table - manque éventuel photo chambrage/Art de la Table.jpg',
-    '/Page/Gastronomie art de table - manque éventuel photo chambrage/carafage.jpg',
-    '/Page/Gastronomie art de table - manque éventuel photo chambrage/debouchage bouteille .jpg',
-    '/Page/Gastronomie art de table - manque éventuel photo chambrage/Page service et dégustation.docx'
   ],
   
   // Nos engagements
@@ -129,8 +125,7 @@ export const ASSETS_MAP: Record<string, string[]> = {
 // Pages qui manquent des photos selon la spécification
 export const MISSING_ASSETS: Record<string, string[]> = {
   'notre-chai': ['Une photo supplémentaire du chai'],
-  'notre-vignoble': ['Une photo supplémentaire du vignoble'],
-  'gastronomie-art-de-la-table': ['Photo de chambrage (optionnelle)']
+  'notre-vignoble': ['Une photo supplémentaire du vignoble']
 }
 
 /**

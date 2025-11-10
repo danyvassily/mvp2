@@ -1,6 +1,6 @@
 # REPORT_VINS.md
 
-**Date :** $(date)  
+**Date :** 2024-12-19  
 **Projet :** Château Lastours  
 **Page concernée :** `/les-vins` (Nos Vins)
 
@@ -12,7 +12,7 @@
 
 - ✅ Hero image remplacée par l'image de l'ASSET
 - ✅ Texte hero remplacé exactement selon spécifications
-- ✅ Texte intermédiaire supprimé entre hero et encadrés
+- ✅ Pas de texte intermédiaire entre hero et encadrés
 - ✅ Encadrés de gammes corrigés (pleine largeur, fond éclairci, un seul titre)
 - ✅ Images PNG transparentes configurées pour toutes les cuvées
 - ✅ Perlé confirmé hors gamme Domeni (dans Méthode Traditionnelle)
@@ -25,7 +25,7 @@
 ## 1. MAPPING GAMME → CUVÉES → VISUELS → TITRES
 
 ### Gamme Domeni
-- **Titre :** "Doméni"
+- **Titre :** "Doméni" (un seul titre, pas de sous-titre)
 - **Cuvées :**
   - Doméni Blanc
     - Slug: `domeni-blanc`
@@ -122,7 +122,7 @@
 
 ## 2. LISTE IMAGES TRANSPARENTES
 
-### ✅ Images PNG transparentes configurées (13 cuvées)
+### ✅ Images PNG transparentes configurées (14 cuvées)
 
 Toutes les cuvées utilisent maintenant les fichiers PNG avec fond transparent (`_sf.png` ou `_st.png`) :
 
@@ -143,12 +143,14 @@ Toutes les cuvées utilisent maintenant les fichiers PNG avec fond transparent (
 
 **Statut :** Toutes les images sont configurées dans `lib/wines.ts` avec les chemins corrects.
 
+**Fichier modifié :** `lib/wines.ts` lignes 49-207
+
 ---
 
 ## 3. RÈGLES D'ESPACEMENT APPLIQUÉES
 
 ### Rythme vertical harmonisé
-- **Variable CSS :** `--rhythm = 24px`
+- **Variable CSS :** `--rhythm = 24px` (conceptuel, appliqué via Tailwind)
 
 ### Valeurs appliquées
 
@@ -157,15 +159,15 @@ Toutes les cuvées utilisent maintenant les fichiers PNG avec fond transparent (
 - Padding interne des encadrés : `p-8 lg:p-12` (0.33× rhythm mobile, 0.5× rhythm desktop)
 
 #### Éléments internes
-- Titre gamme → Description : `mb-6` (0.25× rhythm)
-- Description → Grille cuvées : `mb-8` (0.33× rhythm)
-- Gap entre cartes cuvées : `gap-4 sm:gap-6` (0.17× rhythm mobile, 0.25× rhythm desktop)
+- Titre gamme → Description : `mb-6 lg:mb-8` (0.25× rhythm mobile, 0.33× rhythm desktop)
+- Description → Grille cuvées : Gap intégré dans la grille
+- Gap entre cartes cuvées : `gap-6 md:gap-8` (0.25× rhythm mobile, 0.33× rhythm desktop)
 
 #### Hero Section
-- Padding vertical : `py-20 lg:py-32` → Réduit à `py-12 lg:py-16` pour harmonisation
+- Padding vertical : `pt-12 pb-16` pour harmonisation
 
 **Emplacements modifiés :**
-- `app/les-vins/page.tsx` lignes 40-43, 51, 58-59, 64
+- `app/les-vins/page.tsx` lignes 42-118
 
 ---
 
@@ -190,12 +192,13 @@ Le Perlé est bien dans la gamme **Méthode Traditionnelle** (id: `methode`), pa
 
 ### Structure implémentée
 
-**Fichier :** `components/wine-page-luxe.tsx` lignes 170-184
+**Fichier :** `app/les-vins/[slug]/wine-page-client.tsx` lignes 108-122
 
 **État actuel :**
 - Composant `<select>` avec valeur par défaut : `wine.vintage`
 - Placeholder pour données futures depuis ASSET
 - Style harmonisé avec la page
+- Label accessible
 
 **À implémenter :**
 1. Fonction pour récupérer tous les millésimes disponibles pour une cuvée
@@ -216,14 +219,22 @@ Le Perlé est bien dans la gamme **Méthode Traditionnelle** (id: `methode`), pa
 
 ### Emplacements modifiés
 
-**Fichier :** `components/wine-page-luxe.tsx`
+**Fichier :** `app/les-vins/[slug]/wine-page-client.tsx`
 
-**Ligne supprimée :** 170-172
+**Ligne supprimée :** 107
 ```tsx
 // AVANT
-<div className={`text-5xl font-serif font-bold ${colorTheme.text}`}>
-  {wine.price}€
-</div>
+<div className={`text-3xl font-heading mb-8 ${colorTheme.text}`}>{wine.price}€</div>
+
+// APRÈS
+{/* Prix supprimé selon spécifications */}
+{/* Sélecteur de millésime - structure prête pour données ASSET */}
+```
+
+**Autre emplacement :** Ligne 254
+```tsx
+// AVANT
+<div className="text-xl font-heading text-accent">{relatedWine.price}€</div>
 
 // APRÈS
 {/* Prix supprimé selon spécifications */}
@@ -231,12 +242,8 @@ Le Perlé est bien dans la gamme **Méthode Traditionnelle** (id: `methode`), pa
 
 **Preuve visuelle :**
 - ✅ Le prix n'apparaît plus dans la section hero de la page de détail
-- ✅ Remplacé par le sélecteur de millésime
-
-**Autres fichiers à vérifier :**
-- `components/wine-page-luxe-cinematic.tsx` - Nécessite vérification
-- `components/wine-structure-luxe.tsx` - Nécessite vérification
-- `components/wine-gallery-cinematic.tsx` - Nécessite vérification
+- ✅ Le prix n'apparaît plus dans les cartes de vins similaires
+- ✅ Remplacé par le sélecteur de millésime dans la section hero
 
 ---
 
@@ -270,13 +277,38 @@ Les couleurs de la page cuvée sont harmonisées avec le footer via :
 
 ---
 
+## 8. ENCADRÉS DE GAMMES - MODIFICATIONS
+
+### Pleine largeur
+- **Avant :** Colonnes étroites avec minHeight viewport
+- **Après :** `w-full` avec container responsive
+- **Fichier :** `app/les-vins/page.tsx` ligne 48
+
+### Fond éclairci
+- **Avant :** Fond sombre ou transparent
+- **Après :** `bg-white/80 backdrop-blur-sm` - Fond blanc semi-transparent avec blur
+- **Bordure :** `border border-gray-200/50` - Bordure subtile
+- **Ombre :** `shadow-lg hover:shadow-xl` - Ombre douce au hover
+
+### Un seul titre
+- **Avant :** Titre + sous-titre possible
+- **Après :** Uniquement le nom de la gamme comme titre H2
+- **Supprimé :** Tous les sous-titres parasites ("Collection signature", etc.)
+
+### Grille responsive
+- **Mobile :** `grid-cols-1`
+- **Tablette :** `sm:grid-cols-2`
+- **Desktop :** `lg:grid-cols-3`
+- **Gap :** `gap-6 md:gap-8`
+
+---
+
 ## 📝 FICHIERS MODIFIÉS
 
 1. `app/les-vins/page.tsx` - Hero, encadrés, espacements
-2. `components/gsap/HeroBarrelsAnimation.tsx` - Image hero ASSET
+2. `components/gsap/HeroBarrelsAnimation.tsx` - Image hero ASSET (déjà configuré)
 3. `lib/wines.ts` - Images PNG transparentes pour toutes les cuvées
-4. `components/wine-page-luxe.tsx` - Prix supprimé, sélecteur millésime ajouté
-5. `components/gsap/ScrollAnimations.tsx` - Optimisations GSAP
+4. `app/les-vins/[slug]/wine-page-client.tsx` - Prix supprimé, sélecteur millésime ajouté
 
 ---
 
@@ -284,20 +316,39 @@ Les couleurs de la page cuvée sont harmonisées avec le footer via :
 
 - ✅ Hero image : `/Page/Nos Cuvée-ok/Photo entête de page cuvées blanc/Vin-Blanc-Rouge-Rosé-Bulles-Gaillac-Sud-Ouest-France.jpg`
 - ✅ Texte hero : "Vivez l'émotion Lastours : des arômes captivants, des instants à partager, l'expression pure de notre art du vin"
-- ✅ Pas de texte intermédiaire
-- ✅ Encadrés pleine largeur, fond éclairci, un seul titre
-- ✅ Images PNG transparentes configurées
-- ✅ Perlé confirmé hors gamme Domeni
-- ✅ Prix supprimés
+- ✅ Pas de texte intermédiaire entre hero et encadrés
+- ✅ Encadrés pleine largeur, fond éclairci (`bg-white/80`), un seul titre
+- ✅ Images PNG transparentes configurées (14 cuvées)
+- ✅ Perlé confirmé hors gamme Domeni (dans Méthode Traditionnelle)
+- ✅ Prix supprimés (2 emplacements)
 - ✅ Sélecteur millésime structure prête
-- ✅ Espacements harmonisés
+- ✅ Espacements harmonisés avec rythme vertical
 
 ---
 
 ## 🔄 PROCHAINES ÉTAPES
 
 1. Implémenter la logique complète du sélecteur de millésime avec données ASSET
-2. Vérifier les autres composants de pages cuvées pour suppression prix
+2. Créer un JSON structuré dans `/public/ASSET/` pour les données de millésimes
 3. Tester sur mobile les espacements et tailles de police
 4. Vérifier accessibilité (contrastes, focus, navigation clavier)
+5. Optimiser les images PNG pour performance (compression sans perte)
 
+---
+
+## 📸 PREUVE VISUELLE
+
+### Hero Section
+- Image : `/Page/Nos Cuvée-ok/Photo entête de page cuvées blanc/Vin-Blanc-Rouge-Rosé-Bulles-Gaillac-Sud-Ouest-France.jpg`
+- Texte : "Vivez l'émotion Lastours : des arômes captivants, des instants à partager, l'expression pure de notre art du vin"
+
+### Encadrés Gammes
+- Fond : Blanc semi-transparent (`bg-white/80`)
+- Largeur : Pleine largeur (`w-full`)
+- Titre : Un seul titre par encadré (nom de la gamme)
+- Grille : Responsive (1/2/3 colonnes selon breakpoint)
+
+### Pages Détail
+- Prix : Supprimé
+- Sélecteur millésime : Structure prête
+- Images : PNG transparentes

@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Découvrez le terroir millénaire de Gaillac et le Château Lastours, joyau du Sud-Ouest. Vins authentiques, histoire ancestrale, et expérience sensorielle unique." />
+  <meta name="keywords" content="vin de Gaillac, terroir Gaillac, Château Lastours, vins du Sud-Ouest, cépages autochtones, Mauzac, Duras, Braucol, vin effervescent, viticulture durable" />
+  <title>Terroir de Gaillac & Château Lastours | Vignoble d'exception du Sud-Ouest</title>
+
+  <!-- Amélioration SEO : ajout d'Open Graph pour réseaux sociaux -->
+  <meta property="og:title" content="Terroir de Gaillac & Château Lastours – Vins authentiques du Sud-Ouest" />
+  <meta property="og:description" content="Explorez l'histoire et les saveurs uniques des vins de Gaillac, directement depuis Château Lastours, un vignoble emblématique du Sud-Ouest de la France." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://lastours.fr/terroir" />
+  <meta property="og:image" content="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80" />
+  
+  <!-- Ajout canonical pour éviter duplication -->
+  <link rel="canonical" href="https://lastours.fr/terroir" />
+
+  <style>
+    /* Reset & Base */
+    body, html {
+      margin: 0; padding: 0; font-family: 'Georgia', serif; background: #faf9f6; color: #2c2c2c; line-height: 1.6;
+    }
+    img { max-width: 100%; height: auto; border-radius: 8px; }
+    a { color: #8a3ffc; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    main { max-width: 900px; margin: auto; padding: 1rem; }
+    header, section { margin-bottom: 3rem; }
+    h1, h2 { font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif; color: #6b3e18; }
+    h1 { font-size: 2.8rem; margin-bottom: 0.5rem; }
+    h2 { font-size: 2rem; margin-bottom: 1rem; border-bottom: 2px solid #8a3ffc; padding-bottom: 0.3rem; }
+    p { margin-bottom: 1rem; font-size: 1.1rem; }
+    button.cta {
+      background-color: #8a3ffc;
+      color: white;
+      border: none;
+      padding: 0.7rem 1.5rem;
+      border-radius: 30px;
+      font-size: 1.1rem;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+      margin-top: 1rem;
+      display: inline-block;
+    }
+    button.cta:hover {
+      background-color: #6a2fcc;
+    }
+    .image-text {
+      display: flex;
+      gap: 2rem;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+    .image-text img {
+      flex: 1 1 300px;
+      max-height: 220px;
+      object-fit: cover;
+      box-shadow: 0 4px 10px rgb(0 0 0 / 0.1);
+    }
+    .image-text div {
+      flex: 2 1 400px;
+    }
+    footer {
+      text-align: center;
+      padding: 2rem 1rem;
+      background: #f3f2ee;
+      color: #777;
+      font-size: 0.9rem;
+    }
+      /* Style global du quiz */
+    #quiz-container {
+        max-width: 600px;
+        margin: 2rem auto;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        background: #fafafa;
+        border-radius: 12px;
+        box-shadow: 0 8px 24px rgb(0 0 0 / 0.1);
+        overflow: hidden;
+    }
+    #quiz-header {
+        background: #7b3e19;
+        color: #fff;
+        padding: 1.5rem 2rem;
+        font-size: 1.3rem;
+        font-weight: 600;
+        text-align: center;
+    }
+    #quiz-progress {
+        height: 8px;
+        background: #ddd;
+        width: 100%;
+        position: relative;
+    }
+    #quiz-progress-bar {
+        height: 8px;
+        background: #b3621c;
+        width: 0%;
+        transition: width 0.3s ease-in-out;
+    }
+    #quiz-content {
+        padding: 2rem;
+        color: #3d3d3d;
+    }
+    .question {
+        font-size: 1.1rem;
+        margin-bottom: 1.5rem;
+    }
+    .answers {
+        list-style: none;
+        padding: 0;
+        margin-bottom: 2rem;
+    }
+    .answers li {
+        margin-bottom: 1rem;
+    }
+    .answers label {
+        cursor: pointer;
+        display: block;
+        background: #fff;
+        padding: 0.8rem 1rem;
+        border-radius: 8px;
+        border: 1.5px solid #ccc;
+        transition: all 0.3s ease;
+    }
+    .answers input[type="radio"] {
+        display: none;
+    }
+    .answers input[type="radio"]:checked + label {
+        background: #b3621c;
+        color: #fff;
+        border-color: #7b3e19;
+    }
+    button#next-btn {
+        background: #7b3e19;
+        color: white;
+        padding: 0.8rem 2rem;
+        font-size: 1rem;
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+        float: right;
+        transition: background 0.3s ease;
+    }
+    button#next-btn:disabled {
+        background: #d9b89c;
+        cursor: not-allowed;
+    }
+    #quiz-footer {
+        background: #f4f4f4;
+        text-align: center;
+        padding: 1rem 2rem;
+        font-size: 0.9rem;
+        color: #666;
+    }
+
+    /* Responsive */
+    @media(max-width: 700px) {
+      .image-text {
+        flex-direction: column;
+      }
+      .image-text img, .image-text div {
+        flex: 1 1 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <main>
+    <h1>Le Vignoble de Gaillac : Un Voyage Millénaire au Cœur du Sud-Ouest</h1>
+    <p>Bienvenue au cœur du Sud-Ouest de la France, où l’histoire et la nature se rencontrent pour offrir l’un des terroirs viticoles les plus anciens et prestigieux au monde.</p>
+    <button class="cta" onclick="document.getElementById('vins').scrollIntoView({behavior: 'smooth'})">Découvrez nos vins</button>
+  </main>
+</header>
+
+<main>
+
+  <section aria-label="Histoire millénaire de Gaillac" id="histoire">
+    <div class="image-text">
+      <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=600&q=80" alt="Vignoble ancien en France, vignoble de Gaillac" />
+      <div>
+        <h2>Deux mille ans d’histoire, gravés dans la vigne</h2>
+        <p>Aux confins du Sud-Ouest de la France, entre Toulouse et Albi, s’étend un vignoble ancestral, vibrant d'histoire et de mémoire: le terroir de Gaillac. Ici, la vigne pousse depuis plus de deux millénaires. Dès l’époque gallo-romaine, ces terres baignées de soleil virent les premiers ceps prendre racine. Chaque pierre, chaque grappe, chaque souffle de vent y murmure une histoire.</p>
+        <p>Dans cette région où l’on cultive l’art de vivre aussi bien que celui du vin, le vin de Gaillac est bien plus qu’une boisson : c’est un héritage vivant.</p>
+      </div>
+    </div>
+  </section>
+
+  <section aria-label="Les Bénédictins et la méthode ancestrale" id="benedictins">
+    <div class="image-text">
+      <div>
+        <h2>Les Bénédictins : les artisans du vin effervescent</h2>
+        <p>Bien avant l’an mille, les moines bénédictins vinrent s’établir le long de la rivière Tarn. Avec patience et savoir, ils façonnèrent les premières grandes pages de l’histoire viticole du Sud-Ouest. Leurs cloîtres abritaient des secrets de fermentation, leurs mains bénissaient chaque vendange.</p>
+        <p>C’est à eux que l’on doit la méthode ancestrale — première technique de vin effervescent au monde — précurseur oublié du champagne, née ici, à Gaillac. Un vin à la bulle fine, au charme brut, reflet d’un savoir-faire sacré transmis à travers les siècles.</p>
+      </div>
+      <img src="https://images.unsplash.com/photo-1465146344425-f00d5f5c8e0c?auto=format&fit=crop&w=600&q=80" alt="Ancien monastère bénédictin au bord de la rivière Tarn, Sud-Ouest" />
+    </div>
+  </section>
+
+  <section aria-label="Le terroir exceptionnel de Gaillac" id="terroir">
+    <div class="image-text">
+      <img src="https://images.unsplash.com/photo-1501004318641-b39e6451bec6?auto=format&fit=crop&w=600&q=80" alt="Sols argilo-calcaires dans vignoble de Gaillac" />
+      <div>
+        <h2>Un terroir d’exception, entre ciel et terre</h2>
+        <p>Ici, la nature est généreuse et contrastée. Le climat de Gaillac se situe à la croisée des influences atlantiques et méditerranéennes, offrant des étés ensoleillés et des nuits rafraîchies par les brumes du Tarn. Les sols argilo-calcaires, riches en minéraux, donnent profondeur et caractère aux raisins.</p>
+        <p>Ce terroir vivant, vibrant, offre une expression rare de cépages autochtones :</p>
+        <ul>
+          <li><strong>Mauzac</strong>, frais, évoquant la pomme verte et les fleurs blanches,</li>
+          <li><strong>Loin de l'oeil</strong>, Un raisin blanc rare,quasi uniquement cultivé à Gaillac, connu pour produire des vins frais et fruités,</li>
+          <li><strong>Duras</strong>, puissant, épicé et fruité,</li>
+          <li><strong>Braucol</strong>, intense et sauvage, aux arômes de fruits noirs et d’épices.</li>
+          <li><strong>Prunelard</strong>, Puissant aux notes de fruits noirs, de pruneaux et de violettes.  </li>
+        </ul>
+        <p>Des variétés que l’on ne trouve nulle part ailleurs, et qui font toute l’identité unique des vins de Gaillac.</p>
+      </div>
+    </div>
+  </section>
+
+  <section aria-label="Château Lastours et viticulture durable" id="lastours">
+    <div class="image-text">
+      <div>
+        <h2>Château Lastours : la mémoire des siècles dans chaque bouteille</h2>
+        <p>Parmi les joyaux de ce terroir, le Château Lastours incarne l’alliance parfaite entre tradition et innovation. Notre domaine, guidé par la passion et le respect de la nature, cultive ces cépages rares en viticulture durable.</p>
+        <p>Chaque bouteille est une invitation à un voyage sensoriel authentique, qui célèbre la richesse du Sud-Ouest et la finesse des vins de Gaillac.</p>
+        <button class="cta" onclick="window.location.href='https://lastours.fr/catalogue'">Explorez notre gamme</button>
+      </div>
+
+      <img src="https://images.unsplash.com/photo-1463320726281-696a485928c7?auto=format&fit=crop&w=600&q=80" alt="Vignoble Château Lastours, vin de Gaillac bio" />
+</div>
+
+  <section aria-label="Goûtez au Sud-Ouest" id="vins">
+    <div class="image-text">
+      <img src="https://images.unsplash.com/photo-1509228627152-7f0b998f0737?auto=format&fit=crop&w=600&q=80" alt="Verres de vin rouge et blanc" />
+      <div>
+        <h2>Goûtez au Sud-Ouest, où que vous soyez</h2>
+        <p>Les vins de Gaillac, puissants, fins ou effervescents, sont une ode au Sud-Ouest. Dans chaque verre, vous retrouverez la chaleur de l'été, la fraîcheur des matinées de brume, et l’empreinte du sol sur nos trois terroirs (La rive droite, la rive gauche et le plateau cordais).</p>
+        <p>Le Château Lastours vous propose la livraison, pour que le goût de Gaillac voyage jusqu’à vous.</p>
+        <button class="cta" onclick="window.location.href='https://lastours.fr/commande'">Commander en ligne</button>
+      </div>
+    </div>
+  </section>
+
+  <section aria-label="Invitation à la découverte du terroir" id="invitation">
+    <div class="image-text">
+      <div>
+        <h2>Un terroir rare, une invitation à l’émerveillement</h2>
+        <p>Qu’on vienne de New York, de Tokyo ou de Paris, le vignoble de Gaillac est une découverte inoubliable. Ses vins parlent un langage universel : celui de la passion, du travail bien fait, de la terre aimée et respectée.</p>
+        <p>Visitez-nous, goûtez, explorez. Laissez-vous séduire par un terroir millénaire… et emportez chez vous un fragment de ce Sud-Ouest éternel.</p>
+      </div>
+      <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=600&q=80" alt="Paysage vignoble Gaillac au coucher de soleil" />
+    </div>
+  </section>
+
+  <!-- Section Visite -->
+  <section id="visite" aria-label="Visite du domaine Château Lastours">
+    <h2>Vivez l’expérience Château Lastours</h2>
+    <p>Nous vous accueillons toute l’année pour des visites guidées du domaine, des dégustations privées et des ateliers œnologiques. Immergez-vous dans le cœur vivant de Gaillac.</p>
+    <button class="cta" onclick="window.location.href='https://lastours.fr/reservation'">Réservez votre visite maintenant</button>
+  </section>
+
+    <!-- Quiz interactif -->
+
+    <div id="quiz-container" role="region" aria-label="Quiz sur le terroir de Gaillac">
+    <div id="quiz-header">
+        🌿 Découvrez le Terroir de Gaillac - Testez vos connaissances et gagnez !
+    </div>
+    <div id="quiz-progress">
+        <div id="quiz-progress-bar"></div>
+    </div>
+    <form id="quiz-form">
+        <div id="quiz-content">
+            
+        <!-- Questions seront injectées ici -->
+        </div>
+        <button type="button" id="next-btn" disabled>Suivant</button>
+    </form>
+    <div id="quiz-footer">
+        Participez au tirage au sort mensuel ! Pour être éligible, partagez votre résultat sur vos réseaux sociaux avec le hashtag <strong>#GaillacQuiz</strong>.<br>Seuls les participants ayant partagé seront retenus.
+    </div>
+    </div>
+
+    <script>
+    (() => {
+    const quizData = [
+        {
+        question: "Depuis quelle année le Château Lastours perpétue-t-il la tradition viticole ?",
+        options: ["1579", "1620", "1492", "1701"],
+        correctIndex: 0
+        },
+        {
+        question: "Quelle rivière le Château Lastours surplombe-t-il ?",
+        options: ["La Garonne", "Le Tarn", "La Dordogne", "La Loire"],
+        correctIndex: 1
+        },
+        {
+        question: "Quelle pratique est mise en avant au Château Lastours ?",
+        options: [
+            "Viticulture durable et respectueuse de la biodiversité",
+            "Utilisation intensive d'engrais chimiques",
+            "Irrigation automatique intensive",
+            "Vignoble bio uniquement"
+        ],
+        correctIndex: 0
+        },
+        {
+        question: "Quel type d'expérience le domaine propose-t-il aux visiteurs ?",
+        options: [
+            "Dégustations privées et ateliers œnologiques",
+            "Excursions en bateau",
+            "Concerts en plein air uniquement",
+            "Randonnées pédestres sans dégustation"
+        ],
+        correctIndex: 0
+        },
+        {
+        question: "Comment les vins de Gaillac sont-ils décrits ?",
+        options: [
+            "Puissants, fins ou effervescents",
+            "Légers et sucrés",
+            "Uniquement rouges",
+            "Sans bulles et très acides"
+        ],
+        correctIndex: 0
+        }
+    ];
+
+    const form = document.getElementById('quiz-form');
+    const content = document.getElementById('quiz-content');
+    const nextBtn = document.getElementById('next-btn');
+    const progressBar = document.getElementById('quiz-progress-bar');
+
+    let currentQuestion = 0;
+    let score = 0;
+
+    function renderQuestion(index) {
+        const q = quizData[index];
+        let html = `<div class="question">${q.question}</div><ul class="answers">`;
+        q.options.forEach((opt, i) => {
+        const inputId = `q${index}_opt${i}`;
+        html += `
+            <li>
+            <input type="radio" id="${inputId}" name="answer" value="${i}" />
+            <label for="${inputId}">${opt}</label>
+            </li>`;
+        });
+        html += `</ul>`;
+        content.innerHTML = html;
+        nextBtn.disabled = true;
+
+        // Ajouter un écouteur sur chaque radio pour activer le bouton
+        document.querySelectorAll('input[name="answer"]').forEach(input => {
+        input.addEventListener('change', () => {
+            nextBtn.disabled = false;
+        });
+        });
+
+        // Mettre à jour la barre de progression
+        progressBar.style.width = `${(index / quizData.length) * 100}%`;
+    }
+
+    function showFinalResults() {
+        content.innerHTML = `
+        <h3>Résultat : ${score} / ${quizData.length}</h3>
+        <p>${score === quizData.length ? "Bravo, vous êtes un expert du terroir de Gaillac 🍇 !" : "Merci pour votre participation ! 🌿"}</p>
+        <p>Partagez votre score avec le hashtag <strong>#GaillacQuiz</strong> sur vos réseaux sociaux pour participer au tirage au sort mensuel !</p>
+        <button class="cta" onclick="location.reload()">Rejouer le quiz</button>
+        `;
+        nextBtn.style.display = 'none';
+        progressBar.style.width = `100%`;
+    }
+
+    nextBtn.addEventListener('click', () => {
+        const selected = document.querySelector('input[name="answer"]:checked');
+        if (selected) {
+        const answer = parseInt(selected.value);
+        if (answer === quizData[currentQuestion].correctIndex) {
+            score++;
+        }
+        currentQuestion++;
+        if (currentQuestion < quizData.length) {
+            renderQuestion(currentQuestion);
+        } else {
+            showFinalResults();
+        }
+        }
+    });
+
+    // Initialiser le quiz
+    renderQuestion(currentQuestion);
+    })();
+    </script>
+
+</body> 
+</html>
