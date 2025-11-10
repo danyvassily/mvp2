@@ -12,7 +12,7 @@ export default function ClaireDeLunePage() {
   return (
     <WinePageLuxe
       wine={wine}
-      imagePath="/Page/Nos Cuvée-ok/Gamme Confidentiel/Page cuvée Claire de Lune/CLAIRE DE LUNE.jpg"
+      imagePath="/page/nos-cuvee-ok/gamme-confidentiel/page-cuvee-claire-de-lune/claire-de-lune.jpg"
       pdfPath="/Page/Nos Cuvée-ok/Gamme Confidentiel/Page cuvée Claire de Lune/FT_blanc_claire_de_lune_2023.pdf"
     />
   )
@@ -33,7 +33,7 @@ export async function generateMetadata() {
     openGraph: {
       title: `${wine.name} ${wine.vintage} - Château Lastours`,
       description: wine.longDescription,
-      images: ["/Page/Nos Cuvée-ok/Gamme Confidentiel/Page cuvée Claire de Lune/CLAIRE DE LUNE.jpg"],
+      images: ["/page/nos-cuvee-ok/gamme-confidentiel/page-cuvee-claire-de-lune/claire-de-lune.jpg"],
     },
   }
 }

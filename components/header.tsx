@@ -746,7 +746,7 @@ export function Header() {
               {/* Photo de fin de section - SANS transparence */}
               <div className="relative h-32 md:h-40 lg:h-44 rounded-lg overflow-hidden opacity-100" style={{ mixBlendMode: 'normal', backdropFilter: 'none' }}>
                 <Image
-                  src="/Page/Photo Menu/Domaine/jardins-a-la-francaise-chateau-lastours-gaillac-france.JPG"
+                  src="/page/photo-menu/domaine/jardins-a-la-francaise-chateau-lastours-gaillac-france.jpg"
                   alt="Château Lastours"
                   fill
                   quality={95}
@@ -850,18 +850,18 @@ export function Header() {
                 </div>
               </div>
 
-              {/* Photo de fin de section - SANS transparence */}
-              <div className="relative h-32 md:h-40 lg:h-44 rounded-lg overflow-hidden opacity-100" style={{ mixBlendMode: 'normal', backdropFilter: 'none' }}>
-                <Image
-                  src="/Page/Photo Menu/Nos vins/IMG_20210102_150820 (1).jpg"
-                  alt="Nos vins"
-                  fill
-                  quality={95}
-                  sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 25vw"
-                  className="object-cover opacity-100"
-                  style={{ opacity: 1, mixBlendMode: 'normal' }}
-                />
-              </div>
+                {/* Photo de fin de section - SANS transparence */}
+                <div className="relative h-32 md:h-40 lg:h-44 rounded-lg overflow-hidden opacity-100" style={{ mixBlendMode: 'normal', backdropFilter: 'none' }}>
+                  <Image
+                    src="/page/photo-menu/nos-vins/img-20210102-150820-1.jpg"
+                    alt="Nos vins"
+                    fill
+                    quality={95}
+                    sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 25vw"
+                    className="object-cover opacity-100"
+                    style={{ opacity: 1, mixBlendMode: 'normal' }}
+                  />
+                </div>
             </div>
           )}
 
@@ -902,7 +902,7 @@ export function Header() {
               {/* Photo de fin de section - SANS transparence */}
               <div className="relative h-32 md:h-40 lg:h-44 rounded-lg overflow-hidden opacity-100" style={{ mixBlendMode: 'normal', backdropFilter: 'none' }}>
                 <Image
-                  src="/Page/Photo Menu/Savoir-faire/coucher-de-soleil-vignes-chateau-lastours-aop-aoc-gaillac-france.jpeg"
+                  src="/page/photo-menu/savoir-faire/coucher-de-soleil-vignes-chateau-lastours-aop-aoc-gaillac-france.jpeg"
                   alt="Savoir-faire"
                   fill
                   quality={95}
@@ -958,7 +958,7 @@ export function Header() {
               {/* Photo de fin de section - SANS transparence */}
               <div className="relative h-32 md:h-40 lg:h-44 rounded-lg overflow-hidden opacity-100" style={{ mixBlendMode: 'normal', backdropFilter: 'none' }}>
                 <Image
-                  src="/Page/Photo Menu/experience/club-dinner-evenements-chateau-lastours-gaillac-sud-ouest-france.jpg"
+                  src="/page/photo-menu/experience/club-dinner-evenements-chateau-lastours-gaillac-sud-ouest-france.jpg"
                   alt="Expériences"
                   fill
                   quality={95}
@@ -1024,7 +1024,7 @@ export function Header() {
               {/* Photo de fin de section - SANS transparence */}
               <div className="relative h-32 md:h-40 lg:h-44 rounded-lg overflow-hidden opacity-100" style={{ mixBlendMode: 'normal', backdropFilter: 'none' }}>
                 <Image
-                  src="/Page/Photo Menu/experience/club-dinner-evenements-chateau-lastours-gaillac-sud-ouest-france.jpg"
+                  src="/page/photo-menu/experience/club-dinner-evenements-chateau-lastours-gaillac-sud-ouest-france.jpg"
                   alt="Partagez notre passion"
                   fill
                   quality={95}

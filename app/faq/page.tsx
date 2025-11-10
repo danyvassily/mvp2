@@ -145,7 +145,7 @@ export default function FAQPage() {
           <div
             className="absolute inset-0 bg-cover bg-center bg-no-repeat"
             style={{
-              backgroundImage: "url('/faq-help-support-wine-estate.png')",
+              backgroundImage: "url('/wine-education-workshop.png')",
             }}
           />
           <div className="absolute inset-0 bg-black/40" />

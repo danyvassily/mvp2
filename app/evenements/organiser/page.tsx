@@ -27,7 +27,7 @@ export default function OrganiserEvenementPage() {
     <div className="min-h-screen">
       {/* Hero Section */}
       <HeroEvent
-        imageSrc="/Page/Organiser votre evenement - ok et inclure cta pour renvoyer ver vos événement/concert-sous-tente-nomade-safari-gaillac-france-chateau-lastours.png"
+        imageSrc="/page/organiser-votre-evenement-ok-et-inclure-cta-pour-renvoyer-ver-vos-evenement/concert-sous-tente-nomade-safari-gaillac-france-chateau-lastours.png"
         title="Votre moment à Lastours"
         primaryCtaLabel="Simuler votre devis"
         primaryCtaHref="/evenements/simuler-votre-devis"
@@ -67,7 +67,7 @@ export default function OrganiserEvenementPage() {
 
         {/* La Tente Nomade - Image gauche / Texte droite */}
         <EspaceSection
-          imageSrc="/Page/Organiser votre evenement - ok et inclure cta pour renvoyer ver vos événement/recpetion-mariage-tente-nomade-chateau-lastours-gaillac.jpg"
+          imageSrc="/page/organiser-votre-evenement-ok-et-inclure-cta-pour-renvoyer-ver-vos-evenement/recpetion-mariage-tente-nomade-chateau-lastours-gaillac.jpg"
           title="La Tente Nomade"
           subtitle="Un écrin champêtre de 375m²"
           description="Au cœur des jardins à la française et des vignes centenaires, cet espace éphémère, élégamment éclairé et sonorisé, offre une ambiance bucolique et sophistiquée. Parfait pour des mariages romantiques, des team building inspirants ou des soirées estivales conviviales baignées de lumière naturelle."
@@ -79,7 +79,7 @@ export default function OrganiserEvenementPage() {
 
         {/* Salle de Réception - Image droite / Texte gauche */}
         <EspaceSection
-          imageSrc="/Page/Organiser votre evenement - ok et inclure cta pour renvoyer ver vos événement/salle-de-réception-evenements-familials-professionnels.JPG"
+          imageSrc="/page/organiser-votre-evenement-ok-et-inclure-cta-pour-renvoyer-ver-vos-evenement/salle-de-reception-evenements-familials-professionnels.jpg"
           title="La Salle de Réception"
           subtitle="Charme historique et confort moderne"
           description="Située dans l'ancien chai à barriques, cette salle climatisée de 100m² allie charme intemporel et élégance contemporaine. Idéale pour galas, réceptions privées et cocktails professionnels, avec un service sur mesure."
@@ -91,7 +91,7 @@ export default function OrganiserEvenementPage() {
 
         {/* Salle de Réunion - Image gauche / Texte droite */}
         <EspaceSection
-          imageSrc="/Page/Organiser votre evenement - ok et inclure cta pour renvoyer ver vos événement/salle-seminaire-reunion-video-projecteur.jpg"
+          imageSrc="/page/organiser-votre-evenement-ok-et-inclure-cta-pour-renvoyer-ver-vos-evenement/salle-seminaire-reunion-video-projecteur.jpg"
           title="La Salle de Réunion"
           subtitle="Un havre lumineux pour la créativité"
           description="À l'étage, équipée d'un vidéoprojecteur et d'un éclairage modulable, cet espace raffiné invite à la concentration et à la collaboration, parfait pour séminaires, conférences et ateliers."
@@ -133,7 +133,7 @@ export default function OrganiserEvenementPage() {
 
         {/* Yoga & Vins */}
         <EspaceSection
-          imageSrc="/Page/Organiser votre evenement - ok et inclure cta pour renvoyer ver vos événement/cours-de-yoga-plein-air.jpg"
+          imageSrc="/page/organiser-votre-evenement-ok-et-inclure-cta-pour-renvoyer-ver-vos-evenement/cours-de-yoga-plein-air.jpg"
           title="Yoga & Vins"
           description="Éveillez corps et esprit dans une expérience unique alliant yoga et dégustation."
           reverse={false}
@@ -173,7 +173,7 @@ export default function OrganiserEvenementPage() {
 
         {/* Atelier Œnologique */}
         <EspaceSection
-          imageSrc="/Page/Organiser votre evenement - ok et inclure cta pour renvoyer ver vos événement/carte-de-menu-mariage-chateau-lastours-gaillac-france.jpg"
+          imageSrc="/page/organiser-votre-evenement-ok-et-inclure-cta-pour-renvoyer-ver-vos-evenement/carte-de-menu-mariage-chateau-lastours-gaillac-france.jpg"
           title="Atelier Œnologique"
           description="Une exploration guidée de l'art de la dégustation, menée par des œnologues passionnés."
           reverse={false}
@@ -185,7 +185,7 @@ export default function OrganiserEvenementPage() {
 
       {/* Apéro-concerts d'été - Section pleine largeur */}
       <EspaceSection
-        imageSrc="/Page/Organiser votre evenement - ok et inclure cta pour renvoyer ver vos événement/festival-de-jazz-chateau-lastours-gaillac-france.jpg"
+        imageSrc="/page/organiser-votre-evenement-ok-et-inclure-cta-pour-renvoyer-ver-vos-evenement/festival-de-jazz-chateau-lastours-gaillac-france.jpg"
         title="Apéro-concerts d'Été"
         subtitle="Célébrez avec Élégance"
         description="Chaque été, le domaine s'anime pour deux soirées festives mêlant musique live, gastronomie locale et vins d'exception. Réservez vos dates pour juin [à confirmer] et août [à confirmer] 2025 et partagez des moments authentiques dans un cadre enchanteur."
@@ -198,7 +198,7 @@ export default function OrganiserEvenementPage() {
         <section className="py-24 relative overflow-hidden">
           <div className="absolute inset-0 overflow-hidden rounded-[11px] lg:rounded-[18px]">
             <Image
-              src="/Page/Page organiser votre événement/chateau-lastours-contact-background.jpg"
+              src="/chateau-lastours-hero.jpg"
               alt="Contactez Château Lastours"
               fill
               className="object-cover object-center rounded-[11px] lg:rounded-[18px]"

@@ -53,7 +53,7 @@ export const gammes: Gamme[] = [
         route: "/les-vins/domeni-blanc",
         pdf: getPdfPath("domeni-blanc"),
         colorTag: "Blanc",
-        image: "/Page/Nos Cuvée-ok/Gamme Domeni/Page Cuvée Domeni blanc/BLANC_DOMENI_sf.png"
+        image: "/page/nos-cuvee-ok/gamme-domeni/page-cuvee-domeni-blanc/blanc-domeni-sf.png"
       },
       {
         title: "Doméni Rosé", 
@@ -61,7 +61,7 @@ export const gammes: Gamme[] = [
         route: "/les-vins/domeni-rose",
         pdf: getPdfPath("domeni-rose"),
         colorTag: "Rosé",
-        image: "/Page/Nos Cuvée-ok/Gamme Domeni/Page Cuvée domeni Rosé/ROSE DOMENI-sf.png"
+        image: "/page/nos-cuvee-ok/gamme-domeni/page-cuvee-domeni-rose/rose-domeni-sf.png"
       },
       {
         title: "Doméni Rouge",
@@ -69,7 +69,7 @@ export const gammes: Gamme[] = [
         route: "/les-vins/domeni-rouge",
         pdf: getPdfPath("domeni-rouge"),
         colorTag: "Rouge",
-        image: "/Page/Nos Cuvée-ok/Gamme Domeni/Page Cuvée Domeni Rouge/ROUGE_DOMENI_sf.png"
+        image: "/page/nos-cuvee-ok/gamme-domeni/page-cuvee-domeni-rouge/rouge-domeni-sf.png"
       }
     ]
   },
@@ -86,7 +86,7 @@ export const gammes: Gamme[] = [
         route: "/les-vins/opus-blanc", 
         pdf: getPdfPath("opus-blanc"),
         colorTag: "Blanc",
-        image: "/Page/Nos Cuvée-ok/Gamme Opus/Page Cuvée Opus Blanc/BLANC_OPUS_sf.png"
+        image: "/page/nos-cuvee-ok/gamme-opus/page-cuvee-opus-blanc/blanc-opus-sf.png"
       },
       {
         title: "Opus Rouge",
@@ -94,7 +94,7 @@ export const gammes: Gamme[] = [
         route: "/les-vins/opus-rouge",
         pdf: getPdfPath("opus-rouge"),
         colorTag: "Rouge",
-        image: "/Page/Nos Cuvée-ok/Gamme Opus/Page Cuvée Opus Rouge/ROUGE_OPUS_sf.png"
+        image: "/page/nos-cuvee-ok/gamme-opus/page-cuvee-opus-rouge/rouge-opus-sf.png"
       }
     ]
   },
@@ -111,7 +111,7 @@ export const gammes: Gamme[] = [
         route: "/les-vins/methode-blanc",
         pdf: getPdfPath("methode-blanc"), 
         colorTag: "Effervescent",
-        image: "/Page/Nos Cuvée-ok/Gamme Méthode Ancestral/Page Méthode Blanche/LA_METHODE_BLANC_st.png"
+        image: "/page/nos-cuvee-ok/gamme-methode-ancestral/page-methode-blanche/la-methode-blanc-st.png"
       },
       {
         title: "Méthode Rosé",
@@ -119,7 +119,7 @@ export const gammes: Gamme[] = [
         route: "/les-vins/methode-rose",
         pdf: getPdfPath("methode-rose"),
         colorTag: "Effervescent", 
-        image: "/Page/Nos Cuvée-ok/Gamme Méthode Ancestral/Page Méthode Rosé/LA_METHODE_ROSE_SF.png"
+        image: "/page/nos-cuvee-ok/gamme-methode-ancestral/page-methode-rose/la-methode-rose-sf.png"
       },
       {
         title: "Perlé",
@@ -127,7 +127,7 @@ export const gammes: Gamme[] = [
         route: "/les-vins/perle",
         pdf: getPdfPath("perle"),
         colorTag: "Effervescent",
-        image: "/Page/Nos Cuvée-ok/Gamme perlé/Page cuvée Perlé/BLANC_PERLE_sf.png"
+        image: "/page/nos-cuvee-ok/gamme-perle/page-cuvee-perle/blanc-perle-sf.png"
       }
     ]
   },
@@ -144,7 +144,7 @@ export const gammes: Gamme[] = [
         route: "/les-vins/poussin-blanc",
         pdf: getPdfPath("poussin-blanc"),
         colorTag: "Blanc",
-        image: "/Page/Nos Cuvée-ok/Gamme poussin/Page Cuvée poussin Blanc/POUSSIN BLANC-SF.png"
+        image: "/page/nos-cuvee-ok/gamme-poussin/page-cuvee-poussin-blanc/poussin-blanc-sf.png"
       },
       {
         title: "Poussin Rosé",
@@ -152,7 +152,7 @@ export const gammes: Gamme[] = [
         route: "/les-vins/poussin-rose",
         pdf: getPdfPath("poussin-rose"),
         colorTag: "Rosé",
-        image: "/Page/Nos Cuvée-ok/Gamme poussin/Page Cuvée Poussin Rosé/POUSSIN ROSE-SF.png"
+        image: "/page/nos-cuvee-ok/gamme-poussin/page-cuvee-poussin-rose/poussin-rose-sf.png"
       }
     ]
   },
@@ -161,7 +161,7 @@ export const gammes: Gamme[] = [
     title: "Petrichor",
     description: "Signature de notre savoir-faire. Cette gamme évoque l'odeur si particulière de la terre après la pluie, capturant l'essence même de notre terroir dans des cuvées d'exception.",
     accent: "#8B7355", // Terre cuite
-    cover: "/Page/homepage/Nos vins gamme pétrichor.jpg",
+    cover: "/page/homepage/nos-vins-gamme-petrichor.jpg",
     cuvees: [
       {
         title: "Petrichor Rouge",
@@ -169,7 +169,7 @@ export const gammes: Gamme[] = [
         route: "/les-vins/petrichor-rouge", 
         pdf: getPdfPath("petrichor-rouge"),
         colorTag: "Rouge",
-        image: "/Page/Nos Cuvée-ok/Gamme Petrichor/Page Cuvée Pertichor Rouge/PETRICHOR_st.png"
+        image: "/page/nos-cuvee-ok/gamme-petrichor/page-cuvee-pertichor-rouge/petrichor-st.png"
       },
       {
         title: "Petrichor Rosé",
@@ -177,7 +177,7 @@ export const gammes: Gamme[] = [
         route: "/les-vins/petrichor-rose",
         pdf: getPdfPath("petrichor-rose"),
         colorTag: "Rosé",
-        image: "/Page/Nos Cuvée-ok/Gamme Petrichor/Page Cuvée Petrichor Rosé/PETRICHOR__Ros_SF.png"
+        image: "/page/nos-cuvee-ok/gamme-petrichor/page-cuvee-petrichor-rose/petrichor-ros-sf.png"
       }
     ]
   },
@@ -194,7 +194,7 @@ export const gammes: Gamme[] = [
         route: "/les-vins/claire-de-lune",
         pdf: getPdfPath("claire-de-lune"),
         colorTag: "Blanc",
-        image: "/Page/Nos Cuvée-ok/Gamme Confidentiel/Page cuvée Claire de Lune/CLAIRE_DE_LUNE_sf.png"
+        image: "/page/nos-cuvee-ok/gamme-confidentiel/page-cuvee-claire-de-lune/claire-de-lune-sf.png"
       },
       {
         title: "Pigeonnier",
@@ -202,7 +202,7 @@ export const gammes: Gamme[] = [
         route: "/les-vins/pigeonnier",
         pdf: getPdfPath("pigeonnier"),
         colorTag: "Rouge",
-        image: "/Page/Nos Cuvée-ok/Gamme Confidentiel/Page Cuvée Pigeonnier/PIGEONNIER_sf.png"
+        image: "/page/nos-cuvee-ok/gamme-confidentiel/page-cuvee-pigeonnier/pigeonnier-sf.png"
       }
     ]
   }

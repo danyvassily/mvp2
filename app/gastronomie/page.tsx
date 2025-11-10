@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     description: "L'art de marier nos vins gaillacois avec la gastronomie du terroir",
     images: [
       {
-        url: "/PHOTOS-WEB-LASTOURS/Photos-GENERAL/repas-vins-lastours.jpg",
+        url: "/photos-web-lastours/photos-general/repas-vins-lastours.jpg",
         width: 1200,
         height: 630,
         alt: "Gastronomie et accords mets-vins au Château Lastours"
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
 const accordsData = [
   {
     type: "Vins Blancs",
-    image: "/Page/Gastronomie art de table - manque eventuel photo chambrage/verres-sur-tonneau-en-bois-blason-chateau-lastours-gaillac-france.jpg",
+    image: "/page/gastronomie-art-de-table-manque-eventuel-photo-chambrage/verres-sur-tonneau-en-bois-blason-chateau-lastours-gaillac-france.jpg",
     alt: "Verres de vin blanc sur tonneau en bois au Château Lastours",
     description: "Nos blancs secs révèlent leur fraîcheur et leur minéralité",
     accords: [
@@ -37,7 +37,7 @@ const accordsData = [
   },
   {
     type: "Vins Rosés",
-    image: "/Page/Gastronomie art de table - manque eventuel photo chambrage/verre-de-vin-effervescent-methode-lastours-sur-table-decoree.jpg",
+    image: "/page/gastronomie-art-de-table-manque-eventuel-photo-chambrage/verre-de-vin-effervescent-methode-lastours-sur-table-decoree.jpg",
     alt: "Verre de vin rosé effervescent méthode Lastours sur table décorée",
     description: "Nos rosés accompagnent les plaisirs estivaux",
     accords: [
@@ -50,7 +50,7 @@ const accordsData = [
   },
   {
     type: "Méthode Gaillacoise",
-    image: "/Page/Gastronomie art de table - manque eventuel photo chambrage/bouteilles-effervescent-methode-rose-chateau-lastours-glacons.jpg",
+    image: "/page/gastronomie-art-de-table-manque-eventuel-photo-chambrage/bouteilles-effervescent-methode-rose-chateau-lastours-glacons.jpg",
     alt: "Bouteilles effervescent méthode rose Château Lastours avec glaçons",
     description: "Nos bulles subliment les moments festifs",
     accords: [
@@ -105,7 +105,7 @@ export default function GastronomiePage() {
           {/* Image de fond */}
           <div className="absolute inset-0">
             <Image
-              src="/PHOTOS-WEB-LASTOURS/Photos-GENERAL/repas-vins-lastours.jpg"
+              src="/photos-web-lastours/photos-general/repas-vins-lastours.jpg"
               alt="Gastronomie et accords mets-vins au Château Lastours"
               fill
               className="object-cover"
@@ -280,7 +280,7 @@ export default function GastronomiePage() {
                 <div className="relative lg:sticky lg:top-[calc(var(--header-height)+var(--rhythm))]">
                   <div className="relative h-[400px] lg:h-[600px] rounded-3xl overflow-hidden shadow-[0_20px_60px_rgba(0,0,0,0.3)]">
                     <Image
-                      src="/Page/Gastronomie art de table - manque eventuel photo chambrage/debouchage-avec-limonadier-bouteille-de-vin.jpg"
+                      src="/page/gastronomie-art-de-table-manque-eventuel-photo-chambrage/debouchage-avec-limonadier-bouteille-de-vin.jpg"
                       alt="Débouchage avec limonadier d'une bouteille de vin au Château Lastours"
                       fill
                       className="object-cover"
@@ -316,7 +316,7 @@ export default function GastronomiePage() {
           {/* Image de fond */}
           <div className="absolute inset-0">
             <Image
-              src="/Page/Gastronomie art de table - manque eventuel photo chambrage/table-dressee-reception-chateau-lastours-gaillac-france.jpg"
+              src="/page/gastronomie-art-de-table-manque-eventuel-photo-chambrage/table-dressee-reception-chateau-lastours-gaillac-france.jpg"
               alt="Table dressée pour réception au Château Lastours"
               fill
               className="object-cover"

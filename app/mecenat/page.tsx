@@ -38,7 +38,7 @@ export default function MecenatPage() {
         >
           <div className="absolute inset-0">
             <Image
-              src="/ASSET/mecenat/musiciens-concert-de-jazz-chateau-lastours-gaillac-france.jpg"
+              src="/asset/mecenat/musiciens-concert-de-jazz-chateau-lastours-gaillac-france.jpg"
               alt="Concert de jazz au Château Lastours - Mécénat culturel"
               fill
               priority
@@ -182,7 +182,7 @@ export default function MecenatPage() {
           <div className="relative h-[70vh] lg:h-[80vh] xl:h-[85vh] overflow-hidden">
             <div className="absolute inset-0">
               <Image
-                src="/ASSET/mecenat/renovation-toiture-pigeonnier-chateau-lastours-gaillac-france.jpg"
+                src="/asset/mecenat/renovation-toiture-pigeonnier-chateau-lastours-gaillac-france.jpg"
                 alt="Rénovation de la toiture du pigeonnier du Château Lastours"
                 fill
                 className="object-cover hover:scale-105 transition-transform duration-700"
@@ -204,7 +204,7 @@ export default function MecenatPage() {
           <div className="relative h-[60vh] lg:h-[70vh] xl:h-[75vh] overflow-hidden">
             <div className="absolute inset-0">
               <Image
-                src="/ASSET/mecenat/restauration-facade-piegonnier-sud-ouest-gaillac-france.jpg"
+                src="/asset/mecenat/restauration-facade-piegonnier-sud-ouest-gaillac-france.jpg"
                 alt="Restauration de la façade sud-ouest du pigeonnier du Château Lastours"
                 fill
                 className="object-cover hover:scale-105 transition-transform duration-700"

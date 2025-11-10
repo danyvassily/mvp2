@@ -11,7 +11,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Actualités | Château Lastours",
     description: "Nouvelles, événements et innovations du Château Lastours",
-    images: ["/Page/Page Actualité - ok/actualites-chateau-lastours-gaillac-france.jpeg"],
+    images: ["/page/page-actualite-ok/actualites-chateau-lastours-gaillac-france.jpeg"],
   },
 };
 
@@ -22,7 +22,7 @@ export default function ActualitesPage() {
     <div className="min-h-screen bg-background">
       {/* Hero avec image et texte depuis ASSET */}
       <HeroStandard
-        imageSrc="/Page/Page Actualité - ok/actualites-chateau-lastours-gaillac-france.jpeg"
+        imageSrc="/page/page-actualite-ok/actualites-chateau-lastours-gaillac-france.jpeg"
         title="Notre Actualité"
         subtitle="Suivez l'actualité du Château Lastours : vendanges, nouvelles cuvées, événements et initiatives pour une viticulture durable dans l'appellation Gaillac."
       />

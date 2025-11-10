@@ -25,7 +25,7 @@ export default function WinesPageSimple() {
       <section className="relative h-[60vh] min-h-[400px] overflow-hidden">
         <div className="absolute inset-0">
           <Image
-            src="/Page/Nos Cuvée-ok/Photo entête de page cuvées blanc/Vin-Blanc-Rouge-Rosé-Bulles-Gaillac-Sud-Ouest-France.jpg"
+            src="/page/nos-cuvee-ok/photo-entete-de-page-cuvees-blanc/vin-blanc-rouge-rose-bulles-gaillac-sud-ouest-france.jpg"
             alt="Vins du Château Lastours - Collections d'Exception"
             fill
             className="object-cover"

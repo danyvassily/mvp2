@@ -47,7 +47,7 @@ export function HeroEvent({
           alt={title}
           containerClassName="w-full h-full"
           className="w-full h-full object-cover object-center"
-          fallbackSrc="/PHOTOS-WEB-LASTOURS/VINIFICATION/Capture ameyric prod.JPG"
+          fallbackSrc="/photos-web-lastours/vinification/capture-ameyric-prod.jpg"
           placeholder={
             <div className="absolute inset-0 bg-gradient-to-br from-muted via-muted/80 to-muted">
               <div className="absolute inset-0 grain-subtle opacity-20" />

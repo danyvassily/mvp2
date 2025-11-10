@@ -42,7 +42,7 @@ export default function EvenementsReservationPage() {
     <div className="min-h-screen">
       {/* Hero Section */}
       <HeroStandard
-        imageSrc="/Page/Nos evenements - ok/concert-musicale-sous-tente-nomade-gaillac-france.jpg"
+        imageSrc="/page/nos-evenements-ok/concert-musicale-sous-tente-nomade-gaillac-france.jpg"
         title="Réservez votre Événement"
         subtitle="Rejoignez-nous pour des moments d'exception au Château Lastours"
         className="-mt-20"

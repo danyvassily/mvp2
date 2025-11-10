@@ -1,0 +1,25 @@
+:root {
+  /* Palette claire harmonisée */
+  --brand-600: #2e5b3a;     /* principal CTA (vert profond) */
+  --brand-700: #254b30;
+  --brand-50:  #eef5f0;
+
+  --neutral-900: #1a1a1a;
+  --neutral-700: #3a3a3a;
+  --neutral-100: #f6f6f6;
+
+  /* Couleurs catégories (visibles sur fond clair) */
+  --cat-rouge:    #7a1f1f;  /* texte clair sur badge */
+  --cat-blanc:    #1e3a5f;
+  --cat-rose:     #7a2e5a;
+  --cat-methode:  #3b3a0f;
+
+  /* Contraste: texte clair sur badges */
+  --on-dark: #ffffff;
+  --on-light: #1f1f1f;
+
+  /* Rythme et tailles */
+  --rhythm: clamp(18px, 2.4vw, 24px);
+  --tap: 44px; /* cible tactile minimale */
+}
+

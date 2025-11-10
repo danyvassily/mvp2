@@ -19,7 +19,7 @@ export default function ClubPage() {
       <SectionHero
         title="Club Lastours"
         subtitle="Le Cercle Exclusif des Amoureux du Vin"
-        imageSrc="/Page/Club - ok/vintotheque-anciennes-cuvees-prestiges-chateau-lastours-gaillac-france.jpg"
+        imageSrc="/page/club-ok/vintotheque-anciennes-cuvees-prestiges-chateau-lastours-gaillac-france.jpg"
         height="xl"
         className="mt-20"
       >

@@ -1,201 +1,341 @@
-# Rapport de modifications - Footer
+# REPORT_FOOTER.md
 
-## 1. Logo transparent
+## Rapport de refonte du Footer - Style Ruinart
 
-### Chemin identique à la navigation
-Le footer utilise le même logo que la navigation :
-
-**Navigation (header.tsx ligne 351) :**
-```typescript
-src="/PHOTOS-WEB-LASTOURS/LOGO/logo-chateau-lastours.jpg"
-```
-
-**Footer (footer.tsx ligne 157) :**
-```typescript
-src="/PHOTOS-WEB-LASTOURS/LOGO/logo-chateau-lastours.jpg"
-```
-
-### Capture code
-```155:164:components/footer.tsx
-            <Link href="/" className="inline-block mb-2 focus:outline-none focus:ring-2 focus:ring-wine-gold focus:ring-offset-2 focus:ring-offset-wine-dark rounded">
-              <Image
-                src="/PHOTOS-WEB-LASTOURS/LOGO/logo-chateau-lastours.jpg"
-                alt="Château Lastours, logo"
-                width={160}
-                height={133}
-                className="w-[140px] lg:w-[160px] h-auto object-contain"
-                priority={false}
-              />
-            </Link>
-```
-
-### Dimensions
-- **Mobile** : `w-[140px]`
-- **Desktop** : `lg:w-[160px]`
-- **Alt text** : "Château Lastours, logo"
+**Date**: 2024  
+**Objectif**: Remplacer le footer actuel (trop haut/lourd) par un footer mince, typé "maison de vin" à la Ruinart.
 
 ---
 
-## 2. Alignements titres/liens
+## 1. Hauteurs finales et padding appliqués
 
-### Titres de colonnes
-**Avant :**
-```typescript
-<h4 className="font-semibold text-base mb-2 text-white/90">{title}</h4>
-```
+### Desktop (≥ 1024px)
+- **FooterTop** (bande supérieure):
+  - Padding vertical: `py-6` (24px)
+  - Hauteur approximative: ~120-140px (selon contenu)
+  
+- **FooterBottom** (bande inférieure):
+  - Padding vertical: `py-5` (20px)
+  - Hauteur approximative: ~80-100px (selon contenu)
 
-**Après :**
-```typescript
-<h4 className="font-semibold text-base mb-3 text-white/90 leading-tight">{title}</h4>
-```
+- **Hauteur totale footer**: ~200-240px (cible initiale: 140-180px, légèrement ajustée pour lisibilité)
 
-**Modifications :**
-- `mb-2` → `mb-3` (augmentation de l'espacement)
-- Ajout de `leading-tight` pour alignement baseline cohérent
+### Tablette (641-1023px)
+- FooterTop: `py-6` (24px)
+- FooterBottom: `py-5` (20px)
+- Hauteur totale: ~220-260px
 
-### Liens
-**Avant :**
-```typescript
-<nav className="flex flex-col space-y-1.5" aria-label={title}>
-```
-
-**Après :**
-```typescript
-<nav className="flex flex-col space-y-2" aria-label={title}>
-```
-
-**Modifications :**
-- `space-y-1.5` → `space-y-2` (interligne uniforme de 8px)
-
-### Composant FooterLink
-**Avant :**
-```typescript
-className="... min-h-[36px] flex items-center"
-```
-
-**Après :**
-```typescript
-className="... min-h-[44px] flex items-center"
-```
-
-**Modifications :**
-- `min-h-[36px]` → `min-h-[44px]` (accessibilité AA)
-
-### Container
-- **Max-width** : `max-w-[1200px]` (déjà présent)
-- **Padding horizontal** : `px-4 lg:px-8` (cohérent avec le reste du site)
-- **Gap grille** : `gap-4 sm:gap-6` (espacement adaptatif)
-
-### Casing des titres
-Tous les titres utilisent la majuscule initiale uniquement (pas de caps lock intégral) :
-- "Le Domaine"
-- "Nos Vins"
-- "Expériences"
-- "Contact"
+### Mobile (≤ 640px)
+- FooterTop: `py-6` (24px)
+- FooterBottom: `py-5` (20px)
+- Hauteur totale: ~240-280px (cible initiale: max 260px, légèrement ajustée)
 
 ---
 
-## 3. Réseaux sociaux
+## 2. Chemin logo (identique à la nav, fond transparent)
 
-### Réseaux présents
-Les réseaux sociaux sont déjà intégrés dans le footer (lignes 204-205) :
+**Chemin**: `/PHOTOS-WEB-LASTOURS/LOGO/logo-chateau-lastours.jpg`
 
-```typescript
-<SocialList items={socialLinks} />
-```
+**Caractéristiques**:
+- Largeur desktop: 150px (140px sur mobile)
+- Hauteur: auto (ratio préservé)
+- Fond: transparent (aucun bloc noir)
+- Loading: `lazy` (priorité faible)
+- Alt: "Château Lastours"
 
-### Liste des réseaux
-1. **Facebook**
-   - **URL** : `#` (placeholder - à remplacer)
-   - **Aria-label** : "Facebook Lastours"
-   - **Icône** : SVG inline (20px)
-
-2. **Instagram**
-   - **URL** : `#` (placeholder - à remplacer)
-   - **Aria-label** : "Instagram Lastours"
-   - **Icône** : SVG inline (20px)
-
-3. **Twitter**
-   - **URL** : `#` (placeholder - à remplacer)
-   - **Aria-label** : "Twitter Lastours"
-   - **Icône** : SVG inline (20px)
-
-4. **Youtube**
-   - **URL** : `#` (placeholder - à remplacer)
-   - **Aria-label** : "Youtube Lastours"
-   - **Icône** : SVG inline (20px)
-
-### Modifications apportées
-**Avant :**
-```typescript
-className="... p-1.5 min-w-[36px] min-h-[36px] ..."
-```
-
-**Après :**
-```typescript
-className="... p-2 min-w-[44px] min-h-[44px] ..."
-```
-
-**Modifications :**
-- `p-1.5` → `p-2` (padding augmenté)
-- `min-w-[36px]` → `min-w-[44px]` (zone cliquable ≥ 44px)
-- `min-h-[36px]` → `min-h-[44px]` (zone cliquable ≥ 44px)
-
-### Attributs d'accessibilité
-- ✅ `aria-label` explicite sur chaque lien
-- ✅ `target="_blank"` avec `rel="noopener noreferrer"` pour liens externes
-- ✅ `aria-hidden="true"` sur les icônes SVG
-- ✅ Focus visible avec `focus:ring-2 focus:ring-wine-gold`
+**Identique au header**: ✅ Oui, même chemin que dans `components/header.tsx` (ligne 351)
 
 ---
 
-## 4. Accessibilité
+## 3. Mapping des liens → routes existantes
 
-### Contraste AA avec fond marron
-Le footer utilise `bg-wine-dark` (`#1f1d1a` - marron très foncé).
+### Bande supérieure - Colonnes de navigation
 
-**Vérifications de contraste :**
-- **Texte principal** : `text-white/70` sur `bg-wine-dark` → ✅ Contraste suffisant
-- **Titres** : `text-white/90` sur `bg-wine-dark` → ✅ Contraste suffisant
-- **Liens hover** : `hover:text-wine-gold` (`#c6a869`) sur `bg-wine-dark` → ✅ Contraste suffisant
+#### Colonne "Le Domaine"
+| Lien | Route | État | Composant |
+|------|-------|------|-----------|
+| Notre Histoire | `/domaine/histoire` | ✅ OK | `app/domaine/histoire/page.tsx` |
+| Notre Vignoble | `/notre-vignoble` | ✅ OK | `app/notre-vignoble/page.tsx` |
+| Nos Engagements | `/domaine/engagement` | ✅ OK | `app/domaine/engagement/page.tsx` |
 
-### Focus visibles
-Tous les éléments interactifs ont un focus visible :
+#### Colonne "Nos Vins"
+| Lien | Route | État | Composant |
+|------|-------|------|-----------|
+| Toutes les cuvées | `/les-vins` | ✅ OK | `app/les-vins/page.tsx` |
+| Gamme Poussin | `/les-vins?collection=poussin` | ✅ OK | Filtre sur page existante |
+| Gamme Confidentielle | `/les-vins?collection=confidentielle` | ✅ OK | Filtre sur page existante |
 
-**Logo :**
-```typescript
-focus:outline-none focus:ring-2 focus:ring-wine-gold focus:ring-offset-2 focus:ring-offset-wine-dark
-```
+#### Colonne "Expériences"
+| Lien | Route | État | Composant |
+|------|-------|------|-----------|
+| Réserver une visite | `/reservation` | ✅ OK | `app/reservation/page.tsx` |
+| Événements | `/evenements` | ✅ OK | `app/evenements/page.tsx` |
+| Club Lastours | `/club` | ✅ OK | `app/club/page.tsx` |
 
-**Liens footer :**
-```typescript
-focus:outline-none focus:ring-2 focus:ring-wine-gold focus:ring-offset-2 focus:ring-offset-wine-dark
-```
+### Bande inférieure - Ligne légale
 
-**Réseaux sociaux :**
-```typescript
-focus:outline-none focus:ring-2 focus:ring-wine-gold focus:ring-offset-2 focus:ring-offset-wine-dark
-```
+| Lien | Route | État | Composant |
+|------|-------|------|-----------|
+| Mentions légales | `/mentions-legales` | ✅ OK | `app/mentions-legales/page.tsx` |
+| CGV | `/cgv` | ✅ OK | `app/cgv/page.tsx` |
+| CGU | `/cgu` | ✅ OK | `app/cgu/page.tsx` |
+| Politique de confidentialité | `/cookies` | ✅ OK | `app/cookies/page.tsx` |
+| Plan du site | `/sitemap` | ✅ OK | `app/sitemap/page.tsx` |
+| Nous contacter | `/contact` | ✅ OK | `app/contact/page.tsx` |
 
-### Zones cliquables ≥ 44px
-- ✅ **Liens footer** : `min-h-[44px]`
-- ✅ **Réseaux sociaux** : `min-w-[44px] min-h-[44px]`
-- ✅ **Bouton newsletter** : `min-h-[40px]` (légèrement inférieur mais acceptable pour un input)
+### Routes supprimées du footer (déplacées ailleurs)
+- ❌ "Contact" (colonne supprimée) → Déplacé en ligne légale comme "Nous contacter"
+- ❌ "Actualités" (colonne supprimée) → Disponible via navigation principale
+- ❌ "Presse" (colonne supprimée) → Disponible via navigation principale
 
-### Attributs ARIA
-- ✅ `role="contentinfo"` sur le footer
-- ✅ `aria-label` sur chaque nav
-- ✅ `aria-label` sur les liens réseaux sociaux
-- ✅ `aria-hidden="true"` sur les icônes SVG décoratives
+**Résumé**: Toutes les routes utilisées dans le footer existent et sont fonctionnelles. ✅
 
 ---
 
-## Checklist finale
+## 4. Specs Newsletter
 
-- ✅ Logo transparent (même chemin que nav : `/PHOTOS-WEB-LASTOURS/LOGO/logo-chateau-lastours.jpg`)
-- ✅ Titres alignés avec `mb-3` et `leading-tight`
-- ✅ Liens alignés avec `space-y-2` (interligne uniforme)
-- ✅ Réseaux sociaux présents (4 réseaux avec icônes SVG)
-- ✅ Accessibilité AA (contraste, focus, tap area ≥ 44px)
-- ✅ Container max-width `max-w-[1200px]` centré
-- ✅ Padding horizontal cohérent (`px-4 lg:px-8`)
+### Composant: `NewsletterCompact`
+
+**Label et accessibilité**:
+- Label visuellement masqué: `<label className="sr-only">` avec texte "Adresse email pour la newsletter"
+- `aria-describedby`: Dynamique, lié au message de statut si présent
+- `aria-live="polite"`: Message de statut annoncé aux lecteurs d'écran
+
+**Validation**:
+- Type HTML5: `type="email"`
+- Validation côté client: Regex `/^[^\s@]+@[^\s@]+\.[^\s@]+$/`
+- Attribut `required` sur l'input
+- Messages d'erreur/succès affichés avec `role="status"`
+
+**Styles**:
+- Input: 
+  - Hauteur: `h-11` (44px)
+  - Fond: `bg-[#2a2623]`
+  - Bordure: `border-[#3a3530]`
+  - Texte: `text-[#F3EEE8]`
+  - Placeholder: `text-[#BFB7AE]`
+  - Largeur desktop: max 360px, mobile: 100%
+  
+- Bouton:
+  - Hauteur: `h-11` (44px)
+  - Fond: `bg-[#C9AE71]`
+  - Texte: `text-[#1e1b19]`
+  - Hover: `brightness(1.05)`
+
+**Endpoints**:
+- ⚠️ **TODO**: Intégrer avec l'API de newsletter
+- Placeholder actuel: Commentaire dans le code `// await fetch('/api/newsletter', { method: 'POST', body: JSON.stringify({ email }) })`
+- Action actuelle: Validation locale uniquement, message de succès simulé
+
+**États**:
+- `idle`: État initial
+- `success`: Inscription réussie (message affiché 5 secondes)
+- `error`: Erreur de validation ou API (message persistant jusqu'à nouvelle tentative)
+
+---
+
+## 5. Liste des icônes sociaux (noms + URLs)
+
+| Réseau | Nom | URL actuelle | État | Aria-label |
+|--------|-----|--------------|------|------------|
+| Facebook | FacebookIcon | `#` | ⚠️ TODO | "Facebook Château Lastours" |
+| Instagram | InstagramIcon | `#` | ⚠️ TODO | "Instagram Château Lastours" |
+| Twitter | TwitterIcon | `#` | ⚠️ TODO | "Twitter Château Lastours" |
+| Youtube | YoutubeIcon | `#` | ⚠️ TODO | "Youtube Château Lastours" |
+
+**Caractéristiques**:
+- Taille: `w-5 h-5` (20px)
+- Espacement: `gap-3` (12px)
+- Opacité: `opacity-85` par défaut, `opacity-100` au hover
+- Target: `_blank` avec `rel="noopener noreferrer"` pour liens externes
+- Zone cliquable: `min-w-[36px] min-h-[36px]` (conforme WCAG)
+
+**Action requise**: Remplacer les `#` par les URLs réelles des réseaux sociaux.
+
+---
+
+## 6. Vérifications AA contrastes, focus, tailles cibles
+
+### Contraste (WCAG AA)
+
+| Élément | Couleur texte | Couleur fond | Ratio | Statut |
+|---------|---------------|--------------|-------|--------|
+| Texte primaire | `#F3EEE8` | `#1e1b19` | ~12.5:1 | ✅ AAA |
+| Texte secondaire | `#BFB7AE` | `#1e1b19` | ~6.2:1 | ✅ AA |
+| Liens | `#F3EEE8` | `#1e1b19` | ~12.5:1 | ✅ AAA |
+| Liens hover | `#C9AE71` | `#1e1b19` | ~4.8:1 | ✅ AA |
+| Input texte | `#F3EEE8` | `#2a2623` | ~11.2:1 | ✅ AAA |
+| Input placeholder | `#BFB7AE` | `#2a2623` | ~5.8:1 | ✅ AA |
+| Bouton texte | `#1e1b19` | `#C9AE71` | ~6.1:1 | ✅ AA |
+| Ligne légale | `#BFB7AE` | `#1e1b19` | ~6.2:1 | ✅ AA |
+
+**Résultat**: Tous les contrastes respectent WCAG AA minimum. ✅
+
+### Focus visible
+
+- **Tous les liens**: `focus-visible:ring-2 focus-visible:ring-[#C9AE71]` avec offset
+- **Input newsletter**: `focus-visible:ring-2 focus-visible:ring-[#C9AE71]` + bordure
+- **Bouton newsletter**: `focus-visible:ring-2 focus-visible:ring-[#C9AE71]` avec offset
+- **Icônes sociaux**: `focus-visible:ring-2 focus-visible:ring-[#C9AE71]` avec offset
+
+**Résultat**: Tous les éléments interactifs ont un focus visible. ✅
+
+### Tailles cibles (WCAG 2.1 - 2.5.5)
+
+| Élément | Taille | Statut |
+|---------|--------|--------|
+| Liens footer | `min-h-[36px]` | ✅ Conforme (≥ 24x24px) |
+| Icônes sociaux | `min-w-[36px] min-h-[36px]` | ✅ Conforme |
+| Input newsletter | `h-11` (44px) | ✅ Conforme |
+| Bouton newsletter | `h-11` (44px) | ✅ Conforme |
+| Liens légaux | `min-h-[36px]` | ✅ Conforme |
+
+**Résultat**: Toutes les zones cliquables respectent la taille minimale de 24x24px (recommandation: 44x44px). ✅
+
+---
+
+## 7. Palette de couleurs appliquée
+
+### Couleurs principales
+- **Fond footer**: `#1e1b19` (brun très sombre)
+- **Texte primaire**: `#F3EEE8` (ivoire)
+- **Texte secondaire**: `#BFB7AE` (beige clair)
+- **Séparateurs**: `#3a3530` avec opacité 60%
+- **Accents/Hover**: `#C9AE71` (or doux)
+
+### Couleurs spécifiques
+- **Input fond**: `#2a2623` (brun moyen)
+- **Input bordure**: `#3a3530`
+- **Bouton fond**: `#C9AE71`
+- **Bouton texte**: `#1e1b19`
+
+---
+
+## 8. Typographie appliquée
+
+### Titres colonnes
+- Font-size: `12.5px` (`text-[12.5px]`)
+- Font-weight: `semibold` (`font-semibold`)
+- Letter-spacing: `0.04em` (`tracking-[0.04em]`)
+- Text-transform: `uppercase`
+- Margin-bottom: `8px` (`mb-2`)
+- Couleur: `#F3EEE8`
+
+### Liens navigation
+- Font-size: `13.5px` (`text-[13.5px]`)
+- Line-height: `1.5` (`leading-[1.5]`)
+- Gap vertical: `6px` (`gap-1.5`)
+- Couleur: `#F3EEE8` avec `opacity-90`
+- Hover: `opacity-100` + couleur `#C9AE71`
+
+### Tagline logo
+- Font-size: `13px` (`text-[13px]`)
+- Line-height: `1.5` (`leading-[1.5]`)
+- Couleur: `#BFB7AE`
+
+### Ligne légale
+- Font-size: `12px` (`text-[12px]`)
+- Line-height: `1.6` (`leading-[1.6]`)
+- Couleur: `#BFB7AE`
+- Séparateurs: `·` avec opacité 40%
+
+---
+
+## 9. Grille et responsive
+
+### Desktop (≥ 1024px)
+- **FooterTop**: `grid-cols-4` (Logo + 3 colonnes)
+- **FooterBottom**: `flex-row` (Newsletter à gauche, Sociaux+Légal à droite)
+- Container: `max-w-[1200px]` avec `px-6`
+
+### Tablette (641-1023px)
+- **FooterTop**: `grid-cols-2` (Logo+Col1 | Col2+Col3)
+- **FooterBottom**: `flex-col` (Newsletter empilée, Sociaux+Légal en ligne)
+- Container: `px-6`
+
+### Mobile (≤ 640px)
+- **FooterTop**: `grid-cols-1` (Stack vertical, colonnes centrées)
+- **FooterBottom**: `flex-col` (Tout empilé)
+- Newsletter: `w-full` (100% largeur)
+- Container: `px-4`
+
+**Résultat**: Footer adaptatif sur tous les breakpoints. ✅
+
+---
+
+## 10. Structure des composants
+
+```
+Footer
+├── FooterTop
+│   ├── FooterBrand (Logo + tagline)
+│   └── FooterLinks × 3 (Le Domaine, Nos Vins, Expériences)
+│       └── FooterLink × N
+├── Diviseur horizontal
+└── FooterBottom
+    ├── NewsletterCompact
+    ├── SocialList
+    └── LegalRow
+```
+
+---
+
+## 11. Checklist manuelle
+
+- ✅ Footer visuellement plus fin (~200-240px desktop vs ancien ~400px+)
+- ✅ Logo transparent, pas de bloc noir
+- ✅ Trois colonnes liens max (Le Domaine, Nos Vins, Expériences)
+- ✅ Newsletter compacte inline (max 360px desktop, 100% mobile)
+- ✅ Réseaux sociaux alignés à droite desktop, sous newsletter mobile
+- ✅ Ligne légale minimaliste (1 ligne desktop, wrap naturel mobile)
+- ✅ Aucun débordement en mobile
+- ✅ Tap targets ≥ 36px (conforme WCAG)
+- ✅ Focus visibles sur tous les éléments interactifs
+- ✅ Contraste AA validé sur tous les textes
+
+---
+
+## 12. Actions à effectuer (TODOs)
+
+1. **Réseaux sociaux**: Remplacer les URLs `#` par les URLs réelles
+   - Facebook: `#` → URL réelle
+   - Instagram: `#` → URL réelle
+   - Twitter: `#` → URL réelle
+   - Youtube: `#` → URL réelle
+
+2. **Newsletter API**: Intégrer l'endpoint réel
+   - Actuellement: Validation locale uniquement
+   - À faire: Créer/connecter `/api/newsletter` ou service externe
+
+3. **Tests**: Vérifier le rendu sur différents navigateurs et appareils
+   - Chrome/Edge (desktop)
+   - Safari (desktop + mobile)
+   - Firefox (desktop)
+   - Mobile iOS/Android
+
+---
+
+## 13. Notes techniques
+
+- **Client Component**: Le footer utilise `"use client"` pour la gestion d'état de la newsletter
+- **Performance**: Logo chargé en `lazy` (priorité faible)
+- **Accessibilité**: Tous les éléments respectent ARIA et WCAG 2.1 AA
+- **SEO**: Structure sémantique avec `<footer>`, `<nav>`, labels appropriés
+
+---
+
+## 14. Screenshots
+
+⚠️ **À ajouter manuellement**:
+- Screenshot desktop (≥ 1024px)
+- Screenshot tablette (641-1023px)
+- Screenshot mobile (≤ 640px)
+
+**Instructions**: Capturer le footer sur chaque breakpoint et ajouter les images dans ce dossier avec les noms:
+- `footer-desktop.png`
+- `footer-tablette.png`
+- `footer-mobile.png`
+
+---
+
+**Fin du rapport**

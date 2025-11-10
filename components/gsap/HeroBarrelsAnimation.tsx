@@ -92,7 +92,7 @@ export function HeroBarrelsAnimation({ children, className = '' }: HeroBarrelsAn
       {/* Image héroïque avec fallback */}
       <img
         ref={imageRef}
-        src="/Page/Nos Cuvée-ok/Photo entête de page cuvées blanc/Vin-Blanc-Rouge-Rosé-Bulles-Gaillac-Sud-Ouest-France.jpg"
+        src="/page/nos-cuvee-ok/photo-entete-de-page-cuvees-blanc/vin-blanc-rouge-rose-bulles-gaillac-sud-ouest-france.jpg"
         alt="Vins du Château Lastours - Collections d'Exception"
         className="w-full h-full object-cover"
         style={{ 

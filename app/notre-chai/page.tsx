@@ -11,7 +11,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Notre Chai | Château Lastours",
     description: "L'art de la vinification haut de gamme au cœur de Gaillac",
-    images: ["/Page/Notre Chai - manque 1 photo/chai-a-barrique-chateau-lastours-gaillac-france.jpg"],
+    images: ["/page/notre-chai-manque-1-photo/chai-a-barrique-chateau-lastours-gaillac-france.jpg"],
   },
 };
 
@@ -25,7 +25,7 @@ const vinificationSections = [
       body: "Au Château Lastours, la vinification commence dès la nuit tombée, par une sélection minutieuse des plus belles grappes issues de cépages autochtones, reflets vivants du terroir de Gaillac et du Sud-Ouest de la France. Les raisins sont récoltés à la main, à maturité optimale, pour préserver toute la fraîcheur et la pureté aromatique."
     },
     image: {
-      src: "/Page/Notre Chai - manque 1 photo/vendange-raisin-rouge.jpg",
+      src: "/page/notre-chai-manque-1-photo/vendange-raisin-rouge.jpg",
       alt: "Vendange de raisins rouges au Château Lastours",
       ratio: "21/9" as const
     },
@@ -39,7 +39,7 @@ const vinificationSections = [
       body: "Les raisins blancs et rosés sont pressés délicatement puis refroidis à 4°C pour préserver toute la fraîcheur et la pureté aromatique. Cette extraction à froid, signature de notre domaine viticole, sublime les notes d'agrumes, de fleurs blanches et de fruits frais, tout en garantissant une finesse cristalline. Pour les rouges, l'éraflage soigné et la macération pelliculaire révèlent la profondeur, la structure tannique et la couleur intense qui font la renommée des vins de Gaillac."
     },
     image: {
-      src: "/Page/Notre Chai - manque 1 photo/allee-de-cuves-inox-chai-a-vinification.jpeg",
+      src: "/page/notre-chai-manque-1-photo/allee-de-cuves-inox-chai-a-vinification.jpeg",
       alt: "Cuves inox pour la vinification au Château Lastours",
       ratio: "16/9" as const
     },
@@ -53,7 +53,7 @@ const vinificationSections = [
       body: "La fermentation malolactique, systématique pour les rouges et sélective pour les blancs, affine la texture, adoucit les tanins et apporte une rondeur gourmande, tout en maintenant la fraîcheur emblématique du vignoble français. Cette étape cruciale transforme l'acide malique en acide lactique, stabilisant la structure et révélant la complexité aromatique de chaque cuvée."
     },
     image: {
-      src: "/Page/Notre Chai - manque 1 photo/fermentation-malo-lactique-chateau-lastours-france.jpg",
+      src: "/page/notre-chai-manque-1-photo/fermentation-malo-lactique-chateau-lastours-france.jpg",
       alt: "Fermentation malolactique au Château Lastours",
       ratio: "21/9" as const
     },
@@ -67,7 +67,7 @@ const vinificationSections = [
       body: "Après la macération, vient l'écoulage : nous séparons le « vin de goutte », synonyme de finesse, du « vin de presse », plus puissant. Les marcs issus de cette opération sont délicatement pressés afin d'extraire chaque goutte de jus. Chacun de ces jus sera traité selon ses qualités pour composer nos meilleures cuvées."
     },
     image: {
-      src: "/Page/Notre Chai - manque 1 photo/décuvage-cuve-inox-chateau-lastours-gaillac-france.jpeg",
+      src: "/page/notre-chai-manque-1-photo/décuvage-cuve-inox-chateau-lastours-gaillac-france.jpeg",
       alt: "Décuvage en cuve inox au Château Lastours",
       ratio: "16/9" as const
     },
@@ -81,7 +81,7 @@ const vinificationSections = [
       body: "Nos vins blancs et rosés reposent en cuves inox pour exalter la minéralité, la pureté du fruit et la tension naturelle du terroir. Les rouges bénéficient d'un élevage soigné en barriques françaises, demi-muids ou pièces, toujours en rotation, pour éviter toute standardisation et privilégier l'authenticité. La micro-oxygénation subtile affine les tanins et révèle la complexité aromatique, sans jamais masquer l'identité du millésime ou du sol."
     },
     image: {
-      src: "/Page/Notre Chai - manque 1 photo/chai-a-barrique-chateau-lastours-gaillac-france.jpg",
+      src: "/page/notre-chai-manque-1-photo/chai-a-barrique-chateau-lastours-gaillac-france.jpg",
       alt: "Élevage en barrique au Château Lastours",
       ratio: "21/9" as const
     },
@@ -95,7 +95,7 @@ const vinificationSections = [
       body: "Parmi nos gestes quotidiens en cave, l'ouillage tient une place centrale : il s'agit de compléter le niveau des barriques pour compenser les pertes naturelles dues à l'évaporation et éviter toute oxydation. Ce soin méticuleux préserve l'équilibre et la finesse de nos vins durant toute la phase d'élevage."
     },
     image: {
-      src: "/Page/Notre Chai - manque 1 photo/ouillage-vin-rouge-fut-de-chene-francaise.jpeg",
+      src: "/page/notre-chai-manque-1-photo/ouillage-vin-rouge-fut-de-chene-francaise.jpeg",
       alt: "Ouillage en barrique au Château Lastours",
       ratio: "16/9" as const
     },
@@ -109,7 +109,7 @@ const vinificationSections = [
       body: "L'assemblage, véritable signature du Château Lastours, est un travail d'orfèvre où chaque cépage – Duras, Braucol, Mauzac – chaque parcelle d'argile, de calcaire ou de boulbène, et chaque type d'élevage, sont harmonieusement mariés pour créer des vins vibrants, élégants et résolument modernes. Nos cuvées expriment la diversité, la richesse et la typicité du vignoble de Gaillac."
     },
     image: {
-      src: "/Page/Notre Chai - manque 1 photo/assemblage-vin-chai-a-barrique-chateau-lastours-gaillac-france.jpeg",
+      src: "/page/notre-chai-manque-1-photo/assemblage-vin-chai-a-barrique-chateau-lastours-gaillac-france.jpeg",
       alt: "Assemblage des vins au Château Lastours",
       ratio: "21/9" as const
     },
@@ -123,7 +123,7 @@ const vinificationSections = [
       body: "Toutes les étapes mènent ici ! Nous assurons nous-mêmes la mise en bouteille, sur la propriété, sous atmosphère neutre. Cette attention préserve toute la fraîcheur aromatique de nos vins et garantit leur qualité jusqu'à votre table. Chaque bouteille est une invitation à un voyage sensoriel authentique, qui célèbre la richesse du Sud-Ouest et la finesse des vins de Gaillac."
     },
     image: {
-      src: "/Page/Notre Chai - manque 1 photo/chaine-d-emouteillage-methode-ancestrale-gaillac.jpeg",
+      src: "/page/notre-chai-manque-1-photo/chaine-d-emouteillage-methode-ancestrale-gaillac.jpeg",
       alt: "Embouteillage méthode ancestrale au Château Lastours",
       ratio: "16/9" as const
     },
@@ -162,7 +162,7 @@ export default function NotreChai() {
             <div className="lg:col-span-7 order-1 lg:order-2">
               <div className="relative h-[450px] lg:h-[600px] rounded-3xl overflow-hidden shadow-2xl transform hover:scale-[1.01] transition-all duration-700 group">
                 <img
-                  src="/Page/Notre Chai - manque 1 photo/elevage-vin-chai-a-barrique-chateau-lastours.JPG"
+                  src="/page/notre-chai-manque-1-photo/elevage-vin-chai-a-barrique-chateau-lastours.jpg"
                   alt="Notre Chai - Château Lastours"
                   className="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-500"
                 />
@@ -239,7 +239,7 @@ export default function NotreChai() {
               <div className="md:col-span-2 lg:col-span-1">
                 <div className="relative h-[500px] rounded-2xl overflow-hidden shadow-xl group">
                   <img
-                    src="/Page/Notre Chai - manque 1 photo/chai-a-barrique-chateau-lastours-gaillac-france.jpg"
+                    src="/page/notre-chai-manque-1-photo/chai-a-barrique-chateau-lastours-gaillac-france.jpg"
                     alt="Chai à barriques Château Lastours"
                     className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                   />
@@ -257,7 +257,7 @@ export default function NotreChai() {
               <div className="md:col-span-1">
                 <div className="relative h-[500px] rounded-2xl overflow-hidden shadow-xl group">
                   <img
-                    src="/Page/Notre Chai - manque 1 photo/allee-de-cuves-inox-chai-a-vinification.jpeg"
+                    src="/page/notre-chai-manque-1-photo/allee-de-cuves-inox-chai-a-vinification.jpeg"
                     alt="Cuves inox pour vinification"
                     className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                   />
@@ -275,7 +275,7 @@ export default function NotreChai() {
               <div className="md:col-span-1">
                 <div className="relative h-[500px] rounded-2xl overflow-hidden shadow-xl group">
                   <img
-                    src="/Page/Notre Chai - manque 1 photo/assemblage-vin-chai-a-barrique-chateau-lastours-gaillac-france.jpeg"
+                    src="/page/notre-chai-manque-1-photo/assemblage-vin-chai-a-barrique-chateau-lastours-gaillac-france.jpeg"
                     alt="Assemblage des vins"
                     className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                   />

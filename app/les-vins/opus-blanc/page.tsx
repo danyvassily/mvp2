@@ -12,7 +12,7 @@ export default function OpusBlancPage() {
   return (
     <WinePageLuxe
       wine={wine}
-      imagePath="/Page/Nos Cuvée-ok/Gamme Opus/Page Cuvée Opus Blanc/BLANC OPUS.jpg"
+      imagePath="/page/nos-cuvee-ok/gamme-opus/page-cuvee-opus-blanc/blanc-opus.jpg"
       pdfPath="/Page/Nos Cuvée-ok/Gamme Opus/Page Cuvée Opus Blanc/FT_blanc_Opus_2023.pdf"
     />
   )
@@ -33,7 +33,7 @@ export async function generateMetadata() {
     openGraph: {
       title: `${wine.name} ${wine.vintage} - Château Lastours`,
       description: wine.longDescription,
-      images: ["/Page/Nos Cuvée-ok/Gamme Opus/Page Cuvée Opus Blanc/BLANC OPUS.jpg"],
+      images: ["/page/nos-cuvee-ok/gamme-opus/page-cuvee-opus-blanc/blanc-opus.jpg"],
     },
   }
 }

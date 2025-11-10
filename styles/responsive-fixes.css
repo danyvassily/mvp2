@@ -231,6 +231,14 @@ embed {
   height: auto;
 }
 
+/* Exception pour les iframes de cartes Google Maps - hauteur fixe requise */
+iframe[title*="Localisation"],
+iframe[title*="Map"],
+.map-iframe {
+  height: 600px !important;
+  min-height: 600px !important;
+}
+
 /* Prévenir débordement des éléments position: absolute */
 .relative {
   position: relative;

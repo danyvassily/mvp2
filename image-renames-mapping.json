@@ -1,0 +1,1031 @@
+[
+  {
+    "type": "directory",
+    "oldPath": "asset",
+    "newPath": "asset",
+    "oldName": "asset",
+    "newName": "asset"
+  },
+  {
+    "type": "file",
+    "oldPath": "ASSET/de-la-vigne-a-la-bouteille/decuvage-cuve-inox-chateau-lastours-gaillac-france.jpeg",
+    "newPath": "ASSET/de-la-vigne-a-la-bouteille/decuvage-cuve-inox-chateau-lastours-gaillac-france.jpeg",
+    "oldName": "décuvage-cuve-inox-chateau-lastours-gaillac-france.jpeg",
+    "newName": "decuvage-cuve-inox-chateau-lastours-gaillac-france.jpeg"
+  },
+  {
+    "type": "file",
+    "oldPath": "ASSET/de-la-vigne-a-la-bouteille/elevage-vin-chai-a-barrique-chateau-lastours.jpg",
+    "newPath": "ASSET/de-la-vigne-a-la-bouteille/elevage-vin-chai-a-barrique-chateau-lastours.jpg",
+    "oldName": "elevage-vin-chai-a-barrique-chateau-lastours.JPG",
+    "newName": "elevage-vin-chai-a-barrique-chateau-lastours.jpg"
+  },
+  {
+    "type": "file",
+    "oldPath": "ASSET/histoire-du-domaine/allee-platanes-feuilles-automne-campagne.jpg",
+    "newPath": "ASSET/histoire-du-domaine/allee-platanes-feuilles-automne-campagne.jpg",
+    "oldName": "allée-platanes-feuilles-automne-campagne.jpg",
+    "newName": "allee-platanes-feuilles-automne-campagne.jpg"
+  },
+  {
+    "type": "directory",
+    "oldPath": "fiche-technique",
+    "newPath": "fiche-technique",
+    "oldName": "fiche-technique",
+    "newName": "fiche-technique"
+  },
+  {
+    "type": "directory",
+    "oldPath": "page",
+    "newPath": "page",
+    "oldName": "page",
+    "newName": "page"
+  },
+  {
+    "type": "directory",
+    "oldPath": "Page/asset-page-notre-chai",
+    "newPath": "Page/asset-page-notre-chai",
+    "oldName": "Asset page Notre Chai",
+    "newName": "asset-page-notre-chai"
+  },
+  {
+    "type": "directory",
+    "oldPath": "Page/asset-page-notre-vignoble",
+    "newPath": "Page/asset-page-notre-vignoble",
+    "oldName": "Asset page Notre vignoble",
+    "newName": "asset-page-notre-vignoble"
+  },
+  {
+    "type": "directory",
+    "oldPath": "Page/asset-page-degustation",
+    "newPath": "Page/asset-page-degustation",
+    "oldName": "Asset page dégustation",
+    "newName": "asset-page-degustation"
+  },
+  {
+    "type": "directory",
+    "oldPath": "Page/asset-page-la-vigne",
+    "newPath": "Page/asset-page-la-vigne",
+    "oldName": "Asset page la vigne",
+    "newName": "asset-page-la-vigne"
+  },
+  {
+    "type": "directory",
+    "oldPath": "Page/club-ok",
+    "newPath": "Page/club-ok",
+    "oldName": "Club - ok",
+    "newName": "club-ok"
+  },
+  {
+    "type": "directory",
+    "oldPath": "Page/degustation-ok",
+    "newPath": "Page/degustation-ok",
+    "oldName": "Degustation - ok",
+    "newName": "degustation-ok"
+  },
+  {
+    "type": "directory",
+    "oldPath": "Page/espace-presse",
+    "newPath": "Page/espace-presse",
+    "oldName": "Espace presse",
+    "newName": "espace-presse"
+  },
+  {
+    "type": "file",
+    "oldPath": "Page/gemini-generated-image-dgfu0ddgfu0ddgfu.png",
+    "newPath": "Page/gemini-generated-image-dgfu0ddgfu0ddgfu.png",
+    "oldName": "Gemini_Generated_Image_dgfu0ddgfu0ddgfu.png",
+    "newName": "gemini-generated-image-dgfu0ddgfu0ddgfu.png"
+  },
+  {
+    "type": "directory",
+    "oldPath": "Page/home-page-ok",
+    "newPath": "Page/home-page-ok",
+    "oldName": "Home page - ok",
+    "newName": "home-page-ok"
+  },
+  {
+    "type": "directory",
+    "oldPath": "Page/la-vigne-ok",
+    "newPath": "Page/la-vigne-ok",
+    "oldName": "La vigne - ok",
+    "newName": "la-vigne-ok"
+  },
+  {
+    "type": "directory",
+    "oldPath": "Page/nos-engagement-ok",
+    "newPath": "Page/nos-engagement-ok",
+    "oldName": "Nos Engagement - ok",
+    "newName": "nos-engagement-ok"
+  },
+  {
+    "type": "file",
+    "oldPath": "Page/Nos Engagement - ok/logo-hve3.png",
+    "newPath": "Page/Nos Engagement - ok/logo-hve3.png",
+    "oldName": "logo-HVE3.png",
+    "newName": "logo-hve3.png"
+  },
+  {
+    "type": "directory",
+    "oldPath": "Page/nos-evenements-ok",
+    "newPath": "Page/nos-evenements-ok",
+    "oldName": "Nos evenements - ok",
+    "newName": "nos-evenements-ok"
+  },
+  {
+    "type": "directory",
+    "oldPath": "Page/notre-chai-manque-1-photo",
+    "newPath": "Page/notre-chai-manque-1-photo",
+    "oldName": "Notre Chai - manque 1 photo",
+    "newName": "notre-chai-manque-1-photo"
+  },
+  {
+    "type": "file",
+    "oldPath": "Page/Notre Chai - manque 1 photo/decuvage-cuve-inox-chateau-lastours-gaillac-france.jpeg",
+    "newPath": "Page/Notre Chai - manque 1 photo/decuvage-cuve-inox-chateau-lastours-gaillac-france.jpeg",
+    "oldName": "décuvage-cuve-inox-chateau-lastours-gaillac-france.jpeg",
+    "newName": "decuvage-cuve-inox-chateau-lastours-gaillac-france.jpeg"
+  },
+  {
+    "type": "file",
+    "oldPath": "Page/Notre Chai - manque 1 photo/elevage-vin-chai-a-barrique-chateau-lastours.jpg",
+    "newPath": "Page/Notre Chai - manque 1 photo/elevage-vin-chai-a-barrique-chateau-lastours.jpg",
+    "oldName": "elevage-vin-chai-a-barrique-chateau-lastours.JPG",
+    "newName": "elevage-vin-chai-a-barrique-chateau-lastours.jpg"
+  },
+  {
+    "type": "directory",
+    "oldPath": "Page/notre-histoire-ok",
+    "newPath": "Page/notre-histoire-ok",
+    "oldName": "Notre histoire - ok",
+    "newName": "notre-histoire-ok"
+  },
+  {
+    "type": "file",
+    "oldPath": "Page/Notre histoire - ok/allee-platanes-feuilles-automne-campagne.jpg",
+    "newPath": "Page/Notre histoire - ok/allee-platanes-feuilles-automne-campagne.jpg",
+    "oldName": "allée-platanes-feuilles-automne-campagne.jpg",
+    "newName": "allee-platanes-feuilles-automne-campagne.jpg"
+  },
+  {
+    "type": "directory",
+    "oldPath": "Page/notre-vignoble-manque-1-photo",
+    "newPath": "Page/notre-vignoble-manque-1-photo",
+    "oldName": "Notre vignoble - manque 1 photo",
+    "newName": "notre-vignoble-manque-1-photo"
+  },
+  {
+    "type": "file",
+    "oldPath": "Page/Notre vignoble - manque 1 photo/vignes-vue-de-haut-fille-qui-marche.jpg",
+    "newPath": "Page/Notre vignoble - manque 1 photo/vignes-vue-de-haut-fille-qui-marche.jpg",
+    "oldName": "vignes-vue-de-haut-fille-qui-marche.JPG",
+    "newName": "vignes-vue-de-haut-fille-qui-marche.jpg"
+  },
+  {
+    "type": "directory",
+    "oldPath": "Page/notre-histoire",
+    "newPath": "Page/notre-histoire",
+    "oldName": "Notre-histoire",
+    "newName": "notre-histoire"
+  },
+  {
+    "type": "file",
+    "oldPath": "Page/Notre-histoire/allee-platanes-feuilles-automne-campagne.jpg",
+    "newPath": "Page/Notre-histoire/allee-platanes-feuilles-automne-campagne.jpg",
+    "oldName": "allée-platanes-feuilles-automne-campagne.jpg",
+    "newName": "allee-platanes-feuilles-automne-campagne.jpg"
+  },
+  {
+    "type": "directory",
+    "oldPath": "Page/organiser-votre-evenement-ok-et-inclure-cta-pour-renvoyer-ver-vos-evenement",
+    "newPath": "Page/organiser-votre-evenement-ok-et-inclure-cta-pour-renvoyer-ver-vos-evenement",
+    "oldName": "Organiser votre evenement - ok et inclure cta pour renvoyer ver vos événement",
+    "newName": "organiser-votre-evenement-ok-et-inclure-cta-pour-renvoyer-ver-vos-evenement"
+  },
+  {
+    "type": "file",
+    "oldPath": "Page/Organiser votre evenement - ok et inclure cta pour renvoyer ver vos événement/salle-de-reception-evenements-familials-professionnels.jpg",
+    "newPath": "Page/Organiser votre evenement - ok et inclure cta pour renvoyer ver vos événement/salle-de-reception-evenements-familials-professionnels.jpg",
+    "oldName": "salle-de-réception-evenements-familials-professionnels.JPG",
+    "newName": "salle-de-reception-evenements-familials-professionnels.jpg"
+  },
+  {
+    "type": "directory",
+    "oldPath": "Page/page-actualite-ok",
+    "newPath": "Page/page-actualite-ok",
+    "oldName": "Page Actualité - ok",
+    "newName": "page-actualite-ok"
+  },
+  {
+    "type": "file",
+    "oldPath": "Page/Page Actualité - ok/salon-vignerons-independants-paris-2025-france.jpg",
+    "newPath": "Page/Page Actualité - ok/salon-vignerons-independants-paris-2025-france.jpg",
+    "oldName": "Salon-Vignerons-Independants-Paris-2025-france.jpg",
+    "newName": "salon-vignerons-independants-paris-2025-france.jpg"
+  },
+  {
+    "type": "directory",
+    "oldPath": "Page/page-mecenat-ok",
+    "newPath": "Page/page-mecenat-ok",
+    "oldName": "Page Mécénat - ok",
+    "newName": "page-mecenat-ok"
+  },
+  {
+    "type": "directory",
+    "oldPath": "Page/page-notre-chai-dans-section-notre-terroir",
+    "newPath": "Page/page-notre-chai-dans-section-notre-terroir",
+    "oldName": "Page notre Chai dans séction Notre terroir",
+    "newName": "page-notre-chai-dans-section-notre-terroir"
+  },
+  {
+    "type": "file",
+    "oldPath": "Page/Page notre Chai dans séction Notre terroir/ancien-chai-semi-enterre-chateau-lastours-aop-aoc-gaillac-france.jpeg",
+    "newPath": "Page/Page notre Chai dans séction Notre terroir/ancien-chai-semi-enterre-chateau-lastours-aop-aoc-gaillac-france.jpeg",
+    "oldName": "ancien-chai-semi-enterré-chateau-lastours-aop-aoc-gaillac-france.jpeg",
+    "newName": "ancien-chai-semi-enterre-chateau-lastours-aop-aoc-gaillac-france.jpeg"
+  },
+  {
+    "type": "directory",
+    "oldPath": "Page/photo-background-notre-savoire-faire",
+    "newPath": "Page/photo-background-notre-savoire-faire",
+    "oldName": "Photo background notre Savoire-Faire",
+    "newName": "photo-background-notre-savoire-faire"
+  },
+  {
+    "type": "directory",
+    "oldPath": "Page/visite-ok",
+    "newPath": "Page/visite-ok",
+    "oldName": "Visite - ok",
+    "newName": "visite-ok"
+  },
+  {
+    "type": "file",
+    "oldPath": "Page/Visite - ok/jardins-a-la-francaise-buis-chateau-lastours-gaillac-france.jpg",
+    "newPath": "Page/Visite - ok/jardins-a-la-francaise-buis-chateau-lastours-gaillac-france.jpg",
+    "oldName": "jardins-a-la française-buis-chateau-lastours-gaillac-france.jpg",
+    "newName": "jardins-a-la-francaise-buis-chateau-lastours-gaillac-france.jpg"
+  },
+  {
+    "type": "directory",
+    "oldPath": "Page/common",
+    "newPath": "Page/common",
+    "oldName": "_common",
+    "newName": "common"
+  },
+  {
+    "type": "file",
+    "oldPath": "Page/homepage/chapelle-et-vignes.jpeg",
+    "newPath": "Page/homepage/chapelle-et-vignes.jpeg",
+    "oldName": "Chapelle et vignes.jpeg",
+    "newName": "chapelle-et-vignes.jpeg"
+  },
+  {
+    "type": "file",
+    "oldPath": "Page/homepage/chateau-cote-jardin.jpg",
+    "newPath": "Page/homepage/chateau-cote-jardin.jpg",
+    "oldName": "Château côté jardin.JPG",
+    "newName": "chateau-cote-jardin.jpg"
+  },
+  {
+    "type": "file",
+    "oldPath": "Page/homepage/mariage-au-chateau.jpg",
+    "newPath": "Page/homepage/mariage-au-chateau.jpg",
+    "oldName": "Mariage au château.jpg",
+    "newName": "mariage-au-chateau.jpg"
+  },
+  {
+    "type": "file",
+    "oldPath": "Page/homepage/nos-vins-gamme-petrichor.jpg",
+    "newPath": "Page/homepage/nos-vins-gamme-petrichor.jpg",
+    "oldName": "Nos vins gamme pétrichor.jpg",
+    "newName": "nos-vins-gamme-petrichor.jpg"
+  },
+  {
+    "type": "directory",
+    "oldPath": "Page/nos-cuvee-ok/gamme-confidentiel",
+    "newPath": "Page/nos-cuvee-ok/gamme-confidentiel",
+    "oldName": "Gamme Confidentiel",
+    "newName": "gamme-confidentiel"
+  },
+  {
+    "type": "directory",
+    "oldPath": "Page/nos-cuvee-ok/Gamme Confidentiel/page-cuvee-pigeonnier",
+    "newPath": "Page/nos-cuvee-ok/Gamme Confidentiel/page-cuvee-pigeonnier",
+    "oldName": "Page Cuvée Pigeonnier",
+    "newName": "page-cuvee-pigeonnier"
+  },
+  {
+    "type": "file",
+    "oldPath": "Page/nos-cuvee-ok/Gamme Confidentiel/Page Cuvée Pigeonnier/pigeonnier.jpg",
+    "newPath": "Page/nos-cuvee-ok/Gamme Confidentiel/Page Cuvée Pigeonnier/pigeonnier.jpg",
+    "oldName": "PIGEONNIER.jpg",
+    "newName": "pigeonnier.jpg"
+  },
+  {
+    "type": "file",
+    "oldPath": "Page/nos-cuvee-ok/Gamme Confidentiel/Page Cuvée Pigeonnier/pigeonnier.png",
+    "newPath": "Page/nos-cuvee-ok/Gamme Confidentiel/Page Cuvée Pigeonnier/pigeonnier.png",
+    "oldName": "PIGEONNIER.png",
+    "newName": "pigeonnier.png"
+  },
+  {
+    "type": "file",
+    "oldPath": "Page/nos-cuvee-ok/Gamme Confidentiel/Page Cuvée Pigeonnier/pigeonnier.svg",
+    "newPath": "Page/nos-cuvee-ok/Gamme Confidentiel/Page Cuvée Pigeonnier/pigeonnier.svg",
+    "oldName": "PIGEONNIER.svg",
+    "newName": "pigeonnier.svg"
+  },
+  {
+    "type": "file",
+    "oldPath": "Page/nos-cuvee-ok/Gamme Confidentiel/Page Cuvée Pigeonnier/pigeonnier-sf.png",
+    "newPath": "Page/nos-cuvee-ok/Gamme Confidentiel/Page Cuvée Pigeonnier/pigeonnier-sf.png",
+    "oldName": "PIGEONNIER_sf.png",
+    "newName": "pigeonnier-sf.png"
+  },
+  {
+    "type": "directory",
+    "oldPath": "Page/nos-cuvee-ok/Gamme Confidentiel/page-cuvee-claire-de-lune",
+    "newPath": "Page/nos-cuvee-ok/Gamme Confidentiel/page-cuvee-claire-de-lune",
+    "oldName": "Page cuvée Claire de Lune",
+    "newName": "page-cuvee-claire-de-lune"
+  },
+  {
+    "type": "file",
+    "oldPath": "Page/nos-cuvee-ok/Gamme Confidentiel/Page cuvée Claire de Lune/claire-de-lune.jpg",
+    "newPath": "Page/nos-cuvee-ok/Gamme Confidentiel/Page cuvée Claire de Lune/claire-de-lune.jpg",
+    "oldName": "CLAIRE DE LUNE.jpg",
+    "newName": "claire-de-lune.jpg"
+  },
+  {
+    "type": "file",
+    "oldPath": "Page/nos-cuvee-ok/Gamme Confidentiel/Page cuvée Claire de Lune/claire-de-lune.png",
+    "newPath": "Page/nos-cuvee-ok/Gamme Confidentiel/Page cuvée Claire de Lune/claire-de-lune.png",
+    "oldName": "CLAIRE DE LUNE.png",
+    "newName": "claire-de-lune.png"
+  },
+  {
+    "type": "file",
+    "oldPath": "Page/nos-cuvee-ok/Gamme Confidentiel/Page cuvée Claire de Lune/claire-de-lune.svg",
+    "newPath": "Page/nos-cuvee-ok/Gamme Confidentiel/Page cuvée Claire de Lune/claire-de-lune.svg",
+    "oldName": "CLAIRE DE LUNE.svg",
+    "newName": "claire-de-lune.svg"
+  },
+  {
+    "type": "file",
+    "oldPath": "Page/nos-cuvee-ok/Gamme Confidentiel/Page cuvée Claire de Lune/claire-de-lune-sf.png",
+    "newPath": "Page/nos-cuvee-ok/Gamme Confidentiel/Page cuvée Claire de Lune/claire-de-lune-sf.png",
+    "oldName": "CLAIRE_DE_LUNE_sf.png",
+    "newName": "claire-de-lune-sf.png"
+  },
+  {
+    "type": "directory",
+    "oldPath": "Page/nos-cuvee-ok/gamme-domeni",
+    "newPath": "Page/nos-cuvee-ok/gamme-domeni",
+    "oldName": "Gamme Domeni",
+    "newName": "gamme-domeni"
+  },
+  {
+    "type": "directory",
+    "oldPath": "Page/nos-cuvee-ok/Gamme Domeni/page-cuvee-domeni-rouge",
+    "newPath": "Page/nos-cuvee-ok/Gamme Domeni/page-cuvee-domeni-rouge",
+    "oldName": "Page Cuvée Domeni Rouge",
+    "newName": "page-cuvee-domeni-rouge"
+  },
+  {
+    "type": "file",
+    "oldPath": "Page/nos-cuvee-ok/Gamme Domeni/Page Cuvée Domeni Rouge/rouge-domeni.jpg",
+    "newPath": "Page/nos-cuvee-ok/Gamme Domeni/Page Cuvée Domeni Rouge/rouge-domeni.jpg",
+    "oldName": "ROUGE DOMENI.jpg",
+    "newName": "rouge-domeni.jpg"
+  },
+  {
+    "type": "file",
+    "oldPath": "Page/nos-cuvee-ok/Gamme Domeni/Page Cuvée Domeni Rouge/rouge-domeni.png",
+    "newPath": "Page/nos-cuvee-ok/Gamme Domeni/Page Cuvée Domeni Rouge/rouge-domeni.png",
+    "oldName": "ROUGE DOMENI.png",
+    "newName": "rouge-domeni.png"
+  },
+  {
+    "type": "file",
+    "oldPath": "Page/nos-cuvee-ok/Gamme Domeni/Page Cuvée Domeni Rouge/rouge-domeni.svg",
+    "newPath": "Page/nos-cuvee-ok/Gamme Domeni/Page Cuvée Domeni Rouge/rouge-domeni.svg",
+    "oldName": "ROUGE DOMENI.svg",
+    "newName": "rouge-domeni.svg"
+  },
+  {
+    "type": "file",
+    "oldPath": "Page/nos-cuvee-ok/Gamme Domeni/Page Cuvée Domeni Rouge/rouge-domeni-sf.png",
+    "newPath": "Page/nos-cuvee-ok/Gamme Domeni/Page Cuvée Domeni Rouge/rouge-domeni-sf.png",
+    "oldName": "ROUGE_DOMENI_sf.png",
+    "newName": "rouge-domeni-sf.png"
+  },
+  {
+    "type": "directory",
+    "oldPath": "Page/nos-cuvee-ok/Gamme Domeni/page-cuvee-domeni-blanc",
+    "newPath": "Page/nos-cuvee-ok/Gamme Domeni/page-cuvee-domeni-blanc",
+    "oldName": "Page Cuvée Domeni blanc",
+    "newName": "page-cuvee-domeni-blanc"
+  },
+  {
+    "type": "file",
+    "oldPath": "Page/nos-cuvee-ok/Gamme Domeni/Page Cuvée Domeni blanc/blanc-domeni.jpg",
+    "newPath": "Page/nos-cuvee-ok/Gamme Domeni/Page Cuvée Domeni blanc/blanc-domeni.jpg",
+    "oldName": "BLANC DOMENI.jpg",
+    "newName": "blanc-domeni.jpg"
+  },
+  {
+    "type": "file",
+    "oldPath": "Page/nos-cuvee-ok/Gamme Domeni/Page Cuvée Domeni blanc/blanc-domeni.png",
+    "newPath": "Page/nos-cuvee-ok/Gamme Domeni/Page Cuvée Domeni blanc/blanc-domeni.png",
+    "oldName": "BLANC DOMENI.png",
+    "newName": "blanc-domeni.png"
+  },
+  {
+    "type": "file",
+    "oldPath": "Page/nos-cuvee-ok/Gamme Domeni/Page Cuvée Domeni blanc/blanc-domeni.svg",
+    "newPath": "Page/nos-cuvee-ok/Gamme Domeni/Page Cuvée Domeni blanc/blanc-domeni.svg",
+    "oldName": "BLANC DOMENI.svg",
+    "newName": "blanc-domeni.svg"
+  },
+  {
+    "type": "file",
+    "oldPath": "Page/nos-cuvee-ok/Gamme Domeni/Page Cuvée Domeni blanc/blanc-domeni-sf.png",
+    "newPath": "Page/nos-cuvee-ok/Gamme Domeni/Page Cuvée Domeni blanc/blanc-domeni-sf.png",
+    "oldName": "BLANC_DOMENI_sf.png",
+    "newName": "blanc-domeni-sf.png"
+  },
+  {
+    "type": "directory",
+    "oldPath": "Page/nos-cuvee-ok/Gamme Domeni/page-cuvee-domeni-rose",
+    "newPath": "Page/nos-cuvee-ok/Gamme Domeni/page-cuvee-domeni-rose",
+    "oldName": "Page Cuvée domeni Rosé",
+    "newName": "page-cuvee-domeni-rose"
+  },
+  {
+    "type": "file",
+    "oldPath": "Page/nos-cuvee-ok/Gamme Domeni/Page Cuvée domeni Rosé/rose-domeni-sf.png",
+    "newPath": "Page/nos-cuvee-ok/Gamme Domeni/Page Cuvée domeni Rosé/rose-domeni-sf.png",
+    "oldName": "ROSE DOMENI-sf.png",
+    "newName": "rose-domeni-sf.png"
+  },
+  {
+    "type": "file",
+    "oldPath": "Page/nos-cuvee-ok/Gamme Domeni/Page Cuvée domeni Rosé/rose-domeni.jpg",
+    "newPath": "Page/nos-cuvee-ok/Gamme Domeni/Page Cuvée domeni Rosé/rose-domeni.jpg",
+    "oldName": "ROSE DOMENI.jpg",
+    "newName": "rose-domeni.jpg"
+  },
+  {
+    "type": "file",
+    "oldPath": "Page/nos-cuvee-ok/Gamme Domeni/Page Cuvée domeni Rosé/rose-domeni.png",
+    "newPath": "Page/nos-cuvee-ok/Gamme Domeni/Page Cuvée domeni Rosé/rose-domeni.png",
+    "oldName": "ROSE DOMENI.png",
+    "newName": "rose-domeni.png"
+  },
+  {
+    "type": "file",
+    "oldPath": "Page/nos-cuvee-ok/Gamme Domeni/Page Cuvée domeni Rosé/rose-domeni.svg",
+    "newPath": "Page/nos-cuvee-ok/Gamme Domeni/Page Cuvée domeni Rosé/rose-domeni.svg",
+    "oldName": "ROSE DOMENI.svg",
+    "newName": "rose-domeni.svg"
+  },
+  {
+    "type": "directory",
+    "oldPath": "Page/nos-cuvee-ok/gamme-methode-ancestral",
+    "newPath": "Page/nos-cuvee-ok/gamme-methode-ancestral",
+    "oldName": "Gamme Méthode Ancestral",
+    "newName": "gamme-methode-ancestral"
+  },
+  {
+    "type": "directory",
+    "oldPath": "Page/nos-cuvee-ok/Gamme Méthode Ancestral/page-methode-blanche",
+    "newPath": "Page/nos-cuvee-ok/Gamme Méthode Ancestral/page-methode-blanche",
+    "oldName": "Page Méthode Blanche",
+    "newName": "page-methode-blanche"
+  },
+  {
+    "type": "file",
+    "oldPath": "Page/nos-cuvee-ok/Gamme Méthode Ancestral/Page Méthode Blanche/la-methode-blanc.jpg",
+    "newPath": "Page/nos-cuvee-ok/Gamme Méthode Ancestral/Page Méthode Blanche/la-methode-blanc.jpg",
+    "oldName": "LA METHODE BLANC.jpg",
+    "newName": "la-methode-blanc.jpg"
+  },
+  {
+    "type": "file",
+    "oldPath": "Page/nos-cuvee-ok/Gamme Méthode Ancestral/Page Méthode Blanche/la-methode-blanc.png",
+    "newPath": "Page/nos-cuvee-ok/Gamme Méthode Ancestral/Page Méthode Blanche/la-methode-blanc.png",
+    "oldName": "LA METHODE BLANC.png",
+    "newName": "la-methode-blanc.png"
+  },
+  {
+    "type": "file",
+    "oldPath": "Page/nos-cuvee-ok/Gamme Méthode Ancestral/Page Méthode Blanche/la-methode-blanc.svg",
+    "newPath": "Page/nos-cuvee-ok/Gamme Méthode Ancestral/Page Méthode Blanche/la-methode-blanc.svg",
+    "oldName": "LA METHODE BLANC.svg",
+    "newName": "la-methode-blanc.svg"
+  },
+  {
+    "type": "file",
+    "oldPath": "Page/nos-cuvee-ok/Gamme Méthode Ancestral/Page Méthode Blanche/la-methode-blanc-st.png",
+    "newPath": "Page/nos-cuvee-ok/Gamme Méthode Ancestral/Page Méthode Blanche/la-methode-blanc-st.png",
+    "oldName": "LA_METHODE_BLANC_st.png",
+    "newName": "la-methode-blanc-st.png"
+  },
+  {
+    "type": "directory",
+    "oldPath": "Page/nos-cuvee-ok/Gamme Méthode Ancestral/page-methode-rose",
+    "newPath": "Page/nos-cuvee-ok/Gamme Méthode Ancestral/page-methode-rose",
+    "oldName": "Page Méthode Rosé",
+    "newName": "page-methode-rose"
+  },
+  {
+    "type": "file",
+    "oldPath": "Page/nos-cuvee-ok/Gamme Méthode Ancestral/Page Méthode Rosé/la-methode-blanc.svg",
+    "newPath": "Page/nos-cuvee-ok/Gamme Méthode Ancestral/Page Méthode Rosé/la-methode-blanc.svg",
+    "oldName": "LA METHODE BLANC.svg",
+    "newName": "la-methode-blanc.svg"
+  },
+  {
+    "type": "file",
+    "oldPath": "Page/nos-cuvee-ok/Gamme Méthode Ancestral/Page Méthode Rosé/la-methode-rose.jpg",
+    "newPath": "Page/nos-cuvee-ok/Gamme Méthode Ancestral/Page Méthode Rosé/la-methode-rose.jpg",
+    "oldName": "LA METHODE ROSE.jpg",
+    "newName": "la-methode-rose.jpg"
+  },
+  {
+    "type": "file",
+    "oldPath": "Page/nos-cuvee-ok/Gamme Méthode Ancestral/Page Méthode Rosé/la-methode-rose.png",
+    "newPath": "Page/nos-cuvee-ok/Gamme Méthode Ancestral/Page Méthode Rosé/la-methode-rose.png",
+    "oldName": "LA METHODE ROSE.png",
+    "newName": "la-methode-rose.png"
+  },
+  {
+    "type": "file",
+    "oldPath": "Page/nos-cuvee-ok/Gamme Méthode Ancestral/Page Méthode Rosé/la-methode-rose-sf.png",
+    "newPath": "Page/nos-cuvee-ok/Gamme Méthode Ancestral/Page Méthode Rosé/la-methode-rose-sf.png",
+    "oldName": "LA_METHODE_ROSE_SF.png",
+    "newName": "la-methode-rose-sf.png"
+  },
+  {
+    "type": "directory",
+    "oldPath": "Page/nos-cuvee-ok/gamme-opus",
+    "newPath": "Page/nos-cuvee-ok/gamme-opus",
+    "oldName": "Gamme Opus",
+    "newName": "gamme-opus"
+  },
+  {
+    "type": "directory",
+    "oldPath": "Page/nos-cuvee-ok/Gamme Opus/page-cuvee-opus-blanc",
+    "newPath": "Page/nos-cuvee-ok/Gamme Opus/page-cuvee-opus-blanc",
+    "oldName": "Page Cuvée Opus Blanc",
+    "newName": "page-cuvee-opus-blanc"
+  },
+  {
+    "type": "file",
+    "oldPath": "Page/nos-cuvee-ok/Gamme Opus/Page Cuvée Opus Blanc/blanc-opus.jpg",
+    "newPath": "Page/nos-cuvee-ok/Gamme Opus/Page Cuvée Opus Blanc/blanc-opus.jpg",
+    "oldName": "BLANC OPUS.jpg",
+    "newName": "blanc-opus.jpg"
+  },
+  {
+    "type": "file",
+    "oldPath": "Page/nos-cuvee-ok/Gamme Opus/Page Cuvée Opus Blanc/blanc-opus.png",
+    "newPath": "Page/nos-cuvee-ok/Gamme Opus/Page Cuvée Opus Blanc/blanc-opus.png",
+    "oldName": "BLANC OPUS.png",
+    "newName": "blanc-opus.png"
+  },
+  {
+    "type": "file",
+    "oldPath": "Page/nos-cuvee-ok/Gamme Opus/Page Cuvée Opus Blanc/blanc-opus.svg",
+    "newPath": "Page/nos-cuvee-ok/Gamme Opus/Page Cuvée Opus Blanc/blanc-opus.svg",
+    "oldName": "BLANC OPUS.svg",
+    "newName": "blanc-opus.svg"
+  },
+  {
+    "type": "file",
+    "oldPath": "Page/nos-cuvee-ok/Gamme Opus/Page Cuvée Opus Blanc/blanc-opus-sf.png",
+    "newPath": "Page/nos-cuvee-ok/Gamme Opus/Page Cuvée Opus Blanc/blanc-opus-sf.png",
+    "oldName": "BLANC_OPUS_sf.png",
+    "newName": "blanc-opus-sf.png"
+  },
+  {
+    "type": "directory",
+    "oldPath": "Page/nos-cuvee-ok/Gamme Opus/page-cuvee-opus-rouge",
+    "newPath": "Page/nos-cuvee-ok/Gamme Opus/page-cuvee-opus-rouge",
+    "oldName": "Page Cuvée Opus Rouge",
+    "newName": "page-cuvee-opus-rouge"
+  },
+  {
+    "type": "file",
+    "oldPath": "Page/nos-cuvee-ok/Gamme Opus/Page Cuvée Opus Rouge/rouge-opus.jpg",
+    "newPath": "Page/nos-cuvee-ok/Gamme Opus/Page Cuvée Opus Rouge/rouge-opus.jpg",
+    "oldName": "ROUGE OPUS.jpg",
+    "newName": "rouge-opus.jpg"
+  },
+  {
+    "type": "file",
+    "oldPath": "Page/nos-cuvee-ok/Gamme Opus/Page Cuvée Opus Rouge/rouge-opus.png",
+    "newPath": "Page/nos-cuvee-ok/Gamme Opus/Page Cuvée Opus Rouge/rouge-opus.png",
+    "oldName": "ROUGE OPUS.png",
+    "newName": "rouge-opus.png"
+  },
+  {
+    "type": "file",
+    "oldPath": "Page/nos-cuvee-ok/Gamme Opus/Page Cuvée Opus Rouge/rouge-opus.svg",
+    "newPath": "Page/nos-cuvee-ok/Gamme Opus/Page Cuvée Opus Rouge/rouge-opus.svg",
+    "oldName": "ROUGE OPUS.svg",
+    "newName": "rouge-opus.svg"
+  },
+  {
+    "type": "file",
+    "oldPath": "Page/nos-cuvee-ok/Gamme Opus/Page Cuvée Opus Rouge/rouge-opus-sf.png",
+    "newPath": "Page/nos-cuvee-ok/Gamme Opus/Page Cuvée Opus Rouge/rouge-opus-sf.png",
+    "oldName": "ROUGE_OPUS_sf.png",
+    "newName": "rouge-opus-sf.png"
+  },
+  {
+    "type": "directory",
+    "oldPath": "Page/nos-cuvee-ok/gamme-petrichor",
+    "newPath": "Page/nos-cuvee-ok/gamme-petrichor",
+    "oldName": "Gamme Petrichor",
+    "newName": "gamme-petrichor"
+  },
+  {
+    "type": "directory",
+    "oldPath": "Page/nos-cuvee-ok/Gamme Petrichor/page-cuvee-pertichor-rouge",
+    "newPath": "Page/nos-cuvee-ok/Gamme Petrichor/page-cuvee-pertichor-rouge",
+    "oldName": "Page Cuvée Pertichor Rouge",
+    "newName": "page-cuvee-pertichor-rouge"
+  },
+  {
+    "type": "file",
+    "oldPath": "Page/nos-cuvee-ok/Gamme Petrichor/Page Cuvée Pertichor Rouge/petrichor-rouge.png",
+    "newPath": "Page/nos-cuvee-ok/Gamme Petrichor/Page Cuvée Pertichor Rouge/petrichor-rouge.png",
+    "oldName": "PETRICHOR ROUGE.png",
+    "newName": "petrichor-rouge.png"
+  },
+  {
+    "type": "file",
+    "oldPath": "Page/nos-cuvee-ok/Gamme Petrichor/Page Cuvée Pertichor Rouge/petrichor-st.png",
+    "newPath": "Page/nos-cuvee-ok/Gamme Petrichor/Page Cuvée Pertichor Rouge/petrichor-st.png",
+    "oldName": "PETRICHOR_st.png",
+    "newName": "petrichor-st.png"
+  },
+  {
+    "type": "file",
+    "oldPath": "Page/nos-cuvee-ok/Gamme Petrichor/Page Cuvée Pertichor Rouge/petrichor-rouge.jpg",
+    "newPath": "Page/nos-cuvee-ok/Gamme Petrichor/Page Cuvée Pertichor Rouge/petrichor-rouge.jpg",
+    "oldName": "Pétrichor Rouge.jpg",
+    "newName": "petrichor-rouge.jpg"
+  },
+  {
+    "type": "file",
+    "oldPath": "Page/nos-cuvee-ok/Gamme Petrichor/Page Cuvée Pertichor Rouge/petrichor-rouge.svg",
+    "newPath": "Page/nos-cuvee-ok/Gamme Petrichor/Page Cuvée Pertichor Rouge/petrichor-rouge.svg",
+    "oldName": "Pétrichor Rouge.svg",
+    "newName": "petrichor-rouge.svg"
+  },
+  {
+    "type": "directory",
+    "oldPath": "Page/nos-cuvee-ok/Gamme Petrichor/page-cuvee-petrichor-rose",
+    "newPath": "Page/nos-cuvee-ok/Gamme Petrichor/page-cuvee-petrichor-rose",
+    "oldName": "Page Cuvée Petrichor Rosé",
+    "newName": "page-cuvee-petrichor-rose"
+  },
+  {
+    "type": "file",
+    "oldPath": "Page/nos-cuvee-ok/Gamme Petrichor/Page Cuvée Petrichor Rosé/petrichor-ros-sf.png",
+    "newPath": "Page/nos-cuvee-ok/Gamme Petrichor/Page Cuvée Petrichor Rosé/petrichor-ros-sf.png",
+    "oldName": "PETRICHOR__Ros_SF.png",
+    "newName": "petrichor-ros-sf.png"
+  },
+  {
+    "type": "file",
+    "oldPath": "Page/nos-cuvee-ok/Gamme Petrichor/Page Cuvée Petrichor Rosé/petrichor-rose.svg",
+    "newPath": "Page/nos-cuvee-ok/Gamme Petrichor/Page Cuvée Petrichor Rosé/petrichor-rose.svg",
+    "oldName": "Petrichor Rosé.svg",
+    "newName": "petrichor-rose.svg"
+  },
+  {
+    "type": "file",
+    "oldPath": "Page/nos-cuvee-ok/Gamme Petrichor/Page Cuvée Petrichor Rosé/petrichor-rose.jpg",
+    "newPath": "Page/nos-cuvee-ok/Gamme Petrichor/Page Cuvée Petrichor Rosé/petrichor-rose.jpg",
+    "oldName": "Petrichor rosé.jpg",
+    "newName": "petrichor-rose.jpg"
+  },
+  {
+    "type": "file",
+    "oldPath": "Page/nos-cuvee-ok/Gamme Petrichor/Page Cuvée Petrichor Rosé/petrichor-rose.png",
+    "newPath": "Page/nos-cuvee-ok/Gamme Petrichor/Page Cuvée Petrichor Rosé/petrichor-rose.png",
+    "oldName": "Petrichor rosé.png",
+    "newName": "petrichor-rose.png"
+  },
+  {
+    "type": "directory",
+    "oldPath": "Page/nos-cuvee-ok/gamme-perle",
+    "newPath": "Page/nos-cuvee-ok/gamme-perle",
+    "oldName": "Gamme perlé",
+    "newName": "gamme-perle"
+  },
+  {
+    "type": "directory",
+    "oldPath": "Page/nos-cuvee-ok/Gamme perlé/page-cuvee-perle",
+    "newPath": "Page/nos-cuvee-ok/Gamme perlé/page-cuvee-perle",
+    "oldName": "Page cuvée Perlé",
+    "newName": "page-cuvee-perle"
+  },
+  {
+    "type": "file",
+    "oldPath": "Page/nos-cuvee-ok/Gamme perlé/Page cuvée Perlé/blanc-perle.jpg",
+    "newPath": "Page/nos-cuvee-ok/Gamme perlé/Page cuvée Perlé/blanc-perle.jpg",
+    "oldName": "BLANC PERLE.jpg",
+    "newName": "blanc-perle.jpg"
+  },
+  {
+    "type": "file",
+    "oldPath": "Page/nos-cuvee-ok/Gamme perlé/Page cuvée Perlé/blanc-perle.png",
+    "newPath": "Page/nos-cuvee-ok/Gamme perlé/Page cuvée Perlé/blanc-perle.png",
+    "oldName": "BLANC PERLE.png",
+    "newName": "blanc-perle.png"
+  },
+  {
+    "type": "file",
+    "oldPath": "Page/nos-cuvee-ok/Gamme perlé/Page cuvée Perlé/blanc-perle.svg",
+    "newPath": "Page/nos-cuvee-ok/Gamme perlé/Page cuvée Perlé/blanc-perle.svg",
+    "oldName": "BLANC PERLE.svg",
+    "newName": "blanc-perle.svg"
+  },
+  {
+    "type": "file",
+    "oldPath": "Page/nos-cuvee-ok/Gamme perlé/Page cuvée Perlé/blanc-perle-sf.png",
+    "newPath": "Page/nos-cuvee-ok/Gamme perlé/Page cuvée Perlé/blanc-perle-sf.png",
+    "oldName": "BLANC_PERLE_sf.png",
+    "newName": "blanc-perle-sf.png"
+  },
+  {
+    "type": "directory",
+    "oldPath": "Page/nos-cuvee-ok/gamme-poussin",
+    "newPath": "Page/nos-cuvee-ok/gamme-poussin",
+    "oldName": "Gamme poussin",
+    "newName": "gamme-poussin"
+  },
+  {
+    "type": "directory",
+    "oldPath": "Page/nos-cuvee-ok/Gamme poussin/page-cuvee-poussin-rose",
+    "newPath": "Page/nos-cuvee-ok/Gamme poussin/page-cuvee-poussin-rose",
+    "oldName": "Page Cuvée Poussin Rosé",
+    "newName": "page-cuvee-poussin-rose"
+  },
+  {
+    "type": "file",
+    "oldPath": "Page/nos-cuvee-ok/Gamme poussin/Page Cuvée Poussin Rosé/poussin-rose-sf.png",
+    "newPath": "Page/nos-cuvee-ok/Gamme poussin/Page Cuvée Poussin Rosé/poussin-rose-sf.png",
+    "oldName": "POUSSIN ROSE-SF.png",
+    "newName": "poussin-rose-sf.png"
+  },
+  {
+    "type": "file",
+    "oldPath": "Page/nos-cuvee-ok/Gamme poussin/Page Cuvée Poussin Rosé/poussin-rose.jpg",
+    "newPath": "Page/nos-cuvee-ok/Gamme poussin/Page Cuvée Poussin Rosé/poussin-rose.jpg",
+    "oldName": "POUSSIN ROSE.jpg",
+    "newName": "poussin-rose.jpg"
+  },
+  {
+    "type": "file",
+    "oldPath": "Page/nos-cuvee-ok/Gamme poussin/Page Cuvée Poussin Rosé/poussin-rose.png",
+    "newPath": "Page/nos-cuvee-ok/Gamme poussin/Page Cuvée Poussin Rosé/poussin-rose.png",
+    "oldName": "POUSSIN ROSE.png",
+    "newName": "poussin-rose.png"
+  },
+  {
+    "type": "file",
+    "oldPath": "Page/nos-cuvee-ok/Gamme poussin/Page Cuvée Poussin Rosé/poussin-rose.svg",
+    "newPath": "Page/nos-cuvee-ok/Gamme poussin/Page Cuvée Poussin Rosé/poussin-rose.svg",
+    "oldName": "POUSSIN ROSE.svg",
+    "newName": "poussin-rose.svg"
+  },
+  {
+    "type": "directory",
+    "oldPath": "Page/nos-cuvee-ok/Gamme poussin/page-cuvee-poussin-blanc",
+    "newPath": "Page/nos-cuvee-ok/Gamme poussin/page-cuvee-poussin-blanc",
+    "oldName": "Page Cuvée poussin Blanc",
+    "newName": "page-cuvee-poussin-blanc"
+  },
+  {
+    "type": "file",
+    "oldPath": "Page/nos-cuvee-ok/Gamme poussin/Page Cuvée poussin Blanc/poussin-blanc-sf.png",
+    "newPath": "Page/nos-cuvee-ok/Gamme poussin/Page Cuvée poussin Blanc/poussin-blanc-sf.png",
+    "oldName": "POUSSIN BLANC-SF.png",
+    "newName": "poussin-blanc-sf.png"
+  },
+  {
+    "type": "file",
+    "oldPath": "Page/nos-cuvee-ok/Gamme poussin/Page Cuvée poussin Blanc/poussin-blanc.jpg",
+    "newPath": "Page/nos-cuvee-ok/Gamme poussin/Page Cuvée poussin Blanc/poussin-blanc.jpg",
+    "oldName": "POUSSIN BLANC.jpg",
+    "newName": "poussin-blanc.jpg"
+  },
+  {
+    "type": "file",
+    "oldPath": "Page/nos-cuvee-ok/Gamme poussin/Page Cuvée poussin Blanc/poussin-blanc.png",
+    "newPath": "Page/nos-cuvee-ok/Gamme poussin/Page Cuvée poussin Blanc/poussin-blanc.png",
+    "oldName": "POUSSIN BLANC.png",
+    "newName": "poussin-blanc.png"
+  },
+  {
+    "type": "file",
+    "oldPath": "Page/nos-cuvee-ok/Gamme poussin/Page Cuvée poussin Blanc/poussin-blanc.svg",
+    "newPath": "Page/nos-cuvee-ok/Gamme poussin/Page Cuvée poussin Blanc/poussin-blanc.svg",
+    "oldName": "POUSSIN BLANC.svg",
+    "newName": "poussin-blanc.svg"
+  },
+  {
+    "type": "directory",
+    "oldPath": "photos-web-lastours/bouteilles",
+    "newPath": "photos-web-lastours/bouteilles",
+    "oldName": "BOUTEILLES",
+    "newName": "bouteilles"
+  },
+  {
+    "type": "file",
+    "oldPath": "photos-web-lastours/BOUTEILLES/par-gamme/gamme-confidentielle.jpg",
+    "newPath": "photos-web-lastours/BOUTEILLES/par-gamme/gamme-confidentielle.jpg",
+    "oldName": "Gamme Confidentielle.jpg",
+    "newName": "gamme-confidentielle.jpg"
+  },
+  {
+    "type": "file",
+    "oldPath": "photos-web-lastours/BOUTEILLES/par-gamme/gamme-domeni.jpg",
+    "newPath": "photos-web-lastours/BOUTEILLES/par-gamme/gamme-domeni.jpg",
+    "oldName": "Gamme Domeni.jpg",
+    "newName": "gamme-domeni.jpg"
+  },
+  {
+    "type": "file",
+    "oldPath": "photos-web-lastours/BOUTEILLES/par-gamme/gamme-m-thode.jpg",
+    "newPath": "photos-web-lastours/BOUTEILLES/par-gamme/gamme-m-thode.jpg",
+    "oldName": "Gamme M‚thode.jpg",
+    "newName": "gamme-m-thode.jpg"
+  },
+  {
+    "type": "file",
+    "oldPath": "photos-web-lastours/BOUTEILLES/par-gamme/gamme-opus.jpg",
+    "newPath": "photos-web-lastours/BOUTEILLES/par-gamme/gamme-opus.jpg",
+    "oldName": "Gamme Opus.jpg",
+    "newName": "gamme-opus.jpg"
+  },
+  {
+    "type": "file",
+    "oldPath": "photos-web-lastours/BOUTEILLES/par-gamme/gamme-poussin.jpg",
+    "newPath": "photos-web-lastours/BOUTEILLES/par-gamme/gamme-poussin.jpg",
+    "oldName": "Gamme Poussin.jpg",
+    "newName": "gamme-poussin.jpg"
+  },
+  {
+    "type": "directory",
+    "oldPath": "photos-web-lastours/drone-croix-occitane",
+    "newPath": "photos-web-lastours/drone-croix-occitane",
+    "oldName": "DRONE-CROIX-OCCITANE",
+    "newName": "drone-croix-occitane"
+  },
+  {
+    "type": "directory",
+    "oldPath": "photos-web-lastours/event",
+    "newPath": "photos-web-lastours/event",
+    "oldName": "EVENT",
+    "newName": "event"
+  },
+  {
+    "type": "directory",
+    "oldPath": "photos-web-lastours/EVENT/soiree-top100uk-2024",
+    "newPath": "photos-web-lastours/EVENT/soiree-top100uk-2024",
+    "oldName": "SOIREE-TOP100UK-2024",
+    "newName": "soiree-top100uk-2024"
+  },
+  {
+    "type": "directory",
+    "oldPath": "photos-web-lastours/EVENT/uag-drone",
+    "newPath": "photos-web-lastours/EVENT/uag-drone",
+    "oldName": "UAG-DRONE",
+    "newName": "uag-drone"
+  },
+  {
+    "type": "directory",
+    "oldPath": "photos-web-lastours/EVENT/wineparis",
+    "newPath": "photos-web-lastours/EVENT/wineparis",
+    "oldName": "WINEPARIS",
+    "newName": "wineparis"
+  },
+  {
+    "type": "directory",
+    "oldPath": "photos-web-lastours/logo",
+    "newPath": "photos-web-lastours/logo",
+    "oldName": "LOGO",
+    "newName": "logo"
+  },
+  {
+    "type": "directory",
+    "oldPath": "photos-web-lastours/LOGO/hve-3",
+    "newPath": "photos-web-lastours/LOGO/hve-3",
+    "oldName": "HVE 3",
+    "newName": "hve-3"
+  },
+  {
+    "type": "directory",
+    "oldPath": "photos-web-lastours/oenotourisme-gv",
+    "newPath": "photos-web-lastours/oenotourisme-gv",
+    "oldName": "OENOTOURISME-GV",
+    "newName": "oenotourisme-gv"
+  },
+  {
+    "type": "directory",
+    "oldPath": "photos-web-lastours/OENOTOURISME-GV/event-caveau",
+    "newPath": "photos-web-lastours/OENOTOURISME-GV/event-caveau",
+    "oldName": "Event-caveau",
+    "newName": "event-caveau"
+  },
+  {
+    "type": "directory",
+    "oldPath": "photos-web-lastours/OENOTOURISME-GV/salle-reception",
+    "newPath": "photos-web-lastours/OENOTOURISME-GV/salle-reception",
+    "oldName": "Salle-reception",
+    "newName": "salle-reception"
+  },
+  {
+    "type": "directory",
+    "oldPath": "photos-web-lastours/OENOTOURISME-GV/salle-seminaire",
+    "newPath": "photos-web-lastours/OENOTOURISME-GV/salle-seminaire",
+    "oldName": "Salle-seminaire",
+    "newName": "salle-seminaire"
+  },
+  {
+    "type": "directory",
+    "oldPath": "photos-web-lastours/OENOTOURISME-GV/tente",
+    "newPath": "photos-web-lastours/OENOTOURISME-GV/tente",
+    "oldName": "Tente",
+    "newName": "tente"
+  },
+  {
+    "type": "directory",
+    "oldPath": "photos-web-lastours/pigeonnier",
+    "newPath": "photos-web-lastours/pigeonnier",
+    "oldName": "PIGEONNIER",
+    "newName": "pigeonnier"
+  },
+  {
+    "type": "directory",
+    "oldPath": "photos-web-lastours/PIGEONNIER/photos-restauration",
+    "newPath": "photos-web-lastours/PIGEONNIER/photos-restauration",
+    "oldName": "Photos restauration",
+    "newName": "photos-restauration"
+  },
+  {
+    "type": "directory",
+    "oldPath": "photos-web-lastours/PIGEONNIER/pigeonnier-restaure",
+    "newPath": "photos-web-lastours/PIGEONNIER/pigeonnier-restaure",
+    "oldName": "Pigeonnier restauré",
+    "newName": "pigeonnier-restaure"
+  },
+  {
+    "type": "directory",
+    "oldPath": "photos-web-lastours/PIGEONNIER/pigeonnier-vetuste",
+    "newPath": "photos-web-lastours/PIGEONNIER/pigeonnier-vetuste",
+    "oldName": "Pigeonnier vétuste",
+    "newName": "pigeonnier-vetuste"
+  },
+  {
+    "type": "directory",
+    "oldPath": "photos-web-lastours/vignes",
+    "newPath": "photos-web-lastours/vignes",
+    "oldName": "VIGNES",
+    "newName": "vignes"
+  },
+  {
+    "type": "file",
+    "oldPath": "photos-web-lastours/VIGNES/img-20230809-124834.jpg",
+    "newPath": "photos-web-lastours/VIGNES/img-20230809-124834.jpg",
+    "oldName": "IMG_20230809_124834.jpg",
+    "newName": "img-20230809-124834.jpg"
+  },
+  {
+    "type": "file",
+    "oldPath": "photos-web-lastours/VIGNES/vieille-vigne.jpg",
+    "newPath": "photos-web-lastours/VIGNES/vieille-vigne.jpg",
+    "oldName": "vieille vigne.jpg",
+    "newName": "vieille-vigne.jpg"
+  },
+  {
+    "type": "directory",
+    "oldPath": "photos-web-lastours/vinification",
+    "newPath": "photos-web-lastours/vinification",
+    "oldName": "VINIFICATION",
+    "newName": "vinification"
+  },
+  {
+    "type": "file",
+    "oldPath": "photos-web-lastours/VINIFICATION/capture-ameyric-prod.jpg",
+    "newPath": "photos-web-lastours/VINIFICATION/capture-ameyric-prod.jpg",
+    "oldName": "Capture ameyric prod.JPG",
+    "newName": "capture-ameyric-prod.jpg"
+  }
+]

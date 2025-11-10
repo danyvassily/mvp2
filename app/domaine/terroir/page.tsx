@@ -11,7 +11,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Notre Vignoble | Château Lastours", 
     description: "Un terroir d'exception au cœur de l'appellation Gaillac",
-    images: ["/PHOTOS-WEB-LASTOURS/VIGNES/vignes.jpg"],
+    images: ["/photos-web-lastours/vignes/vignes.jpg"],
   },
 };
 
@@ -21,7 +21,7 @@ const terroirData = {
     title: "Le Vignoble de Gaillac",
     subtitle: "Un Voyage Millénaire au Cœur du Sud-Ouest",
     description: "Aux confins du Sud-Ouest de la France, entre Toulouse et Albi, s'étend un vignoble ancestral, vibrant d'histoire et de mémoire : le terroir de Gaillac. Ici, la vigne pousse depuis plus de deux millénaires.",
-    image: "/PHOTOS-WEB-LASTOURS/VIGNES/vignes.jpg"
+    image: "/photos-web-lastours/vignes/vignes.jpg"
   },
   stats: [
     {
@@ -56,14 +56,14 @@ const terroirData = {
     description: "Le climat de Gaillac se situe à la croisée des influences atlantiques et méditerranéennes, offrant des étés ensoleillés et des nuits rafraîchies par les brumes du Tarn. Les sols argilo-calcaires, riches en minéraux, donnent profondeur et caractère aux raisins.",
     description2: "Ici, la nature est généreuse et contrastée. Cette région où l'on cultive l'art de vivre aussi bien que celui du vin offre un terroir vivant et vibrant.",
     description3: "Dans cette harmonie entre tradition et nature, chaque parcelle révèle son caractère unique et contribue à l'identité authentique des vins de Gaillac.",
-    image: "/PHOTOS-WEB-LASTOURS/VIGNES/IMG_20230809_124834.jpg"
+    image: "/photos-web-lastours/vignes/img-20230809-124834.jpg"
   },
   parcelles: [
     {
       id: "rive-droite",
       title: "La Rive Droite",
       description: "Nos parcelles historiques s'étendent sur la rive droite du Tarn, bénéficiant d'une exposition sud exceptionnelle. Ces vignes anciennes, cultivées selon les méthodes traditionnelles, produisent nos cuvées les plus authentiques.",
-      image: "/PHOTOS-WEB-LASTOURS/VIGNES/vieille vigne.jpg",
+      image: "/photos-web-lastours/vignes/vieille-vigne.jpg",
       superficie: "18 hectares",
       cepages: "Braucol, Duras",
       age: "35 ans"
@@ -110,7 +110,7 @@ export default function TerroirPage() {
         {/* Image de fond avec parallax subtil */}
         <div className="absolute inset-0">
           <img
-            src="/Page/La vigne - ok/grappe-de-raisins-en-veraison-chateau-lastours-gaillac-france.jpg"
+            src="/page/la-vigne-ok/grappe-de-raisins-en-veraison-chateau-lastours-gaillac-france.jpg"
             alt="Notre Terroir - Vignoble Château Lastours"
             className="absolute inset-0 w-full h-full object-cover scale-105 transition-transform duration-700 hover:scale-100"
           />

@@ -62,7 +62,7 @@ export default function NotreVignoblePage() {
     <div className="min-h-screen bg-white" data-page="notre-vignoble">
       {/* Hero Section */}
       <HeroVignoble
-        imageSrc="/Page/Notre vignoble - manque 1 photo/vignes-ciel-bleu-gaillac-france.jpg"
+        imageSrc="/page/notre-vignoble-manque-1-photo/vignes-ciel-bleu-gaillac-france.jpg"
         title="Le vignoble de Gaillac : un voyage millénaire au cœur du Sud-Ouest"
         description="Bienvenue au cœur du Sud-Ouest de la France, où l'histoire et la nature se rencontrent pour offrir l'un des terroirs viticoles les plus anciens et prestigieux au monde."
       />
@@ -80,7 +80,7 @@ export default function NotreVignoblePage() {
             </p>
           </>
         }
-        imageSrc="/Page/Notre vignoble - manque 1 photo/vieille-vigne-tronc-tordu.jpg"
+        imageSrc="/page/notre-vignoble-manque-1-photo/vieille-vigne-tronc-tordu.jpg"
         imageAlt="Vignoble ancien en France, vignoble de Gaillac"
         imagePosition="left"
       />
@@ -98,7 +98,7 @@ export default function NotreVignoblePage() {
             </p>
           </>
         }
-        imageSrc="/Page/Notre vignoble - manque 1 photo/allee-de-platane-hiver-gaillac-france.jpeg"
+        imageSrc="/page/notre-vignoble-manque-1-photo/allee-de-platane-hiver-gaillac-france.jpeg"
         imageAlt="Ancien monastère bénédictin au bord de la rivière Tarn, Sud-Ouest"
         imagePosition="right"
       />
@@ -126,7 +126,7 @@ export default function NotreVignoblePage() {
             </p>
           </>
         }
-        imageSrc="/Page/Notre vignoble - manque 1 photo/vignes-allee-de-platane-gaillac-france.jpg"
+        imageSrc="/page/notre-vignoble-manque-1-photo/vignes-allee-de-platane-gaillac-france.jpg"
         imageAlt="Sols argilo-calcaires dans vignoble de Gaillac"
         imagePosition="left"
       />
@@ -144,7 +144,7 @@ export default function NotreVignoblePage() {
             </p>
           </>
         }
-        imageSrc="/Page/Notre vignoble - manque 1 photo/vignes-vue-de-haut-fille-qui-marche.JPG"
+        imageSrc="/page/notre-vignoble-manque-1-photo/vignes-vue-de-haut-fille-qui-marche.jpg"
         imageAlt="Vignoble Château Lastours, vin de Gaillac bio"
         imagePosition="right"
         ctaText="Explorez notre gamme"
@@ -164,7 +164,7 @@ export default function NotreVignoblePage() {
             </p>
           </>
         }
-        imageSrc="/Page/Notre vignoble - manque 1 photo/verre-de-methode-blanc-lastours-gaillac-france.jpg"
+        imageSrc="/page/notre-vignoble-manque-1-photo/verre-de-methode-blanc-lastours-gaillac-france.jpg"
         imageAlt="Verres de vin rouge et blanc"
         imagePosition="left"
         ctaText="Commander en ligne"
@@ -184,7 +184,7 @@ export default function NotreVignoblePage() {
             </p>
           </>
         }
-        imageSrc="/Page/Notre vignoble - manque 1 photo/vignes-ciel-bleu-gaillac-france.jpg"
+        imageSrc="/page/notre-vignoble-manque-1-photo/vignes-ciel-bleu-gaillac-france.jpg"
         imageAlt="Paysage vignoble Gaillac au coucher de soleil"
         imagePosition="right"
       />

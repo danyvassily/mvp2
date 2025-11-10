@@ -1,0 +1,643 @@
+{
+  "timestamp": "2025-11-10T13:37:49.138Z",
+  "totalRoutes": 113,
+  "validHrefs": 17,
+  "invalidHrefs": 104,
+  "invalidRoutes": [
+    {
+      "href": "/actualites",
+      "cleanHref": "/actualites",
+      "file": "app/actualites/[slug]/page.tsx"
+    },
+    {
+      "href": "/actualites#newsletter",
+      "cleanHref": "/actualites#newsletter",
+      "file": "app/actualites/[slug]/page.tsx"
+    },
+    {
+      "href": "/club",
+      "cleanHref": "/club",
+      "file": "app/club/inscription/page.tsx"
+    },
+    {
+      "href": "/cgv",
+      "cleanHref": "/cgv",
+      "file": "app/club/inscription/page.tsx"
+    },
+    {
+      "href": "/politique-confidentialite",
+      "cleanHref": "/politique-confidentialite",
+      "file": "app/club/inscription/page.tsx"
+    },
+    {
+      "href": "/club",
+      "cleanHref": "/club",
+      "file": "app/club/inscription/page.tsx"
+    },
+    {
+      "href": "/club/inscription",
+      "cleanHref": "/club/inscription",
+      "file": "app/club/page.tsx"
+    },
+    {
+      "href": "/club/inscription",
+      "cleanHref": "/club/inscription",
+      "file": "app/club/page.tsx"
+    },
+    {
+      "href": "/club/inscription",
+      "cleanHref": "/club/inscription",
+      "file": "app/club/page.tsx"
+    },
+    {
+      "href": "/reservation",
+      "cleanHref": "/reservation",
+      "file": "app/club/page.tsx"
+    },
+    {
+      "href": "/compte/parametres",
+      "cleanHref": "/compte/parametres",
+      "file": "app/compte/page.tsx"
+    },
+    {
+      "href": "/compte/commandes",
+      "cleanHref": "/compte/commandes",
+      "file": "app/compte/page.tsx"
+    },
+    {
+      "href": "/compte/favoris",
+      "cleanHref": "/compte/favoris",
+      "file": "app/compte/page.tsx"
+    },
+    {
+      "href": "/club",
+      "cleanHref": "/club",
+      "file": "app/compte/page.tsx"
+    },
+    {
+      "href": "/compte/parametres",
+      "cleanHref": "/compte/parametres",
+      "file": "app/compte/page.tsx"
+    },
+    {
+      "href": "/reservation",
+      "cleanHref": "/reservation",
+      "file": "app/de-la-vigne-a-la-bouteille/page.tsx"
+    },
+    {
+      "href": "/reservation",
+      "cleanHref": "/reservation",
+      "file": "app/de-la-vigne-a-la-bouteille/page.tsx"
+    },
+    {
+      "href": "/reservation",
+      "cleanHref": "/reservation",
+      "file": "app/degustation/page.tsx"
+    },
+    {
+      "href": "/reservation",
+      "cleanHref": "/reservation",
+      "file": "app/degustation/page.tsx"
+    },
+    {
+      "href": "/reservation",
+      "cleanHref": "/reservation",
+      "file": "app/domaine/engagement/page.tsx"
+    },
+    {
+      "href": "/notre-vignoble",
+      "cleanHref": "/notre-vignoble",
+      "file": "app/domaine/histoire/page.tsx"
+    },
+    {
+      "href": "/reservation",
+      "cleanHref": "/reservation",
+      "file": "app/domaine/team/page.tsx"
+    },
+    {
+      "href": "/reservation",
+      "cleanHref": "/reservation",
+      "file": "app/domaine/terroir/page.tsx"
+    },
+    {
+      "href": "/reservation",
+      "cleanHref": "/reservation",
+      "file": "app/domaine/terroir/page.tsx"
+    },
+    {
+      "href": "/savoir-faire/vigne",
+      "cleanHref": "/savoir-faire/vigne",
+      "file": "app/domaine/terroir/page.tsx"
+    },
+    {
+      "href": "/evenements/reservation",
+      "cleanHref": "/evenements/reservation",
+      "file": "app/evenements/[slug]/page.tsx"
+    },
+    {
+      "href": "/evenements/reservation",
+      "cleanHref": "/evenements/reservation",
+      "file": "app/evenements/page.tsx"
+    },
+    {
+      "href": "/evenements/reservation",
+      "cleanHref": "/evenements/reservation",
+      "file": "app/evenements/page.tsx"
+    },
+    {
+      "href": "/evenements/organiser",
+      "cleanHref": "/evenements/organiser",
+      "file": "app/evenements/page.tsx"
+    },
+    {
+      "href": "/reservation",
+      "cleanHref": "/reservation",
+      "file": "app/gastronomie/page.tsx"
+    },
+    {
+      "href": "/degustation",
+      "cleanHref": "/degustation",
+      "file": "app/gastronomie/page.tsx"
+    },
+    {
+      "href": "/reservation",
+      "cleanHref": "/reservation",
+      "file": "app/le-cycle-de-la-vigne/page.tsx"
+    },
+    {
+      "href": "/les-vins/domeni-blanc",
+      "cleanHref": "/les-vins/domeni-blanc",
+      "file": "app/les-vins/page-simple.tsx"
+    },
+    {
+      "href": "/Page/Nos Cuvée-ok/Gamme Domeni/Page Cuvée Domeni blanc/FT_blanc_Domeni 2024.pdf",
+      "cleanHref": "/Page/Nos Cuvée-ok/Gamme Domeni/Page Cuvée Domeni blanc/FT_blanc_Domeni 2024.pdf",
+      "file": "app/les-vins/page-simple.tsx"
+    },
+    {
+      "href": "/les-vins/domeni-rose",
+      "cleanHref": "/les-vins/domeni-rose",
+      "file": "app/les-vins/page-simple.tsx"
+    },
+    {
+      "href": "/Page/Nos Cuvée-ok/Gamme Domeni/Page Cuvée domeni Rosé/FT_rosé_Domeni_2024 (1).pdf",
+      "cleanHref": "/Page/Nos Cuvée-ok/Gamme Domeni/Page Cuvée domeni Rosé/FT_rosé_Domeni_2024 (1).pdf",
+      "file": "app/les-vins/page-simple.tsx"
+    },
+    {
+      "href": "/les-vins/domeni-rouge",
+      "cleanHref": "/les-vins/domeni-rouge",
+      "file": "app/les-vins/page-simple.tsx"
+    },
+    {
+      "href": "/Page/Nos Cuvée-ok/Gamme Domeni/Page Cuvée Domeni Rouge/FT_rouge_Domeni_2022.pdf",
+      "cleanHref": "/Page/Nos Cuvée-ok/Gamme Domeni/Page Cuvée Domeni Rouge/FT_rouge_Domeni_2022.pdf",
+      "file": "app/les-vins/page-simple.tsx"
+    },
+    {
+      "href": "/les-vins/opus-blanc",
+      "cleanHref": "/les-vins/opus-blanc",
+      "file": "app/les-vins/page-simple.tsx"
+    },
+    {
+      "href": "/Page/Nos Cuvée-ok/Gamme Opus/Page Cuvée Opus Blanc/FT_blanc_Opus_2023.pdf",
+      "cleanHref": "/Page/Nos Cuvée-ok/Gamme Opus/Page Cuvée Opus Blanc/FT_blanc_Opus_2023.pdf",
+      "file": "app/les-vins/page-simple.tsx"
+    },
+    {
+      "href": "/les-vins/opus-rouge",
+      "cleanHref": "/les-vins/opus-rouge",
+      "file": "app/les-vins/page-simple.tsx"
+    },
+    {
+      "href": "/Page/Nos Cuvée-ok/Gamme Opus/Page Cuvée Opus Rouge/FT_rouge_opus_2021.pdf",
+      "cleanHref": "/Page/Nos Cuvée-ok/Gamme Opus/Page Cuvée Opus Rouge/FT_rouge_opus_2021.pdf",
+      "file": "app/les-vins/page-simple.tsx"
+    },
+    {
+      "href": "/les-vins/methode-blanc",
+      "cleanHref": "/les-vins/methode-blanc",
+      "file": "app/les-vins/page-simple.tsx"
+    },
+    {
+      "href": "/les-vins/methode-rose",
+      "cleanHref": "/les-vins/methode-rose",
+      "file": "app/les-vins/page-simple.tsx"
+    },
+    {
+      "href": "/les-vins/perle",
+      "cleanHref": "/les-vins/perle",
+      "file": "app/les-vins/page-simple.tsx"
+    },
+    {
+      "href": "/les-vins/poussin-blanc",
+      "cleanHref": "/les-vins/poussin-blanc",
+      "file": "app/les-vins/page-simple.tsx"
+    },
+    {
+      "href": "/les-vins/poussin-rose",
+      "cleanHref": "/les-vins/poussin-rose",
+      "file": "app/les-vins/page-simple.tsx"
+    },
+    {
+      "href": "/les-vins/claire-de-lune",
+      "cleanHref": "/les-vins/claire-de-lune",
+      "file": "app/les-vins/page-simple.tsx"
+    },
+    {
+      "href": "/les-vins/petrichor-rouge",
+      "cleanHref": "/les-vins/petrichor-rouge",
+      "file": "app/les-vins/page-simple.tsx"
+    },
+    {
+      "href": "/les-vins/pigeonnier",
+      "cleanHref": "/les-vins/pigeonnier",
+      "file": "app/les-vins/page-simple.tsx"
+    },
+    {
+      "href": "/cookies",
+      "cleanHref": "/cookies",
+      "file": "app/mentions-legales/page.tsx"
+    },
+    {
+      "href": "/Page/Nos Cuvée-ok/Gamme Méthode Ancestral/Page Méthode Blanche/FT_la_méthode_blanc.pdf",
+      "cleanHref": "/Page/Nos Cuvée-ok/Gamme Méthode Ancestral/Page Méthode Blanche/FT_la_méthode_blanc.pdf",
+      "file": "app/methode-blanche/page.tsx"
+    },
+    {
+      "href": "/reservation",
+      "cleanHref": "/reservation",
+      "file": "app/methode-blanche/page.tsx"
+    },
+    {
+      "href": "/reservation",
+      "cleanHref": "/reservation",
+      "file": "app/notre-chai/page.tsx"
+    },
+    {
+      "href": "/savoir-faire",
+      "cleanHref": "/savoir-faire",
+      "file": "app/page.tsx"
+    },
+    {
+      "href": "/reservation",
+      "cleanHref": "/reservation",
+      "file": "app/page.tsx"
+    },
+    {
+      "href": "/domaine/histoire",
+      "cleanHref": "/domaine/histoire",
+      "file": "app/page.tsx"
+    },
+    {
+      "href": "/evenements/organiser",
+      "cleanHref": "/evenements/organiser",
+      "file": "app/page.tsx"
+    },
+    {
+      "href": "/panier",
+      "cleanHref": "/panier",
+      "file": "components/cart-sheet.tsx"
+    },
+    {
+      "href": "/reservation",
+      "cleanHref": "/reservation",
+      "file": "components/degustation/DegustationQuiz.tsx"
+    },
+    {
+      "href": "/contact",
+      "cleanHref": "/contact",
+      "file": "components/header.tsx"
+    },
+    {
+      "href": "/domaine/histoire",
+      "cleanHref": "/domaine/histoire",
+      "file": "components/header.tsx"
+    },
+    {
+      "href": "/domaine/team",
+      "cleanHref": "/domaine/team",
+      "file": "components/header.tsx"
+    },
+    {
+      "href": "/domaine/engagement",
+      "cleanHref": "/domaine/engagement",
+      "file": "components/header.tsx"
+    },
+    {
+      "href": "/notre-vignoble",
+      "cleanHref": "/notre-vignoble",
+      "file": "components/header.tsx"
+    },
+    {
+      "href": "/actualites",
+      "cleanHref": "/actualites",
+      "file": "components/header.tsx"
+    },
+    {
+      "href": "/presse",
+      "cleanHref": "/presse",
+      "file": "components/header.tsx"
+    },
+    {
+      "href": "/le-cycle-de-la-vigne",
+      "cleanHref": "/le-cycle-de-la-vigne",
+      "file": "components/header.tsx"
+    },
+    {
+      "href": "/de-la-vigne-a-la-bouteille",
+      "cleanHref": "/de-la-vigne-a-la-bouteille",
+      "file": "components/header.tsx"
+    },
+    {
+      "href": "/reservation",
+      "cleanHref": "/reservation",
+      "file": "components/header.tsx"
+    },
+    {
+      "href": "/evenements",
+      "cleanHref": "/evenements",
+      "file": "components/header.tsx"
+    },
+    {
+      "href": "/evenements/organiser",
+      "cleanHref": "/evenements/organiser",
+      "file": "components/header.tsx"
+    },
+    {
+      "href": "/club",
+      "cleanHref": "/club",
+      "file": "components/header.tsx"
+    },
+    {
+      "href": "/mecenat",
+      "cleanHref": "/mecenat",
+      "file": "components/header.tsx"
+    },
+    {
+      "href": "/gastronomie",
+      "cleanHref": "/gastronomie",
+      "file": "components/header.tsx"
+    },
+    {
+      "href": "/degustation",
+      "cleanHref": "/degustation",
+      "file": "components/header.tsx"
+    },
+    {
+      "href": "/gastronomie",
+      "cleanHref": "/gastronomie",
+      "file": "components/header.tsx"
+    },
+    {
+      "href": "/compte",
+      "cleanHref": "/compte",
+      "file": "components/header.tsx"
+    },
+    {
+      "href": "/contact",
+      "cleanHref": "/contact",
+      "file": "components/header.tsx"
+    },
+    {
+      "href": "/domaine/histoire",
+      "cleanHref": "/domaine/histoire",
+      "file": "components/header.tsx"
+    },
+    {
+      "href": "/domaine/team",
+      "cleanHref": "/domaine/team",
+      "file": "components/header.tsx"
+    },
+    {
+      "href": "/domaine/engagement",
+      "cleanHref": "/domaine/engagement",
+      "file": "components/header.tsx"
+    },
+    {
+      "href": "/notre-vignoble",
+      "cleanHref": "/notre-vignoble",
+      "file": "components/header.tsx"
+    },
+    {
+      "href": "/actualites",
+      "cleanHref": "/actualites",
+      "file": "components/header.tsx"
+    },
+    {
+      "href": "/presse",
+      "cleanHref": "/presse",
+      "file": "components/header.tsx"
+    },
+    {
+      "href": "/les-vins/methode-blanc",
+      "cleanHref": "/les-vins/methode-blanc",
+      "file": "components/header.tsx"
+    },
+    {
+      "href": "/les-vins/claire-de-lune",
+      "cleanHref": "/les-vins/claire-de-lune",
+      "file": "components/header.tsx"
+    },
+    {
+      "href": "/les-vins/poussin-rose",
+      "cleanHref": "/les-vins/poussin-rose",
+      "file": "components/header.tsx"
+    },
+    {
+      "href": "/les-vins/petrichor-rose",
+      "cleanHref": "/les-vins/petrichor-rose",
+      "file": "components/header.tsx"
+    },
+    {
+      "href": "/les-vins/opus-rouge",
+      "cleanHref": "/les-vins/opus-rouge",
+      "file": "components/header.tsx"
+    },
+    {
+      "href": "/les-vins/petrichor-rouge",
+      "cleanHref": "/les-vins/petrichor-rouge",
+      "file": "components/header.tsx"
+    },
+    {
+      "href": "/le-cycle-de-la-vigne",
+      "cleanHref": "/le-cycle-de-la-vigne",
+      "file": "components/header.tsx"
+    },
+    {
+      "href": "/de-la-vigne-a-la-bouteille",
+      "cleanHref": "/de-la-vigne-a-la-bouteille",
+      "file": "components/header.tsx"
+    },
+    {
+      "href": "/reservation",
+      "cleanHref": "/reservation",
+      "file": "components/header.tsx"
+    },
+    {
+      "href": "/evenements",
+      "cleanHref": "/evenements",
+      "file": "components/header.tsx"
+    },
+    {
+      "href": "/evenements/organiser",
+      "cleanHref": "/evenements/organiser",
+      "file": "components/header.tsx"
+    },
+    {
+      "href": "/club",
+      "cleanHref": "/club",
+      "file": "components/header.tsx"
+    },
+    {
+      "href": "/mecenat",
+      "cleanHref": "/mecenat",
+      "file": "components/header.tsx"
+    },
+    {
+      "href": "/gastronomie",
+      "cleanHref": "/gastronomie",
+      "file": "components/header.tsx"
+    },
+    {
+      "href": "/degustation",
+      "cleanHref": "/degustation",
+      "file": "components/header.tsx"
+    },
+    {
+      "href": "/compte",
+      "cleanHref": "/compte",
+      "file": "components/user-menu.tsx"
+    },
+    {
+      "href": "/compte/commandes",
+      "cleanHref": "/compte/commandes",
+      "file": "components/user-menu.tsx"
+    },
+    {
+      "href": "/compte/favoris",
+      "cleanHref": "/compte/favoris",
+      "file": "components/user-menu.tsx"
+    },
+    {
+      "href": "/compte/parametres",
+      "cleanHref": "/compte/parametres",
+      "file": "components/user-menu.tsx"
+    }
+  ],
+  "existingRoutes": [
+    "/",
+    "//",
+    "/les-vins",
+    "/les-vins?type=blanc",
+    "/les-vins?type=bulles",
+    "/les-vins?type=rose",
+    "/les-vins?type=rouge",
+    "actualites",
+    "actualites/",
+    "actualites/[slug]",
+    "actualites/[slug]/",
+    "cgu",
+    "cgu/",
+    "cgv",
+    "cgv/",
+    "club",
+    "club/",
+    "club/inscription",
+    "club/inscription/",
+    "compte",
+    "compte/",
+    "compte/parametres",
+    "compte/parametres/",
+    "contact",
+    "contact/",
+    "cookies",
+    "cookies/",
+    "de-la-vigne-a-la-bouteille",
+    "de-la-vigne-a-la-bouteille/",
+    "degustation",
+    "degustation/",
+    "domaine/engagement",
+    "domaine/engagement/",
+    "domaine/histoire",
+    "domaine/histoire/",
+    "domaine/team",
+    "domaine/team/",
+    "domaine/terroir",
+    "domaine/terroir/",
+    "evenements",
+    "evenements/",
+    "evenements/[slug]",
+    "evenements/[slug]/",
+    "evenements/devis/paiement-stub",
+    "evenements/devis/paiement-stub/",
+    "evenements/organiser",
+    "evenements/organiser/",
+    "evenements/reservation",
+    "evenements/reservation/",
+    "evenements/simuler-votre-devis",
+    "evenements/simuler-votre-devis/",
+    "faq",
+    "faq/",
+    "gastronomie",
+    "gastronomie/",
+    "la-vigne",
+    "la-vigne/",
+    "le-cycle-de-la-vigne",
+    "le-cycle-de-la-vigne/",
+    "les-vins",
+    "les-vins/",
+    "les-vins/[slug]",
+    "les-vins/[slug]/",
+    "les-vins/claire-de-lune",
+    "les-vins/claire-de-lune/",
+    "les-vins/domeni-blanc",
+    "les-vins/domeni-blanc/",
+    "les-vins/domeni-rose",
+    "les-vins/domeni-rose/",
+    "les-vins/domeni-rouge",
+    "les-vins/domeni-rouge/",
+    "les-vins/methode-blanc",
+    "les-vins/methode-blanc/",
+    "les-vins/methode-rose",
+    "les-vins/methode-rose/",
+    "les-vins/opus-blanc",
+    "les-vins/opus-blanc/",
+    "les-vins/opus-rouge",
+    "les-vins/opus-rouge/",
+    "les-vins/perle",
+    "les-vins/perle/",
+    "les-vins/petrichor-rose",
+    "les-vins/petrichor-rose/",
+    "les-vins/petrichor-rouge",
+    "les-vins/petrichor-rouge/",
+    "les-vins/pigeonnier",
+    "les-vins/pigeonnier/",
+    "les-vins/poussin-blanc",
+    "les-vins/poussin-blanc/",
+    "les-vins/poussin-rose",
+    "les-vins/poussin-rose/",
+    "mecenat",
+    "mecenat/",
+    "mentions-legales",
+    "mentions-legales/",
+    "methode-blanche",
+    "methode-blanche/",
+    "notre-chai",
+    "notre-chai/",
+    "notre-vignoble",
+    "notre-vignoble/",
+    "panier",
+    "panier/",
+    "presse",
+    "presse/",
+    "reservation",
+    "reservation/",
+    "savoir-faire/chais",
+    "savoir-faire/chais/",
+    "savoir-faire/vigne",
+    "savoir-faire/vigne/",
+    "sitemap",
+    "sitemap/"
+  ]
+}

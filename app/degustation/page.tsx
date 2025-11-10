@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     description: "Une expérience sensorielle unique au cœur du vignoble de Gaillac",
     images: [
       {
-        url: "/PHOTOS-WEB-LASTOURS/VINIFICATION/Capture ameyric prod.JPG",
+        url: "/photos-web-lastours/vinification/capture-ameyric-prod.jpg",
         width: 1200,
         height: 630,
         alt: "Dégustation au Château Lastours"

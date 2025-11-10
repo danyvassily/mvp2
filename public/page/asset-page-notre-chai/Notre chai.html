@@ -1,0 +1,438 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>
+      Vinification d’Excellence | Château Lastours – Gaillac, France
+    </title>
+    <meta
+      name="description"
+      content="Découvrez l’art de la vinification au Château Lastours à Gaillac : authenticité, innovation, terroir d’exception, cépages autochtones, labels AOP et œnotourisme dans le Sud-Ouest de la France."
+    />
+    <!-- Multilingue hreflang -->
+    <link
+      rel="alternate"
+      hreflang="fr"
+      href="https://www.chateaulastours-gaillac.fr/fr/vinification"
+    />
+    <link
+      rel="alternate"
+      hreflang="en"
+      href="https://www.chateaulastours-gaillac.fr/en/winemaking"
+    />
+    <link
+      rel="alternate"
+      hreflang="de"
+      href="https://www.chateaulastours-gaillac.fr/de/weinbereitung"
+    />
+    <link
+      rel="alternate"
+      hreflang="es"
+      href="https://www.chateaulastours-gaillac.fr/es/vinificacion"
+    />
+    <link
+      rel="alternate"
+      hreflang="x-default"
+      href="https://www.chateaulastours-gaillac.fr/fr/vinification"
+    />
+    <!-- Schema.org Winery JSON-LD -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Winery",
+        "name": "Château Lastours",
+        "description": "Vinification raffinée à Gaillac, France. Méthodes traditionnelles et innovantes pour des vins certifiés AOP Gaillac : terroir d’exception, cépages autochtones, élevage sur-mesure, accueil œnotouristique.",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Lieu-dit Lastours",
+          "addressLocality": "Gaillac",
+          "addressRegion": "Occitanie",
+          "postalCode": "81600",
+          "addressCountry": "France"
+        },
+        "telephone": "+33 5 63 57 32 32",
+        "url": "https://www.chateaulastours-gaillac.fr",
+        "image": [
+          "https://www.chateaulastours-gaillac.fr/images/vinification-gaillac-france.jpg"
+        ],
+        "openingHours": "Mo-Sa 09:00-18:00",
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 43.9,
+          "longitude": 1.9
+        },
+        "sameAs": [
+          "https://www.facebook.com/chateaulastoursgaillac",
+          "https://www.instagram.com/chateaulastoursgaillac"
+        ],
+        "touristType": ["Wine tourism", "Cultural tourism"],
+        "publicAccess": true
+      }
+    </script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat:400,700,800&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        font-family: 'Montserrat', Arial, sans-serif;
+        background: linear-gradient(120deg, #f8fafc 0%, #e9e4f0 100%);
+        color: #232323;
+        margin: 0;
+      }
+      .hero-section {
+        background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+        color: #232323;
+        padding: 70px 0 50px 0;
+        text-align: center;
+        border-radius: 0 0 40px 40px;
+        box-shadow: 0 6px 24px rgba(60, 60, 90, 0.07);
+        margin-bottom: 2rem;
+      }
+      .hero-section h1 {
+        font-weight: 800;
+        font-size: 2.7rem;
+        letter-spacing: -1px;
+        margin-bottom: 0.5rem;
+      }
+      .hero-section h2 {
+        font-size: 1.4rem;
+        color: #7a3cff;
+        font-weight: 700;
+        margin-bottom: 1.2rem;
+      }
+      .hero-section p {
+        font-size: 1.2rem;
+        font-weight: 400;
+        max-width: 700px;
+        margin: 1rem auto 0 auto;
+      }
+      .label-badge {
+        display: inline-block;
+        background: #fff;
+        color: #7a3cff;
+        border: 1.5px solid #7a3cff;
+        border-radius: 30px;
+        font-size: 0.98rem;
+        font-weight: 600;
+        padding: 0.3rem 1.2rem;
+        margin: 0.2rem 0.4rem;
+        box-shadow: 0 2px 8px rgba(122, 60, 255, 0.04);
+      }
+      .mot-cle {
+        display: inline-block;
+        background: #e9d8fd;
+        color: #7a3cff;
+        border-radius: 12px;
+        padding: 0.3rem 1rem;
+        font-size: 1rem;
+        margin: 0.2rem 0.3rem 0.2rem 0;
+        font-weight: 500;
+        cursor: default;
+        user-select: none;
+        box-shadow: 0 2px 8px rgba(122, 60, 255, 0.03);
+      }
+      .main-content {
+        max-width: 1100px;
+        margin: 0 auto;
+        background: #fff;
+        border-radius: 22px;
+        box-shadow: 0 4px 24px rgba(122, 60, 255, 0.07);
+        padding: 2.5rem 2rem;
+        font-size: 1.15rem;
+        line-height: 1.9;
+        position: relative;
+      }
+      .vinif-block {
+        display: flex;
+        align-items: stretch;
+        gap: 0;
+        margin-bottom: 2.5rem;
+        border-bottom: 1px solid #f1e8fa;
+        padding-bottom: 2.5rem;
+        background: linear-gradient(90deg, #f8fafc 60%, #f3e9fa 100%);
+        border-radius: 18px;
+        overflow: hidden;
+        box-shadow: 0 2px 8px rgba(122, 60, 255, 0.04);
+      }
+      .vinif-block.reverse {
+        flex-direction: row-reverse;
+        background: linear-gradient(270deg, #f8fafc 60%, #e9e4f0 100%);
+      }
+      .vinif-img {
+        width: 40%;
+        min-width: 180px;
+        max-width: 350px;
+        object-fit: cover;
+        border-radius: 0 18px 18px 0;
+        display: block;
+        transition: transform 0.2s;
+        box-shadow: 0 2px 10px rgba(122, 60, 255, 0.08);
+      }
+      .vinif-block.reverse .vinif-img {
+        border-radius: 18px 0 0 18px;
+      }
+      .vinif-block:hover .vinif-img {
+        transform: scale(1.04);
+      }
+      .vinif-text {
+        flex: 1;
+        padding: 2.2rem 2.2rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
+      .vinif-title {
+        font-size: 1.25rem;
+        font-weight: 700;
+        color: #7a3cff;
+        margin-bottom: 0.7rem;
+        letter-spacing: -0.5px;
+      }
+      @media (max-width: 991px) {
+        .main-content {
+          padding: 1.5rem 0.5rem;
+        }
+        .vinif-block,
+        .vinif-block.reverse {
+          flex-direction: column;
+          border-radius: 18px;
+        }
+        .vinif-img,
+        .vinif-block.reverse .vinif-img {
+          width: 100%;
+          max-width: 100%;
+          border-radius: 18px 18px 0 0;
+          margin-bottom: 0;
+        }
+        .vinif-text {
+          padding: 1.2rem 1.2rem;
+        }
+      }
+      .cta-section {
+        background: linear-gradient(90deg, #7a3cff 0%, #8ec5fc 100%);
+        color: #fff;
+        border-radius: 24px;
+        padding: 48px 28px;
+        text-align: center;
+        margin-top: 2.5rem;
+        box-shadow: 0 4px 24px rgba(122, 60, 255, 0.08);
+      }
+      .cta-section h3 {
+        font-size: 2.1rem;
+        font-weight: 700;
+        margin-bottom: 1rem;
+      }
+      .cta-section .btn {
+        background: #fff;
+        color: #7a3cff;
+        border-radius: 30px;
+        font-weight: 700;
+        padding: 0.8rem 2.5rem;
+        font-size: 1.2rem;
+        transition:
+          background 0.2s,
+          color 0.2s;
+        text-decoration: none;
+        display: inline-block;
+        margin-top: 1rem;
+        box-shadow: 0 2px 8px rgba(122, 60, 255, 0.1);
+      }
+      .cta-section .btn:hover {
+        background: #7a3cff;
+        color: #fff;
+        border: 2px solid #fff;
+        text-decoration: none;
+      }
+      @media (max-width: 767px) {
+        .hero-section h1 {
+          font-size: 1.5rem;
+        }
+        .main-content {
+          padding: 1rem 0.2rem;
+        }
+        .cta-section h3 {
+          font-size: 1.2rem;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <!-- HERO -->
+    <section class="hero-section">
+      <div class="container">
+        <h1>Vinification d’Excellence</h1>
+        <h2>L’Alchimie Précise – Fondement de notre Philosophie</h2>
+        <p>
+          <strong>De la Grappe à la Bouteille : Le Souffle du Terroir</strong
+          ><br />
+          Découvrez l’art de la vinification haut de gamme au Château Lastours,
+          au cœur de Gaillac, où chaque millésime devient une aventure
+          sensorielle et un hommage à la tradition viticole française.
+        </p>
+        <div class="mt-3">
+          <span class="label-badge">AOP Gaillac</span>
+          <span class="label-badge">IGP Sud-Ouest</span>
+          <span class="label-badge">HVE</span>
+          <span class="label-badge">Vignobles & Découvertes</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- MOTS CLÉS INTERNATIONAUX -->
+    <div class="container py-3 text-center">
+      <span class="mot-cle">Vinification Gaillac</span>
+      <span class="mot-cle">Château Lastours</span>
+      <span class="mot-cle">Winemaking France</span>
+      <span class="mot-cle">French winery</span>
+      <span class="mot-cle">AOP Gaillac</span>
+      <span class="mot-cle">Cold extraction</span>
+      <span class="mot-cle">Controlled fermentation</span>
+      <span class="mot-cle">Barrel aging</span>
+      <span class="mot-cle">Creative blending</span>
+      <span class="mot-cle">Autochthonous grape varieties</span>
+      <span class="mot-cle">Southwest France wines</span>
+      <span class="mot-cle">French wine tourism</span>
+      <span class="mot-cle">Certified HVE</span>
+      <span class="mot-cle">French terroir</span>
+      <span class="mot-cle">Sustainable winemaking</span>
+      <span class="mot-cle">Authentic French wine</span>
+      <span class="mot-cle">Wine experience Gaillac</span>
+    </div>
+
+    <!-- CONTENU PRINCIPAL -->
+    <div class="main-content my-4">
+      <div class="vinif-block">
+        <img
+          src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=600&q=80"
+          class="vinif-img"
+          alt="Pressurage à froid des raisins blancs au Château Lastours, Gaillac, France"
+        />
+        <div class="vinif-text">
+          <div class="vinif-title">
+            La fraîcheur préservée, l’expression du terroir
+          </div>
+          Au <strong>Château Lastours</strong>, la vinification commence dès la
+          nuit tombée, par une sélection minutieuse des plus belles grappes
+          issues de cépages autochtones, reflets vivants du terroir de
+          <strong>Gaillac</strong> et du Sud-Ouest de la France. Les raisins
+          blancs et rosés sont pressés délicatement puis refroidis à 4°C pour
+          préserver toute la fraîcheur et la pureté aromatique. Cette extraction
+          à froid, signature de notre domaine viticole, sublime les notes
+          d’agrumes, de fleurs blanches et de fruits frais, tout en garantissant
+          une finesse cristalline, sans intervention mécanique superflue.
+        </div>
+      </div>
+
+      <div class="vinif-block reverse">
+        <img
+          src="https://images.unsplash.com/photo-1514361892635-cebbd82c1e9e?auto=format&fit=crop&w=600&q=80"
+          class="vinif-img"
+          alt="Fermentation des rouges au Château Lastours, Gaillac, France"
+        />
+        <div class="vinif-text">
+          <div class="vinif-title">L’intensité, la structure et la couleur</div>
+          Pour les rouges, l’éraflage soigné et la macération pelliculaire
+          révèlent la profondeur, la structure tannique et la couleur intense
+          qui font la renommée des vins de <strong>Gaillac</strong>. Chaque
+          cuvée est le fruit d’un équilibre subtil entre tradition et
+          innovation, où la fermentation alcoolique est menée à basse
+          température pour préserver la tension, la vivacité et l’expression du
+          terroir. La fermentation malolactique, systématique pour les rouges et
+          sélective pour les blancs, affine la texture, adoucit les tanins et
+          apporte une rondeur gourmande, tout en maintenant la fraîcheur
+          emblématique du vignoble français.
+        </div>
+      </div>
+
+      <div class="vinif-block">
+        <img
+          src="https://images.unsplash.com/photo-1519864600265-abb23847ef2c?auto=format&fit=crop&w=600&q=80"
+          class="vinif-img"
+          alt="Élevage en barrique au Château Lastours, Gaillac, France"
+        />
+        <div class="vinif-text">
+          <div class="vinif-title">L’élevage, l’art de la discrétion</div>
+          Nos vins blancs et rosés reposent en cuves inox pour exalter la
+          minéralité, la pureté du fruit et la tension naturelle du terroir. Les
+          rouges bénéficient d’un élevage soigné en barriques françaises,
+          demi-muids ou pièces, toujours en rotation, pour éviter toute
+          standardisation et privilégier l’authenticité. La micro-oxygénation
+          subtile affine les tanins et révèle la complexité aromatique, sans
+          jamais masquer l’identité du millésime ou du sol.
+        </div>
+      </div>
+
+      <div class="vinif-block reverse">
+        <img
+          src="https://images.unsplash.com/photo-1502741338009-cac2772e18bc?auto=format&fit=crop&w=600&q=80"
+          class="vinif-img"
+          alt="Assemblage des vins au Château Lastours, Gaillac, France"
+        />
+        <div class="vinif-text">
+          <div class="vinif-title">L’assemblage, la signature Lastours</div>
+          L’assemblage, véritable signature du
+          <strong>Château Lastours</strong>, est un travail d’orfèvre où chaque
+          cépage – Duras, Braucol, Mauzac – chaque parcelle d’argile, de
+          calcaire ou de boulbène, et chaque type d’élevage, sont
+          harmonieusement mariés pour créer des vins vibrants, élégants et
+          résolument modernes. Nos cuvées expriment la diversité, la richesse et
+          la typicité du vignoble de Gaillac, séduisant aussi bien les amateurs
+          curieux que les passionnés exigeants à la recherche d’un vin français
+          authentique.
+        </div>
+      </div>
+
+      <div class="vinif-block">
+        <img
+          src="https://images.unsplash.com/photo-1464983953574-0892a716854b?auto=format&fit=crop&w=600&q=80"
+          class="vinif-img"
+          alt="Accueil œnotouristique et équipe du Château Lastours, Gaillac, France"
+        />
+        <div class="vinif-text">
+          <div class="vinif-title">
+            L’expérience œnotouristique et l’accueil
+          </div>
+          Choisir la vinification du Château Lastours, c’est faire le choix de
+          méthodes innovantes et respectueuses, d’une équipe jeune et
+          passionnée, d’un terroir certifié <strong>AOP Gaillac</strong>,
+          <strong>IGP Sud-Ouest</strong> et <strong>HVE</strong>, et d’une
+          expérience œnotouristique unique en France. Notre accueil multilingue,
+          nos visites guidées et nos dégustations permettent à chacun de plonger
+          dans l’univers du vin français, au cœur d’un domaine familial où
+          chaque bouteille raconte une histoire et chaque millésime devient une
+          aventure sensorielle inoubliable.
+        </div>
+      </div>
+    </div>
+
+    <!-- CTA -->
+    <div class="cta-section container my-5">
+      <h3>Vivez l’Alchimie d’une Vinification d’Exception</h3>
+      <p>
+        Plongez dans l’univers du Château Lastours à Gaillac : chaque bouteille
+        raconte une histoire, chaque millésime est une aventure, et chaque
+        dégustation un plaisir renouvelé.<br />
+        <span style="font-weight: 600"
+          >Réservez votre visite et vivez l’expérience œnotouristique
+          française !</span
+        >
+      </p>
+      <a href="#contact" class="btn mt-3">Planifiez votre visite</a>
+    </div>
+
+    <footer
+      class="py-4 text-center"
+      style="background: #f6f6f9; color: #7a3cff; font-weight: 600"
+    >
+      © 2025 Château Lastours – Vinification d’exception à Gaillac, France.
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

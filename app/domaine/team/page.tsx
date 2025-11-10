@@ -67,7 +67,7 @@ export default function TeamPage() {
       <section className="relative min-h-[700px] md:min-h-[900px] lg:min-h-[1000px] flex items-center justify-center">
         <div className="absolute inset-0 flex items-center justify-center">
           <TeamImage
-            src="/Page/Page Team/Photos page team/Photo de groupe.jpeg"
+            src="/page/page-team/photos-page-team/photo-de-groupe.jpeg"
             alt="Équipe du Château Lastours"
             fill
             objectFit="contain"
@@ -99,7 +99,7 @@ export default function TeamPage() {
                 <div className="order-2 md:order-1">
                   <div className="relative aspect-[3/4] rounded-xl overflow-hidden shadow-xl">
                     <TeamImage
-                      src="/Page/Page Team/Photos page team/Louis.jpeg"
+                      src="/page/page-team/photos-page-team/louis.jpeg"
                       alt="Louis de Faramond"
                       fill
                       objectFit="contain"
@@ -151,7 +151,7 @@ export default function TeamPage() {
             <div className="bg-white rounded-xl overflow-hidden shadow-sm border border-border/50 hover:shadow-lg transition-shadow duration-300">
               <div className="relative aspect-[3/4]">
                 <TeamImage
-                  src="/Page/Page Team/Photos page team/Adrien.jpeg"
+                  src="/page/page-team/photos-page-team/adrien.jpeg"
                   alt="Adrien"
                   fill
                   objectFit="contain"
@@ -173,7 +173,7 @@ export default function TeamPage() {
             <div className="bg-white rounded-xl overflow-hidden shadow-sm border border-border/50 hover:shadow-lg transition-shadow duration-300">
               <div className="relative aspect-[3/4]">
                 <TeamImage
-                  src="/Page/Page Team/Photos page team/Caroline.jpeg"
+                  src="/page/page-team/photos-page-team/caroline.jpeg"
                   alt="Caroline"
                   fill
                   objectFit="contain"
@@ -195,7 +195,7 @@ export default function TeamPage() {
             <div className="bg-white rounded-xl overflow-hidden shadow-sm border border-border/50 hover:shadow-lg transition-shadow duration-300">
               <div className="relative aspect-[3/4]">
                 <TeamImage
-                  src="/Page/Page Team/Photos page team/Eva.jpeg"
+                  src="/page/page-team/photos-page-team/eva.jpeg"
                   alt="Eva"
                   fill
                   objectFit="contain"
@@ -217,7 +217,7 @@ export default function TeamPage() {
             <div className="bg-white rounded-xl overflow-hidden shadow-sm border border-border/50 hover:shadow-lg transition-shadow duration-300">
               <div className="relative aspect-[3/4]">
                 <TeamImage
-                  src="/Page/Page Team/Photos page team/François.jpeg"
+                  src="/page/page-team/photos-page-team/francois.jpeg"
                   alt="François"
                   fill
                   objectFit="contain"
@@ -239,7 +239,7 @@ export default function TeamPage() {
             <div className="bg-white rounded-xl overflow-hidden shadow-sm border border-border/50 hover:shadow-lg transition-shadow duration-300">
               <div className="relative aspect-[3/4]">
                 <TeamImage
-                  src="/Page/Page Team/Photos page team/Nicolas.jpeg"
+                  src="/page/page-team/photos-page-team/nicolas.jpeg"
                   alt="Nicolas"
                   fill
                   objectFit="contain"
@@ -261,7 +261,7 @@ export default function TeamPage() {
             <div className="bg-white rounded-xl overflow-hidden shadow-sm border border-border/50 hover:shadow-lg transition-shadow duration-300">
               <div className="relative aspect-[3/4]">
                 <TeamImage
-                  src="/Page/Page Team/Photos page team/Pauline.jpeg"
+                  src="/page/page-team/photos-page-team/pauline.jpeg"
                   alt="Pauline"
                   fill
                   objectFit="contain"
@@ -283,7 +283,7 @@ export default function TeamPage() {
             <div className="bg-white rounded-xl overflow-hidden shadow-sm border border-border/50 hover:shadow-lg transition-shadow duration-300 md:col-span-2 lg:col-span-1">
               <div className="relative aspect-[3/4]">
                 <TeamImage
-                  src="/Page/Page Team/Photos page team/Stephane.jpeg"
+                  src="/page/page-team/photos-page-team/stephane.jpeg"
                   alt="Stéphane"
                   fill
                   objectFit="contain"

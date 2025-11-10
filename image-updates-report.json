@@ -1,0 +1,22 @@
+[
+  "ASSETS_ANALYSIS_REPORT.json",
+  "ASSETS_SUGGESTIONS.json",
+  "app/de-la-vigne-a-la-bouteille/page.tsx",
+  "app/degustation/page.tsx",
+  "app/domaine/engagement/page.tsx",
+  "app/domaine/histoire/page.tsx",
+  "app/domaine/terroir/page.tsx",
+  "app/notre-chai/page.tsx",
+  "app/notre-vignoble/page.tsx",
+  "app/page.tsx",
+  "components/common/SectionHero.tsx",
+  "components/events/HeroEvent.tsx",
+  "components/ui/breadcrumb.tsx",
+  "components/ui/pagination.tsx",
+  "image-renames-mapping.json",
+  "lib/asset-mapping.ts",
+  "lib/wines.ts",
+  "scripts/apply-asset-corrections.js",
+  "scripts/clean-public-assets.js",
+  "scripts/clean-unused-files.js"
+]

@@ -9,13 +9,13 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Le cycle de la vigne | Château Lastours",
     description: "Découvrez le cycle de la vigne au Château Lastours",
-    images: ["/ASSET/le-cycle-de-la-vigne/jardins-a-la-francaise-lever-de-soleil.jpeg"],
+    images: ["/asset/le-cycle-de-la-vigne/jardins-a-la-francaise-lever-de-soleil.jpeg"],
   },
 };
 
 /**
  * Sections du cycle de la vigne
- * IMPORTANT: Les textes doivent être extraits depuis /public/ASSET/le-cycle-de-la-vigne/La vigne FR.docx
+ * IMPORTANT: Les textes doivent être extraits depuis /public/asset/le-cycle-de-la-vigne/La vigne FR.docx
  * Pour l'instant, structure basée sur les images disponibles dans l'ASSET
  */
 const cycleSections = [
@@ -27,7 +27,7 @@ const cycleSections = [
       body: "L'hiver marque une période de repos pour la vigne. Les vignes dénudées attendent patiemment le retour des beaux jours. C'est aussi le moment de la taille, geste essentiel qui détermine la future récolte.",
     },
     image: {
-      src: "/ASSET/le-cycle-de-la-vigne/vignes-hiver-chapelle-saint-vincent-d-avens-gaillac-france.jpeg",
+      src: "/asset/le-cycle-de-la-vigne/vignes-hiver-chapelle-saint-vincent-d-avens-gaillac-france.jpeg",
       alt: "Vignes en hiver avec la chapelle Saint-Vincent d'Avens au Château Lastours, Gaillac",
       ratio: "21/9" as const,
     },
@@ -41,7 +41,7 @@ const cycleSections = [
       body: "Au printemps, les bourgeons éclosent et la vigne se réveille. C'est le débourrement, moment magique où la vie reprend dans nos vignes. Les jeunes pousses vert tendre annoncent une nouvelle saison de croissance.",
     },
     image: {
-      src: "/ASSET/le-cycle-de-la-vigne/debourrement-bourgeon-vignes-chateau-lastours-gaillac-france.jpg",
+      src: "/asset/le-cycle-de-la-vigne/debourrement-bourgeon-vignes-chateau-lastours-gaillac-france.jpg",
       alt: "Débourrement des bourgeons de vignes au Château Lastours, Gaillac, France",
       ratio: "16/9" as const,
     },
@@ -55,7 +55,7 @@ const cycleSections = [
       body: "Le palissage est un travail minutieux qui guide la croissance des sarments. Cette technique ancestrale permet à nos vignes de capter la lumière optimale tout en favorisant une bonne circulation de l'air entre les grappes.",
     },
     image: {
-      src: "/ASSET/le-cycle-de-la-vigne/travail-dans-la-vigne-palissage.jpg",
+      src: "/asset/le-cycle-de-la-vigne/travail-dans-la-vigne-palissage.jpg",
       alt: "Travail du palissage dans la vigne au Château Lastours",
       ratio: "21/9" as const,
     },
@@ -69,7 +69,7 @@ const cycleSections = [
       body: "La véraison marque le début de la maturation des raisins. Moment magique où les baies changent de couleur et commencent à accumuler les sucres qui feront la richesse de nos vins. Les rouges virent au violet profond tandis que les blancs prennent des teintes dorées.",
     },
     image: {
-      src: "/ASSET/le-cycle-de-la-vigne/grappe-de-raisins-en-veraison-chateau-lastours-gaillac-france.jpg",
+      src: "/asset/le-cycle-de-la-vigne/grappe-de-raisins-en-veraison-chateau-lastours-gaillac-france.jpg",
       alt: "Grappe de raisins en véraison au Château Lastours, Gaillac, France",
       ratio: "16/9" as const,
     },
@@ -83,7 +83,7 @@ const cycleSections = [
       body: "Nos vignes cultivent une diversité de cépages, chacun avec sa personnalité. Des cépages blancs qui donneront des vins frais et élégants, aux cépages rouges qui révèleront la puissance et la complexité de notre terroir.",
     },
     image: {
-      src: "/ASSET/le-cycle-de-la-vigne/plantier-cepage-braucol-chateau-lastours-gaillac-france.jpeg",
+      src: "/asset/le-cycle-de-la-vigne/plantier-cepage-braucol-chateau-lastours-gaillac-france.jpeg",
       alt: "Plantier de cépages Braucol au Château Lastours, Gaillac, France",
       ratio: "21/9" as const,
     },
@@ -97,7 +97,7 @@ const cycleSections = [
       body: "Les vendanges représentent le moment tant attendu, l'aboutissement d'une année de travail et de patience. Nous vendangeons à maturité optimale, souvent manuellement pour préserver l'intégrité des grappes. Chaque parcelle est récoltée au moment idéal, déterminé par des dégustations régulières et des analyses précises.",
     },
     image: {
-      src: "/ASSET/le-cycle-de-la-vigne/allee-de-vigne-grappe-de-raisins-mur-cepage-rouge.jpg",
+      src: "/asset/le-cycle-de-la-vigne/allee-de-vigne-grappe-de-raisins-mur-cepage-rouge.jpg",
       alt: "Allée de vigne avec grappes de raisins mûrs de cépages rouges au Château Lastours",
       ratio: "21/9" as const,
     },
@@ -116,7 +116,7 @@ export default function LeCycleDeLaVignePage() {
       <section className="relative h-[70vh] lg:h-[85vh] overflow-hidden mt-6 lg:mt-8 mb-6 lg:mb-8">
         <div className="absolute inset-0">
           <img
-            src="/ASSET/le-cycle-de-la-vigne/jardins-a-la-francaise-lever-de-soleil.jpeg"
+            src="/asset/le-cycle-de-la-vigne/jardins-a-la-francaise-lever-de-soleil.jpeg"
             alt="Jardins à la française au lever du soleil au Château Lastours"
             className="w-full h-full object-cover object-center hover:scale-105 transition-transform duration-700"
           />

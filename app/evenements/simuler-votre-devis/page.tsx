@@ -300,7 +300,7 @@ export default function SimulerDevisPage() {
     <div className="min-h-screen">
       {/* Hero Section */}
       <HeroEvent
-        imageSrc="/Page/Organiser votre evenement - ok et inclure cta pour renvoyer ver vos événement/concert-sous-tente-nomade-safari-gaillac-france-chateau-lastours.png"
+        imageSrc="/page/organiser-votre-evenement-ok-et-inclure-cta-pour-renvoyer-ver-vos-evenement/concert-sous-tente-nomade-safari-gaillac-france-chateau-lastours.png"
         title="Simuler votre devis"
         primaryCtaHref="/evenements/organiser"
         primaryCtaLabel="← Retour"

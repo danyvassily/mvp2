@@ -14,7 +14,7 @@ export default function PressePage() {
         >
           <div className="absolute inset-0">
             <Image
-              src="/Page/Espace presse/presse-vignoble-gaillac-chateau-lastours-france.jpg"
+              src="/page/espace-presse/presse-vignoble-gaillac-chateau-lastours-france.jpg"
               alt="Vignoble du Château Lastours - Espace Presse"
               fill
               className="object-cover"

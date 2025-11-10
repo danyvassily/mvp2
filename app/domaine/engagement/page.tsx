@@ -24,11 +24,11 @@ const engagementSections = [
       body: "La Certification HVE3 (Haute Valeur Environnementale niveau 3) est une démarche engagée par les viticulteurs soucieux de leur impact écologique. En obtenant cette certification, nous mettons en avant notre volonté d'adopter une viticulture durable, tout en garantissant la qualité de nos vins à travers des pratiques agricoles respectueuses de la biodiversité, de la gestion de l'eau, de la réduction de l'usage de produits phytosanitaires, et de la maintenance d'un espace naturel équilibré.",
     },
     image: {
-      src: "/PHOTOS-WEB-LASTOURS/VIGNES/1682596442650.jpg",
+      src: "/photos-web-lastours/vignes/1682596442650.jpg",
       alt: "Certification HVE au Château Lastours",
     },
     layout: "text-first",
-    logo: "/Page/Nos Engagement - ok/logo-HVE3.png",
+    logo: "/page/nos-engagement-ok/logo-HVE3.png",
   },
   {
     id: "zero-insecticides",
@@ -38,7 +38,7 @@ const engagementSections = [
       body: "La confusion sexuelle est une méthode de lutte biologique contre certains ravageurs de la grappe que nous avons mis en place au domaine. Nous diffusons des phéromones femelles pour désorienter les mâles afin d'empêcher leur reproduction. Cette approche écologique nous permet de réduire considérablement l'usage de pesticides tout en préservant l'équilibre naturel de nos vignes.",
     },
     image: {
-      src: "/Page/Nos Engagement - ok/nos-engagements-agriculture-raisonnee-chateau-lastours-aop-aoc-gaillac-france.jpg",
+      src: "/page/nos-engagement-ok/nos-engagements-agriculture-raisonnee-chateau-lastours-aop-aoc-gaillac-france.jpg",
       alt: "Confusion sexuelle dans les vignes du Château Lastours",
     },
     layout: "image-first",
@@ -51,7 +51,7 @@ const engagementSections = [
       body: "Notre domaine s'étend sur des terres cultivées dans le respect des équilibres naturels. Nous favorisons les pratiques douces : travail mécanique des sols, enherbement naturel, traitements alternatifs et limitation des intrants chimiques. L'objectif : laisser à la nature toute sa place et produire des vins authentiques, reflet de notre terroir.",
     },
     image: {
-      src: "/PHOTOS-WEB-LASTOURS/VIGNES/vignes.jpg",
+      src: "/photos-web-lastours/VIGNES/vignes.jpg",
       alt: "Vignoble durable du Château Lastours",
     },
     layout: "text-first",
@@ -83,7 +83,7 @@ export default function EngagementPage() {
       <section className="relative h-[70vh] lg:h-[85vh] overflow-hidden z-10 mt-6 lg:mt-8 mb-6 lg:mb-8">
         <div className="absolute inset-0">
           <Image
-            src="/Page/Notre vignoble - manque 1 photo/vignes-allee-de-platane-gaillac-france.jpg"
+            src="/page/notre-vignoble-manque-1-photo/vignes-allee-de-platane-gaillac-france.jpg"
             alt="Coucher de soleil avec allée de platane et vignes - Château Lastours"
             fill
             className="object-cover hover:scale-105 transition-transform duration-700"

@@ -41,7 +41,7 @@ export default function EvenementsPage() {
     <div className="min-h-screen">
       {/* Hero Section */}
       <HeroStandard
-        imageSrc="/Page/Nos evenements - ok/soiree-partenaire-rugby-chateau-lastours-gaillac-france.jpg"
+        imageSrc="/page/nos-evenements-ok/soiree-partenaire-rugby-chateau-lastours-gaillac-france.jpg"
         title="Au Fil des Saisons – Les Rendez-vous du Château Lastours"
         subtitle="Joyau viticole et patrimonial du Sud-Ouest et de Gaillac, le Domaine Lastours vous invite à vivre une immersion authentique dans l'art de vivre à la française."
         className="-mt-20"
@@ -72,7 +72,7 @@ export default function EvenementsPage() {
             <Card className="text-center overflow-hidden hover:shadow-xl transition-all duration-300">
               <div className="relative h-48 bg-muted">
                 <Image
-                  src="/Page/Nos evenements - ok/jeune-pianiste-dans-jardins-a-la-francaise-chateau-lastours-gaillac-france.jpg"
+                  src="/page/nos-evenements-ok/jeune-pianiste-dans-jardins-a-la-francaise-chateau-lastours-gaillac-france.jpg"
                   alt="Dégustations de vins d'exception au Château Lastours"
                   fill
                   className="object-cover"
@@ -91,7 +91,7 @@ export default function EvenementsPage() {
             <Card className="text-center overflow-hidden hover:shadow-xl transition-all duration-300">
               <div className="relative h-48 bg-muted">
                 <Image
-                  src="/Page/Nos evenements - ok/pigeonnier-renove-domaine-viticole-gaillac-france.jpg"
+                  src="/page/nos-evenements-ok/pigeonnier-renove-domaine-viticole-gaillac-france.jpg"
                   alt="Visites guidées du château et des vignobles"
                   fill
                   className="object-cover"
@@ -110,7 +110,7 @@ export default function EvenementsPage() {
             <Card className="text-center overflow-hidden hover:shadow-xl transition-all duration-300">
               <div className="relative h-48 bg-muted">
                 <Image
-                  src="/Page/Nos evenements - ok/concert-musicale-sous-tente-nomade-gaillac-france.jpg"
+                  src="/page/nos-evenements-ok/concert-musicale-sous-tente-nomade-gaillac-france.jpg"
                   alt="Concerts en plein air et marchés locaux"
                   fill
                   className="object-cover"
@@ -296,7 +296,7 @@ export default function EvenementsPage() {
             <Card className="text-center overflow-hidden hover:shadow-xl transition-all duration-300">
               <div className="relative h-48 bg-muted">
                 <Image
-                  src="/Page/Nos evenements - ok/pigeonnier-renove-domaine-viticole-gaillac-france.jpg"
+                  src="/page/nos-evenements-ok/pigeonnier-renove-domaine-viticole-gaillac-france.jpg"
                   alt="Séminaires d'Entreprise au Château Lastours"
                   fill
                   className="object-cover"
@@ -315,7 +315,7 @@ export default function EvenementsPage() {
             <Card className="text-center overflow-hidden hover:shadow-xl transition-all duration-300">
               <div className="relative h-48 bg-muted">
                 <Image
-                  src="/Page/Nos evenements - ok/soiree-partenaire-rugby-chateau-lastours-gaillac-france.jpg"
+                  src="/page/nos-evenements-ok/soiree-partenaire-rugby-chateau-lastours-gaillac-france.jpg"
                   alt="Mariages & Réceptions au Château Lastours"
                   fill
                   className="object-cover"
@@ -334,7 +334,7 @@ export default function EvenementsPage() {
             <Card className="text-center overflow-hidden hover:shadow-xl transition-all duration-300">
               <div className="relative h-48 bg-muted">
                 <Image
-                  src="/Page/Nos evenements - ok/concert-musicale-sous-tente-nomade-gaillac-france.jpg"
+                  src="/page/nos-evenements-ok/concert-musicale-sous-tente-nomade-gaillac-france.jpg"
                   alt="Dégustations Privées au Château Lastours"
                   fill
                   className="object-cover"

@@ -87,17 +87,16 @@ export default function ContactPage() {
 
           {/* Carte interactive pour localiser le château */}
           <div className="max-w-5xl mx-auto mb-16">
-            <div className="relative w-full h-[500px] rounded-lg overflow-hidden shadow-2xl">
+            <div className="relative w-full h-[600px] rounded-lg overflow-hidden shadow-2xl">
               <iframe
                 src="https://www.google.com/maps?q=Château+Lastours,+81310+Lisle-sur-Tarn,+France&output=embed"
                 width="100%"
-                height="100%"
-                style={{ border: 0 }}
+                height="600"
                 allowFullScreen
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
                 title="Localisation du Château Lastours"
-                className="w-full h-full"
+                className="absolute inset-0 w-full border-0 map-iframe"
               />
             </div>
           </div>

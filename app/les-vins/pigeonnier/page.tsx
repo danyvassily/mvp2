@@ -12,7 +12,7 @@ export default function PigeonnierPage() {
   return (
     <WinePageLuxe
       wine={wine}
-      imagePath="/Page/Nos Cuvée-ok/Gamme Confidentiel/Page Cuvée Pigeonnier/PIGEONNIER.jpg"
+      imagePath="/page/nos-cuvee-ok/gamme-confidentiel/page-cuvee-pigeonnier/pigeonnier.jpg"
       pdfPath="/Page/Nos Cuvée-ok/Gamme Confidentiel/Page Cuvée Pigeonnier/FT_Rouge_Cuvée_du_Pigeonnier_2022.pdf"
     />
   )
@@ -33,7 +33,7 @@ export async function generateMetadata() {
     openGraph: {
       title: `${wine.name} ${wine.vintage} - Château Lastours`,
       description: wine.longDescription,
-      images: ["/Page/Nos Cuvée-ok/Gamme Confidentiel/Page Cuvée Pigeonnier/PIGEONNIER.jpg"],
+      images: ["/page/nos-cuvee-ok/gamme-confidentiel/page-cuvee-pigeonnier/pigeonnier.jpg"],
     },
   }
 }

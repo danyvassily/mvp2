@@ -1,0 +1,46 @@
+{
+  "total": 139,
+  "missing": 8,
+  "missingImages": [
+    {
+      "path": "/test.png",
+      "file": "/Users/danyvassily/dev /chateaulastour-mvp/chateaulastour/public/test.png",
+      "relative": "test.png"
+    },
+    {
+      "path": "/harvest-festival-celebration-vineyard.png",
+      "file": "/Users/danyvassily/dev /chateaulastour-mvp/chateaulastour/public/harvest-festival-celebration-vineyard.png",
+      "relative": "harvest-festival-celebration-vineyard.png"
+    },
+    {
+      "path": "/prestige-wine-tasting-evening-elegant.png",
+      "file": "/Users/danyvassily/dev /chateaulastour-mvp/chateaulastour/public/prestige-wine-tasting-evening-elegant.png",
+      "relative": "prestige-wine-tasting-evening-elegant.png"
+    },
+    {
+      "path": "/wine-blending-masterclass-workshop.png",
+      "file": "/Users/danyvassily/dev /chateaulastour-mvp/chateaulastour/public/wine-blending-masterclass-workshop.png",
+      "relative": "wine-blending-masterclass-workshop.png"
+    },
+    {
+      "path": "/christmas-celebration-wine-estate-family.png",
+      "file": "/Users/danyvassily/dev /chateaulastour-mvp/chateaulastour/public/christmas-celebration-wine-estate-family.png",
+      "relative": "christmas-celebration-wine-estate-family.png"
+    },
+    {
+      "path": "/romantic-valentine-dinner-wine-cellar.png",
+      "file": "/Users/danyvassily/dev /chateaulastour-mvp/chateaulastour/public/romantic-valentine-dinner-wine-cellar.png",
+      "relative": "romantic-valentine-dinner-wine-cellar.png"
+    },
+    {
+      "path": "/spring-wine-tasting-new-vintages.png",
+      "file": "/Users/danyvassily/dev /chateaulastour-mvp/chateaulastour/public/spring-wine-tasting-new-vintages.png",
+      "relative": "spring-wine-tasting-new-vintages.png"
+    },
+    {
+      "path": "/wine-rouge-fruité.png",
+      "file": "/Users/danyvassily/dev /chateaulastour-mvp/chateaulastour/public/wine-rouge-fruité.png",
+      "relative": "wine-rouge-fruité.png"
+    }
+  ]
+}

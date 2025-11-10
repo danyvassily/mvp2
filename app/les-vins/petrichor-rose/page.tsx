@@ -12,7 +12,7 @@ export default function PetrichorRosePage() {
   return (
     <WinePageLuxe
       wine={wine}
-      imagePath="/Page/Nos Cuvée-ok/Gamme Petrichor/Page Cuvée Petrichor Rosé/Petrichor rosé.jpg"
+      imagePath="/page/nos-cuvee-ok/gamme-petrichor/page-cuvee-petrichor-rose/petrichor-rose.jpg"
       pdfPath="/Page/Nos Cuvée-ok/Gamme Petrichor/Page Cuvée Petrichor Rosé/FT_Rosé_Petrichor_2024.pdf"
     />
   )
@@ -33,7 +33,7 @@ export async function generateMetadata() {
     openGraph: {
       title: `${wine.name} ${wine.vintage} - Château Lastours`,
       description: wine.longDescription,
-      images: ["/Page/Nos Cuvée-ok/Gamme Petrichor/Page Cuvée Petrichor Rosé/Petrichor rosé.jpg"],
+      images: ["/page/nos-cuvee-ok/gamme-petrichor/page-cuvee-petrichor-rose/petrichor-rose.jpg"],
     },
   }
 }

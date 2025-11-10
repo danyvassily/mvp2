@@ -1,9 +1,10 @@
+"use client"
+
 import Link from "next/link"
 import Image from "next/image"
-import { Button } from "@/components/ui/button"
-import { Input } from "@/components/ui/input"
+import { useState, FormEvent } from "react"
 
-// SVG Icons pour réseaux sociaux (sobres, inline)
+// SVG Icons pour réseaux sociaux (sobres, 20px)
 const FacebookIcon = () => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
@@ -71,7 +72,7 @@ const YoutubeIcon = () => (
   </svg>
 )
 
-// Données des colonnes du footer
+// Données des colonnes du footer (3 colonnes seulement)
 const footerColumns = [
   {
     title: "Le Domaine",
@@ -97,130 +98,107 @@ const footerColumns = [
       { label: "Club Lastours", href: "/club" },
     ],
   },
-  {
-    title: "Contact",
-    links: [
-      { label: "Nous contacter", href: "/contact" },
-      { label: "Actualités", href: "/actualites" },
-      { label: "Presse", href: "/presse" },
-    ],
-  },
 ]
 
-// Réseaux sociaux (placeholders - à remplacer par les URLs réelles)
+// Réseaux sociaux
 const socialLinks = [
   {
     name: "Facebook",
     href: "#", // TODO: Remplacer par l'URL réelle
     icon: FacebookIcon,
-    ariaLabel: "Facebook Lastours",
+    ariaLabel: "Facebook Château Lastours",
   },
   {
     name: "Instagram",
     href: "#", // TODO: Remplacer par l'URL réelle
     icon: InstagramIcon,
-    ariaLabel: "Instagram Lastours",
+    ariaLabel: "Instagram Château Lastours",
   },
   {
     name: "Twitter",
     href: "#", // TODO: Remplacer par l'URL réelle
     icon: TwitterIcon,
-    ariaLabel: "Twitter Lastours",
+    ariaLabel: "Twitter Château Lastours",
   },
   {
     name: "Youtube",
     href: "#", // TODO: Remplacer par l'URL réelle
     icon: YoutubeIcon,
-    ariaLabel: "Youtube Lastours",
+    ariaLabel: "Youtube Château Lastours",
   },
 ]
 
-// Liens légaux
+// Liens légaux (incluant "Nous contacter")
 const legalLinks = [
   { label: "Mentions légales", href: "/mentions-legales" },
   { label: "CGV", href: "/cgv" },
   { label: "CGU", href: "/cgu" },
   { label: "Politique de confidentialité", href: "/cookies" },
   { label: "Plan du site", href: "/sitemap" },
+  { label: "Nous contacter", href: "/contact" },
 ]
 
 export function Footer() {
   return (
-    <footer className="bg-wine-dark text-white" role="contentinfo">
-      <div className="container mx-auto px-4 lg:px-8 py-8 max-w-[1200px]">
-        {/* Grille principale : Logo + 4 colonnes desktop */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-4 sm:gap-6">
-          {/* Colonne Logo & Description */}
-          <div className="md:col-span-2 lg:col-span-1 flex flex-col justify-center">
-            <Link href="/" className="inline-block mb-2 focus:outline-none focus:ring-2 focus:ring-wine-gold focus:ring-offset-2 focus:ring-offset-wine-dark rounded">
-              <Image
-                src="/PHOTOS-WEB-LASTOURS/LOGO/logo-chateau-lastours.jpg"
-                alt="Château Lastours, logo"
-                width={160}
-                height={133}
-                className="w-[140px] lg:w-[160px] h-auto object-contain"
-                priority={false}
-              />
-            </Link>
-            <p className="text-sm text-white/70 leading-relaxed max-w-xs mt-2">
-              Depuis 1847, l'expression d'un terroir d'exception.
-            </p>
-          </div>
+    <footer className="bg-[#1e1b19] text-[#F3EEE8]" role="contentinfo">
+      <div className="max-w-[1200px] mx-auto px-4 md:px-6">
+        {/* Bande supérieure : Logo + 3 colonnes liens */}
+        <FooterTop />
 
-          {/* Colonnes de navigation */}
-          {footerColumns.map((column) => (
-            <FooterColumn key={column.title} title={column.title} items={column.links} />
-          ))}
-        </div>
+        {/* Diviseur horizontal discret */}
+        <div className="border-t border-[#3a3530]/60" />
 
-        {/* Section Newsletter */}
-        <div className="mt-6 pt-4 border-t border-white/20">
-          <div className="max-w-md">
-            <h4 className="font-semibold text-base mb-2 text-white/90">Restez informés</h4>
-            <p className="text-sm text-white/70 mb-2">Actualités, primeurs et offres exclusives.</p>
-            <div className="flex flex-col sm:flex-row gap-2">
-              <Input
-                type="email"
-                placeholder="Votre email"
-                className="bg-white/10 border-white/20 text-white placeholder:text-white/60 focus:ring-2 focus:ring-wine-gold focus:border-wine-gold transition flex-1 min-h-[40px]"
-                aria-label="Adresse email pour newsletter"
-              />
-              <Button
-                variant="secondary"
-                className="bg-wine-gold hover:bg-wine-gold/90 text-wine-dark font-semibold whitespace-nowrap min-h-[40px] focus:outline-none focus:ring-2 focus:ring-wine-gold focus:ring-offset-2 focus:ring-offset-wine-dark"
-              >
-                S'inscrire
-              </Button>
-            </div>
-          </div>
-        </div>
-
-        {/* Footer bas : Copyright, Réseaux sociaux, Liens légaux */}
-        <div className="mt-6 pt-4 border-t border-white/20 flex flex-col lg:flex-row justify-between items-center gap-4 text-sm text-white/60">
-          <p className="text-center lg:text-left">
-            © {new Date().getFullYear()} Châteaux Lastours. Tous droits réservés.
-          </p>
-          <div className="flex flex-col sm:flex-row items-center gap-4">
-            {/* Réseaux sociaux */}
-            <SocialList items={socialLinks} />
-            
-            {/* Liens légaux */}
-            <nav className="flex flex-wrap items-center justify-center gap-3" aria-label="Liens légaux">
-              {legalLinks.map((link) => (
-                <FooterLink key={link.href} href={link.href}>
-                  {link.label}
-                </FooterLink>
-              ))}
-            </nav>
-          </div>
-        </div>
+        {/* Bande inférieure : Newsletter + Réseaux sociaux + Légal */}
+        <FooterBottom />
       </div>
     </footer>
   )
 }
 
-// Composant colonne de footer
-function FooterColumn({
+// Composant bande supérieure
+function FooterTop() {
+  return (
+    <div className="py-6">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 md:gap-8">
+        {/* Colonne Logo */}
+        <FooterBrand />
+
+        {/* 3 colonnes de liens */}
+        {footerColumns.map((column) => (
+          <FooterLinks key={column.title} title={column.title} items={column.links} />
+        ))}
+      </div>
+    </div>
+  )
+}
+
+// Composant Brand (Logo + tagline)
+function FooterBrand() {
+  return (
+    <div className="flex flex-col">
+      <Link
+        href="/"
+        className="inline-block mb-2 focus:outline-none focus-visible:ring-2 focus-visible:ring-[#C9AE71] focus-visible:ring-offset-2 focus-visible:ring-offset-[#1e1b19] rounded"
+      >
+        <Image
+          src="/PHOTOS-WEB-LASTOURS/LOGO/logo-chateau-lastours.jpg"
+          alt="Château Lastours"
+          width={150}
+          height={125}
+          className="w-[140px] md:w-[150px] h-auto object-contain"
+          priority={false}
+          loading="lazy"
+        />
+      </Link>
+      <p className="text-[13px] text-[#BFB7AE] leading-[1.5] mt-1 max-w-[200px]">
+        Depuis 1847, l'expression d'un terroir d'exception.
+      </p>
+    </div>
+  )
+}
+
+// Composant colonne de liens
+function FooterLinks({
   title,
   items,
 }: {
@@ -229,8 +207,10 @@ function FooterColumn({
 }) {
   return (
     <div>
-      <h4 className="font-semibold text-base mb-3 text-white/90 leading-tight">{title}</h4>
-      <nav className="flex flex-col space-y-2" aria-label={title}>
+      <h4 className="text-[12.5px] font-semibold tracking-[0.04em] mb-2 text-[#F3EEE8] uppercase">
+        {title}
+      </h4>
+      <nav className="flex flex-col gap-1.5" aria-label={title}>
         {items.map((item) => (
           <FooterLink key={item.href} href={item.href}>
             {item.label}
@@ -246,10 +226,105 @@ function FooterLink({ href, children }: { href: string; children: React.ReactNod
   return (
     <Link
       href={href}
-      className="text-sm text-white/70 hover:text-wine-gold transition-colors duration-300 focus:outline-none focus:ring-2 focus:ring-wine-gold focus:ring-offset-2 focus:ring-offset-wine-dark rounded min-h-[44px] flex items-center"
+      className="text-[13.5px] leading-[1.5] text-[#F3EEE8] opacity-90 hover:opacity-100 hover:text-[#C9AE71] transition-all duration-200 focus:outline-none focus-visible:ring-2 focus-visible:ring-[#C9AE71] focus-visible:ring-offset-2 focus-visible:ring-offset-[#1e1b19] rounded min-h-[36px] flex items-center"
     >
       {children}
     </Link>
+  )
+}
+
+// Composant bande inférieure
+function FooterBottom() {
+  return (
+    <div className="py-5">
+      <div className="flex flex-col lg:flex-row lg:items-center lg:justify-between gap-6">
+        {/* Newsletter compacte inline */}
+        <NewsletterCompact />
+
+        {/* Réseaux sociaux + Ligne légale */}
+        <div className="flex flex-col sm:flex-row lg:flex-col xl:flex-row items-start sm:items-center lg:items-end xl:items-center gap-4 lg:gap-6">
+          {/* Réseaux sociaux */}
+          <SocialList items={socialLinks} />
+
+          {/* Ligne légale */}
+          <LegalRow items={legalLinks} />
+        </div>
+      </div>
+    </div>
+  )
+}
+
+// Composant Newsletter compacte
+function NewsletterCompact() {
+  const [email, setEmail] = useState("")
+  const [status, setStatus] = useState<"idle" | "success" | "error">("idle")
+  const [message, setMessage] = useState("")
+
+  const handleSubmit = async (e: FormEvent<HTMLFormElement>) => {
+    e.preventDefault()
+    
+    if (!email || !email.match(/^[^\s@]+@[^\s@]+\.[^\s@]+$/)) {
+      setStatus("error")
+      setMessage("Veuillez entrer une adresse email valide.")
+      return
+    }
+
+    // TODO: Intégrer avec l'API de newsletter
+    try {
+      // Placeholder pour l'appel API
+      // await fetch('/api/newsletter', { method: 'POST', body: JSON.stringify({ email }) })
+      
+      setStatus("success")
+      setMessage("Merci pour votre inscription !")
+      setEmail("")
+      
+      // Réinitialiser le message après 5 secondes
+      setTimeout(() => {
+        setStatus("idle")
+        setMessage("")
+      }, 5000)
+    } catch (error) {
+      setStatus("error")
+      setMessage("Une erreur est survenue. Veuillez réessayer.")
+    }
+  }
+
+  return (
+    <div className="flex-1 max-w-[360px] w-full">
+      <form onSubmit={handleSubmit} className="flex flex-col sm:flex-row gap-2">
+        <label htmlFor="newsletter-email" className="sr-only">
+          Adresse email pour la newsletter
+        </label>
+        <input
+          id="newsletter-email"
+          type="email"
+          value={email}
+          onChange={(e) => setEmail(e.target.value)}
+          placeholder="Votre email"
+          required
+          aria-describedby={message ? "newsletter-message" : undefined}
+          className="flex-1 h-11 px-4 bg-[#2a2623] border border-[#3a3530] text-[#F3EEE8] placeholder:text-[#BFB7AE] rounded-none focus:outline-none focus-visible:ring-2 focus-visible:ring-[#C9AE71] focus-visible:border-[#C9AE71] transition-colors text-[13.5px]"
+        />
+        <button
+          type="submit"
+          className="h-11 px-6 bg-[#C9AE71] text-[#1e1b19] font-medium whitespace-nowrap hover:brightness-105 focus:outline-none focus-visible:ring-2 focus-visible:ring-[#C9AE71] focus-visible:ring-offset-2 focus-visible:ring-offset-[#1e1b19] transition-all text-[13.5px] min-w-[100px]"
+        >
+          S'inscrire
+        </button>
+      </form>
+      {message && (
+        <p
+          id="newsletter-message"
+          role="status"
+          aria-live="polite"
+          className={`mt-2 text-[12px] leading-[1.5] ${
+            status === "success" ? "text-[#C9AE71]" : "text-[#BFB7AE]"
+          }`}
+        >
+          {message}
+        </p>
+      )}
+    </div>
   )
 }
 
@@ -268,7 +343,7 @@ function SocialList({
     <nav className="flex items-center gap-3" aria-label="Réseaux sociaux">
       {items.map((item) => {
         const Icon = item.icon
-        const isExternal = item.href.startsWith("http")
+        const isExternal = item.href.startsWith("http") || item.href.startsWith("#")
         return (
           <a
             key={item.name}
@@ -276,12 +351,39 @@ function SocialList({
             target={isExternal ? "_blank" : undefined}
             rel={isExternal ? "noopener noreferrer" : undefined}
             aria-label={item.ariaLabel}
-            className="text-white/70 hover:text-wine-gold hover:opacity-80 focus:outline-none focus:ring-2 focus:ring-wine-gold focus:ring-offset-2 focus:ring-offset-wine-dark rounded p-2 min-w-[44px] min-h-[44px] flex items-center justify-center transition-all duration-300"
+            className="text-[#F3EEE8] opacity-85 hover:opacity-100 transition-opacity duration-200 focus:outline-none focus-visible:ring-2 focus-visible:ring-[#C9AE71] focus-visible:ring-offset-2 focus-visible:ring-offset-[#1e1b19] rounded p-1 min-w-[36px] min-h-[36px] flex items-center justify-center"
           >
             <Icon />
           </a>
         )
       })}
+    </nav>
+  )
+}
+
+// Composant ligne légale
+function LegalRow({ items }: { items: Array<{ label: string; href: string }> }) {
+  return (
+    <nav
+      className="flex flex-wrap items-center justify-center lg:justify-end gap-x-3 gap-y-1 text-[12px] leading-[1.6] text-[#BFB7AE]"
+      aria-label="Liens légaux"
+    >
+      <span className="text-[#BFB7AE] opacity-40">
+        © {new Date().getFullYear()} Châteaux Lastours
+      </span>
+      {items.map((link, index) => (
+        <span key={link.href} className="flex items-center gap-3">
+          <span className="text-[#BFB7AE] opacity-40" aria-hidden="true">
+            ·
+          </span>
+          <Link
+            href={link.href}
+            className="text-[#BFB7AE] hover:text-[#F3EEE8] hover:opacity-100 transition-colors duration-200 focus:outline-none focus-visible:ring-2 focus-visible:ring-[#C9AE71] focus-visible:ring-offset-2 focus-visible:ring-offset-[#1e1b19] rounded min-h-[36px] flex items-center"
+          >
+            {link.label}
+          </Link>
+        </span>
+      ))}
     </nav>
   )
 }
