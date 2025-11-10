@@ -41,6 +41,11 @@ public/*backup*/
 public/*old*/
 public/*clean*/
 
+# IMPORTANT: Ne PAS ignorer les dossiers d'assets actifs
+!public/photos-web-lastours/
+!public/page/
+!public/asset/
+
 # Fichiers temporaires
 *.zip
 *.rar
