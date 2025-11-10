@@ -13,7 +13,7 @@ export default function PerlePage() {
     <WinePageLuxe
       wine={wine}
       imagePath="/page/nos-cuvee-ok/gamme-perle/page-cuvee-perle/blanc-perle.jpg"
-      pdfPath="/page/nos-cuvee-ok/gamme-perle/page-cuvee Perlé/FT_perlé_2023.pdf"
+      pdfPath="/page/nos-cuvee-ok/gamme-perle/page-cuvee-perle/FT_perlé_2023.pdf"
     />
   )
 }

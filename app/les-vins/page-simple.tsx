@@ -44,7 +44,7 @@ export default function WinesPageSimple() {
                     <a href="/les-vins/domeni-blanc" className="block bg-blue-600 text-white text-center py-2 px-4 rounded-lg hover:bg-blue-700 transition-colors">
                       Découvrir la cuvée
                     </a>
-                    <a href="/page/nos-cuvee-ok/gamme-domeni/page-cuvee Domeni blanc/FT_blanc_Domeni 2024.pdf" target="_blank" rel="noopener noreferrer" className="block border border-gray-300 text-gray-700 text-center py-2 px-4 rounded-lg hover:bg-gray-50 transition-colors">
+                    <a href="/page/nos-cuvee-ok/gamme-domeni/page-cuvee-domeni-blanc/FT_blanc_Domeni 2024.pdf" target="_blank" rel="noopener noreferrer" className="block border border-gray-300 text-gray-700 text-center py-2 px-4 rounded-lg hover:bg-gray-50 transition-colors">
                       Fiche technique (PDF)
                     </a>
                   </div>
@@ -57,7 +57,7 @@ export default function WinesPageSimple() {
                     <a href="/les-vins/domeni-rose" className="block bg-blue-600 text-white text-center py-2 px-4 rounded-lg hover:bg-blue-700 transition-colors">
                       Découvrir la cuvée
                     </a>
-                    <a href="/page/nos-cuvee-ok/gamme-domeni/page-cuvee domeni Rosé/FT_rosé_Domeni_2024 (1).pdf" target="_blank" rel="noopener noreferrer" className="block border border-gray-300 text-gray-700 text-center py-2 px-4 rounded-lg hover:bg-gray-50 transition-colors">
+                    <a href="/page/nos-cuvee-ok/gamme-domeni/page-cuvee-domeni-rose/FT_rosé_Domeni_2024 (1).pdf" target="_blank" rel="noopener noreferrer" className="block border border-gray-300 text-gray-700 text-center py-2 px-4 rounded-lg hover:bg-gray-50 transition-colors">
                       Fiche technique (PDF)
                     </a>
                   </div>
@@ -70,7 +70,7 @@ export default function WinesPageSimple() {
                     <a href="/les-vins/domeni-rouge" className="block bg-blue-600 text-white text-center py-2 px-4 rounded-lg hover:bg-blue-700 transition-colors">
                       Découvrir la cuvée
                     </a>
-                    <a href="/page/nos-cuvee-ok/gamme-domeni/page-cuvee Domeni Rouge/FT_rouge_Domeni_2022.pdf" target="_blank" rel="noopener noreferrer" className="block border border-gray-300 text-gray-700 text-center py-2 px-4 rounded-lg hover:bg-gray-50 transition-colors">
+                    <a href="/page/nos-cuvee-ok/gamme-domeni/page-cuvee-domeni-rouge/FT_rouge_Domeni_2022.pdf" target="_blank" rel="noopener noreferrer" className="block border border-gray-300 text-gray-700 text-center py-2 px-4 rounded-lg hover:bg-gray-50 transition-colors">
                       Fiche technique (PDF)
                     </a>
                   </div>
@@ -95,7 +95,7 @@ export default function WinesPageSimple() {
                     <a href="/les-vins/opus-blanc" className="block bg-blue-600 text-white text-center py-2 px-4 rounded-lg hover:bg-blue-700 transition-colors">
                       Découvrir la cuvée
                     </a>
-                    <a href="/page/nos-cuvee-ok/gamme-opus/page-cuvee Opus Blanc/FT_blanc_Opus_2023.pdf" target="_blank" rel="noopener noreferrer" className="block border border-gray-300 text-gray-700 text-center py-2 px-4 rounded-lg hover:bg-gray-50 transition-colors">
+                    <a href="/page/nos-cuvee-ok/gamme-opus/page-cuvee-opus-blanc/FT_blanc_Opus_2023.pdf" target="_blank" rel="noopener noreferrer" className="block border border-gray-300 text-gray-700 text-center py-2 px-4 rounded-lg hover:bg-gray-50 transition-colors">
                       Fiche technique (PDF)
                     </a>
                   </div>
@@ -108,7 +108,7 @@ export default function WinesPageSimple() {
                     <a href="/les-vins/opus-rouge" className="block bg-blue-600 text-white text-center py-2 px-4 rounded-lg hover:bg-blue-700 transition-colors">
                       Découvrir la cuvée
                     </a>
-                    <a href="/page/nos-cuvee-ok/gamme-opus/page-cuvee Opus Rouge/FT_rouge_opus_2021.pdf" target="_blank" rel="noopener noreferrer" className="block border border-gray-300 text-gray-700 text-center py-2 px-4 rounded-lg hover:bg-gray-50 transition-colors">
+                    <a href="/page/nos-cuvee-ok/gamme-opus/page-cuvee-opus-rouge/FT_rouge_opus_2021.pdf" target="_blank" rel="noopener noreferrer" className="block border border-gray-300 text-gray-700 text-center py-2 px-4 rounded-lg hover:bg-gray-50 transition-colors">
                       Fiche technique (PDF)
                     </a>
                   </div>

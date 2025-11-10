@@ -28,8 +28,8 @@ const pdfOverrides: Record<string, string> = {
   "petrichor-rose": "/page/nos-cuvee-ok/gamme-petrichor/page-cuvee-petrichor-rose/FT_Rosé_Petrichor_2024.pdf",
   "pigeonnier": "/page/nos-cuvee-ok/gamme-confidentiel/page-cuvee-pigeonnier/FT_Rouge_Cuvée_du_Pigeonnier_2022.pdf",
   "perle": "/page/nos-cuvee-ok/gamme-perle/page-cuvee-perle/FT_perlé_2023.pdf",
-  "poussin-blanc": "/page/nos-cuvee-ok/gamme-poussin/page-cuvee poussin Blanc/FT_poussin_moelleux_2024.pdf",
-  "poussin-rose": "/page/nos-cuvee-ok/gamme-poussin/page-cuvee Poussin Rosé/FT_poussin rosé_moelleux_2024.pdf",
+  "poussin-blanc": "/page/nos-cuvee-ok/gamme-poussin/page-cuvee-poussin-blanc/FT_poussin_moelleux_2024.pdf",
+  "poussin-rose": "/page/nos-cuvee-ok/gamme-poussin/page-cuvee-poussin-rose/FT_poussin rosé_moelleux_2024.pdf",
   "methode-blanc": "/page/nos-cuvee-ok/gamme-methode-ancestral/page-methode-blanche/FT_la_méthode_blanc.pdf",
   "methode-rose": "/page/nos-cuvee-ok/gamme-methode-ancestral/page-methode-rose/FT_la_méthode_rosée_23.pdf"
 };
