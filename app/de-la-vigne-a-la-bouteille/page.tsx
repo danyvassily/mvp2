@@ -55,7 +55,7 @@ const sections = [
     id: "ecoulage-decuvage",
     title: "Écoulage et Décuvage : Sélection et précision",
     content: "Après la macération, vient l'écoulage : nous séparons le « vin de goutte », synonyme de finesse, du « vin de presse », plus puissant. Les marcs issus de cette opération sont délicatement pressés afin d'extraire chaque goutte de jus. Chacun de ces jus sera traité selon ses qualités pour composer nos meilleures cuvées.",
-    imageSrc: "/asset/de-la-vigne-a-la-bouteille/décuvage-cuve-inox-chateau-lastours-gaillac-france.jpeg",
+    imageSrc: "/asset/de-la-vigne-a-la-bouteille/decuvage-cuve-inox-chateau-lastours-gaillac-france.jpeg",
     imageAlt: "Écoulage et décuvage au Château Lastours",
     align: "right" as const,
   },
