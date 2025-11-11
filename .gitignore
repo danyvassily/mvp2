@@ -56,8 +56,8 @@ STRUCTURE.md
 *.md.backup
 
 # Dossiers de photos volumineux (éviter Git LFS)
-public/PHOTOS-WEB-LASTOURS*/
-public/photos/
+# public/PHOTOS-WEB-LASTOURS*/ - DÉSACTIVÉ : Les images sont nécessaires pour le déploiement Vercel
+# public/photos/ - DÉSACTIVÉ : Vérifier si ce dossier existe réellement
 public/*backup*/
 public/*old*/
 public/*clean*/
