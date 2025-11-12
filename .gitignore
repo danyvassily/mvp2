@@ -65,7 +65,7 @@ public/*old*/
 *.rar
 *.tar.gz
 
-# Fichiers images volumineux (> 1MB)
+
 *.mov
 
 *.avi# Fichiers d'optimisation temporaires
