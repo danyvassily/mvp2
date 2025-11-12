@@ -26,3 +26,4 @@ const nextConfig = {
 };
 
 export default nextConfig;
+// Force rebuild: Wed Nov 12 14:38:38 CET 2025
