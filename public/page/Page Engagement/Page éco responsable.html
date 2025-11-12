@@ -1,0 +1,171 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Notre Engagement Écoresponsable - Château Lastours</title>
+    <meta
+      name="description"
+      content="Découvrez les engagements écoresponsables du Château Lastours, domaine viticole certifié HVE en Gaillac, engagé pour une viticulture durable et respectueuse de l’environnement."
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <style>
+      .video-background {
+        position: relative;
+        width: 100%;
+        height: 100vh;
+        overflow: hidden;
+      }
+      .video-background video {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        min-width: 100%;
+        min-height: 100%;
+        width: auto;
+        height: auto;
+        z-index: -1;
+        transform: translate(-50%, -50%);
+      }
+      .video-overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.4);
+        z-index: 0;
+      }
+      .hero-text {
+        position: relative;
+        z-index: 1;
+        color: white;
+        text-align: center;
+        top: 50%;
+        transform: translateY(-50%);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="video-background">
+      <video autoplay muted loop>
+        <source src="video-url.mp4" type="video/mp4" />
+        Votre navigateur ne supporte pas les vidéos HTML5.
+      </video>
+      <div class="video-overlay"></div>
+      <div class="hero-text container">
+        <h1 class="display-4 fw-bold">
+          Un Domaine Durable, Une Terre d'Avenir
+        </h1>
+        <p class="lead">Engagés pour la nature, enracinés dans l'excellence.</p>
+      </div>
+    </div>
+
+    <section class="container py-5">
+      <div class="row mb-4">
+        <div class="col text-center">
+          <h2 class="fw-bold">Notre Engagement Écoresponsable</h2>
+          <p class="text-muted">
+            Une viticulture durable en plein cœur du Sud-Ouest français.
+          </p>
+        </div>
+      </div>
+      <div class="row gy-5">
+        <div class="col-md-6">
+          <h3 class="h5">Certification HVE - Haute Valeur Environnementale</h3>
+          <p>
+            La Certification HVE3 (Haute Valeur Environementale niveau 3) est
+            une démarche engagée par les viticiluteurs soucieux de leur impact
+            écologique. En obtenant cette certificatiion, nous mettons en avant
+            notre volonté d'adopter une viticulture durable, tout en
+            garantissant la qualité de nos vins à travers des pratiques
+            agricoles respectueuses de la biodiversité, de la gestion de l'eau,
+            de la réduction de l'usage de produits phytosanitaires, et de la
+            maintenance d'un espace naturel équilibré.
+          </p>
+        </div>
+        <div class="col-md-6">
+          <img
+            src="img/hve-certification.jpg"
+            alt="Certification HVE au Château Lastours"
+            class="img-fluid rounded shadow"
+          />
+        </div>
+      </div>
+      <div class="row gy-5">
+        <div class="col-md-6">
+          <h3 class="h5">Zero Insecticides</h3>
+          <p>
+            La confusion sexuelle est une méthode de lutte biologique contre
+            certains ravageurs de la grappe que nous avons mis en place au
+            domaine. Nous diffusons des phéromones femelles pour désorienter les
+            males afin d'empêcher leur reproduction.
+          </p>
+        </div>
+        <div class="col-md-6">
+          <img
+            src="img/hve-certification.jpg"
+            alt="Certification HVE au Château Lastours"
+            class="img-fluid rounded shadow"
+          />
+        </div>
+      </div>
+      <div class="row gy-5 pt-5">
+        <div class="col-md-6 order-md-2">
+          <h3 class="h5">Une Terre préservée, un patrimoine valorisé</h3>
+          <p>
+            Notre domaine s’étend sur des terres cultivées dans le respect des
+            équilibres naturels. Nous favorisons les pratiques douces : travail
+            mécanique des sols, enherbement naturel, traitements alternatifs et
+            limitation des intrants chimiques. L’objectif : laisser à la nature
+            toute sa place et produire des vins authentiques, reflet de notre
+            terroir.
+          </p>
+        </div>
+        <div class="col-md-6 order-md-1">
+          <img
+            src="img/vigne-eco.jpg"
+            alt="Vignoble durable"
+            class="img-fluid rounded shadow"
+          />
+        </div>
+      </div>
+      <div class="row gy-5 pt-5">
+        <div class="col-md-6">
+          <h3 class="h5">Des Événements Responsables</h3>
+          <p>
+            Organisez vos mariages, séminaires ou événements d’entreprise dans
+            un cadre exceptionnel et engagé. Nous mettons un point d'honneur à
+            proposer des services écoresponsables : partenariats avec traiteurs
+            locaux, valorisation des circuits courts, recyclage et limitation
+            des déchets. Offrez à vos invités une expérience aussi mémorable que
+            durable.
+          </p>
+        </div>
+        <div class="col-md-6">
+          <img
+            src="img/evenement-eco.jpg"
+            alt="Événement écoresponsable au Château Lastours"
+            class="img-fluid rounded shadow"
+          />
+        </div>
+      </div>
+    </section>
+
+    <section class="bg-light py-5 text-center">
+      <div class="container">
+        <h2 class="fw-bold">Envie d’en savoir plus ?</h2>
+        <p class="mb-4">
+          Réservez une visite du domaine et découvrez notre philosophie durable
+          de l’intérieur.
+        </p>
+        <a href="#" class="btn btn-success btn-lg">Réserver une visite</a>
+      </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

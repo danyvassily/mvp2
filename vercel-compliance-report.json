@@ -1,0 +1,327 @@
+{
+  "timestamp": "2025-11-12T11:11:22.872Z",
+  "issues": {
+    "pathsWithSpaces": [
+      {
+        "file": "lib/wines.ts",
+        "line": 21,
+        "path": "/page/Nos Cuvée-ok/Gamme Confidentiel/Page cuvée Claire de Lune/FT_blanc_claire_de_lune_2023.pdf",
+        "encoded": "/page/Nos%20Cuv%C3%A9e-ok/Gamme%20Confidentiel/Page%20cuv%C3%A9e%20Claire%20de%20Lune/FT_blanc_claire_de_lune_2023.pdf"
+      },
+      {
+        "file": "lib/wines.ts",
+        "line": 22,
+        "path": "/page/Nos Cuvée-ok/Gamme Domeni/Page Cuvée Domeni blanc/FT_blanc_Domeni 2024.pdf",
+        "encoded": "/page/Nos%20Cuv%C3%A9e-ok/Gamme%20Domeni/Page%20Cuv%C3%A9e%20Domeni%20blanc/FT_blanc_Domeni%202024.pdf"
+      },
+      {
+        "file": "lib/wines.ts",
+        "line": 23,
+        "path": "/page/Nos Cuvée-ok/Gamme Domeni/Page Cuvée domeni Rosé/FT_rosé_Domeni_2024 (1).pdf",
+        "encoded": "/page/Nos%20Cuv%C3%A9e-ok/Gamme%20Domeni/Page%20Cuv%C3%A9e%20domeni%20Ros%C3%A9/FT_ros%C3%A9_Domeni_2024%20(1).pdf"
+      },
+      {
+        "file": "lib/wines.ts",
+        "line": 24,
+        "path": "/page/Nos Cuvée-ok/Gamme Domeni/Page Cuvée Domeni Rouge/FT_rouge_Domeni_2022.pdf",
+        "encoded": "/page/Nos%20Cuv%C3%A9e-ok/Gamme%20Domeni/Page%20Cuv%C3%A9e%20Domeni%20Rouge/FT_rouge_Domeni_2022.pdf"
+      },
+      {
+        "file": "lib/wines.ts",
+        "line": 25,
+        "path": "/page/Nos Cuvée-ok/Gamme Opus/Page Cuvée Opus Blanc/FT_blanc_Opus_2023.pdf",
+        "encoded": "/page/Nos%20Cuv%C3%A9e-ok/Gamme%20Opus/Page%20Cuv%C3%A9e%20Opus%20Blanc/FT_blanc_Opus_2023.pdf"
+      },
+      {
+        "file": "lib/wines.ts",
+        "line": 26,
+        "path": "/page/Nos Cuvée-ok/Gamme Opus/Page Cuvée Opus Rouge/FT_rouge_opus_2021.pdf",
+        "encoded": "/page/Nos%20Cuv%C3%A9e-ok/Gamme%20Opus/Page%20Cuv%C3%A9e%20Opus%20Rouge/FT_rouge_opus_2021.pdf"
+      },
+      {
+        "file": "lib/wines.ts",
+        "line": 27,
+        "path": "/page/Nos Cuvée-ok/Gamme Petrichor/Page Cuvée Pertichor Rouge/FT_Rouge_Petrichor_2020.pdf",
+        "encoded": "/page/Nos%20Cuv%C3%A9e-ok/Gamme%20Petrichor/Page%20Cuv%C3%A9e%20Pertichor%20Rouge/FT_Rouge_Petrichor_2020.pdf"
+      },
+      {
+        "file": "lib/wines.ts",
+        "line": 28,
+        "path": "/page/Nos Cuvée-ok/Gamme Petrichor/Page Cuvée Petrichor Rosé/FT_Rosé_Petrichor_2024.pdf",
+        "encoded": "/page/Nos%20Cuv%C3%A9e-ok/Gamme%20Petrichor/Page%20Cuv%C3%A9e%20Petrichor%20Ros%C3%A9/FT_Ros%C3%A9_Petrichor_2024.pdf"
+      },
+      {
+        "file": "lib/wines.ts",
+        "line": 29,
+        "path": "/page/Nos Cuvée-ok/Gamme Confidentiel/Page Cuvée Pigeonnier/FT_Rouge_Cuvée_du_Pigeonnier_2022.pdf",
+        "encoded": "/page/Nos%20Cuv%C3%A9e-ok/Gamme%20Confidentiel/Page%20Cuv%C3%A9e%20Pigeonnier/FT_Rouge_Cuv%C3%A9e_du_Pigeonnier_2022.pdf"
+      },
+      {
+        "file": "lib/wines.ts",
+        "line": 30,
+        "path": "/page/Nos Cuvée-ok/Gamme perlé/Page cuvée Perlé/FT_perlé_2023.pdf",
+        "encoded": "/page/Nos%20Cuv%C3%A9e-ok/Gamme%20perl%C3%A9/Page%20cuv%C3%A9e%20Perl%C3%A9/FT_perl%C3%A9_2023.pdf"
+      },
+      {
+        "file": "lib/wines.ts",
+        "line": 31,
+        "path": "/page/Nos Cuvée-ok/Gamme poussin/Page Cuvée poussin Blanc/FT_poussin_moelleux_2024.pdf",
+        "encoded": "/page/Nos%20Cuv%C3%A9e-ok/Gamme%20poussin/Page%20Cuv%C3%A9e%20poussin%20Blanc/FT_poussin_moelleux_2024.pdf"
+      },
+      {
+        "file": "lib/wines.ts",
+        "line": 32,
+        "path": "/page/Nos Cuvée-ok/Gamme poussin/Page Cuvée Poussin Rosé/FT_poussin rosé_moelleux_2024.pdf",
+        "encoded": "/page/Nos%20Cuv%C3%A9e-ok/Gamme%20poussin/Page%20Cuv%C3%A9e%20Poussin%20Ros%C3%A9/FT_poussin%20ros%C3%A9_moelleux_2024.pdf"
+      },
+      {
+        "file": "lib/wines.ts",
+        "line": 33,
+        "path": "/page/Nos Cuvée-ok/Gamme Méthode Ancestral/Page Méthode Blanche/FT_la_méthode_blanc.pdf",
+        "encoded": "/page/Nos%20Cuv%C3%A9e-ok/Gamme%20M%C3%A9thode%20Ancestral/Page%20M%C3%A9thode%20Blanche/FT_la_m%C3%A9thode_blanc.pdf"
+      },
+      {
+        "file": "lib/wines.ts",
+        "line": 34,
+        "path": "/page/Nos Cuvée-ok/Gamme Méthode Ancestral/Page Méthode Rosé/FT_la_méthode_rosée_23.pdf",
+        "encoded": "/page/Nos%20Cuv%C3%A9e-ok/Gamme%20M%C3%A9thode%20Ancestral/Page%20M%C3%A9thode%20Ros%C3%A9/FT_la_m%C3%A9thode_ros%C3%A9e_23.pdf"
+      },
+      {
+        "file": "lib/wines.ts",
+        "line": 56,
+        "path": "/page/Nos Cuvée-ok/Gamme Domeni/Page Cuvée Domeni blanc/BLANC_DOMENI_sf.png",
+        "encoded": "/page/Nos%20Cuv%C3%A9e-ok/Gamme%20Domeni/Page%20Cuv%C3%A9e%20Domeni%20blanc/BLANC_DOMENI_sf.png"
+      },
+      {
+        "file": "lib/wines.ts",
+        "line": 64,
+        "path": "/page/Nos Cuvée-ok/Gamme Domeni/Page Cuvée domeni Rosé/ROSE DOMENI-sf.png",
+        "encoded": "/page/Nos%20Cuv%C3%A9e-ok/Gamme%20Domeni/Page%20Cuv%C3%A9e%20domeni%20Ros%C3%A9/ROSE%20DOMENI-sf.png"
+      },
+      {
+        "file": "lib/wines.ts",
+        "line": 72,
+        "path": "/page/Nos Cuvée-ok/Gamme Domeni/Page Cuvée Domeni Rouge/ROUGE_DOMENI_sf.png",
+        "encoded": "/page/Nos%20Cuv%C3%A9e-ok/Gamme%20Domeni/Page%20Cuv%C3%A9e%20Domeni%20Rouge/ROUGE_DOMENI_sf.png"
+      },
+      {
+        "file": "lib/wines.ts",
+        "line": 89,
+        "path": "/page/Nos Cuvée-ok/Gamme Opus/Page Cuvée Opus Blanc/BLANC_OPUS_sf.png",
+        "encoded": "/page/Nos%20Cuv%C3%A9e-ok/Gamme%20Opus/Page%20Cuv%C3%A9e%20Opus%20Blanc/BLANC_OPUS_sf.png"
+      },
+      {
+        "file": "lib/wines.ts",
+        "line": 97,
+        "path": "/page/Nos Cuvée-ok/Gamme Opus/Page Cuvée Opus Rouge/ROUGE_OPUS_sf.png",
+        "encoded": "/page/Nos%20Cuv%C3%A9e-ok/Gamme%20Opus/Page%20Cuv%C3%A9e%20Opus%20Rouge/ROUGE_OPUS_sf.png"
+      },
+      {
+        "file": "lib/wines.ts",
+        "line": 114,
+        "path": "/page/Nos Cuvée-ok/Gamme Méthode Ancestral/Page Méthode Blanche/LA_METHODE_BLANC_st.png",
+        "encoded": "/page/Nos%20Cuv%C3%A9e-ok/Gamme%20M%C3%A9thode%20Ancestral/Page%20M%C3%A9thode%20Blanche/LA_METHODE_BLANC_st.png"
+      },
+      {
+        "file": "lib/wines.ts",
+        "line": 122,
+        "path": "/page/Nos Cuvée-ok/Gamme Méthode Ancestral/Page Méthode Rosé/LA_METHODE_ROSE_sf.png",
+        "encoded": "/page/Nos%20Cuv%C3%A9e-ok/Gamme%20M%C3%A9thode%20Ancestral/Page%20M%C3%A9thode%20Ros%C3%A9/LA_METHODE_ROSE_sf.png"
+      },
+      {
+        "file": "lib/wines.ts",
+        "line": 130,
+        "path": "/page/Nos Cuvée-ok/Gamme perlé/Page cuvée Perlé/BLANC_PERLE_sf.png",
+        "encoded": "/page/Nos%20Cuv%C3%A9e-ok/Gamme%20perl%C3%A9/Page%20cuv%C3%A9e%20Perl%C3%A9/BLANC_PERLE_sf.png"
+      },
+      {
+        "file": "lib/wines.ts",
+        "line": 147,
+        "path": "/page/Nos Cuvée-ok/Gamme poussin/Page Cuvée poussin Blanc/POUSSIN_BLANC_sf.png",
+        "encoded": "/page/Nos%20Cuv%C3%A9e-ok/Gamme%20poussin/Page%20Cuv%C3%A9e%20poussin%20Blanc/POUSSIN_BLANC_sf.png"
+      },
+      {
+        "file": "lib/wines.ts",
+        "line": 155,
+        "path": "/page/Nos Cuvée-ok/Gamme poussin/Page Cuvée Poussin Rosé/POUSSIN_ROSE_sf.png",
+        "encoded": "/page/Nos%20Cuv%C3%A9e-ok/Gamme%20poussin/Page%20Cuv%C3%A9e%20Poussin%20Ros%C3%A9/POUSSIN_ROSE_sf.png"
+      },
+      {
+        "file": "lib/wines.ts",
+        "line": 164,
+        "path": "/page/Home page - ok/bouteille-de-vin-rouge-tonneau-en-bois.jpg",
+        "encoded": "/page/Home%20page%20-%20ok/bouteille-de-vin-rouge-tonneau-en-bois.jpg"
+      },
+      {
+        "file": "lib/wines.ts",
+        "line": 172,
+        "path": "/page/Nos Cuvée-ok/Gamme Petrichor/Page Cuvée Pertichor Rouge/PETRICHOR_st.png",
+        "encoded": "/page/Nos%20Cuv%C3%A9e-ok/Gamme%20Petrichor/Page%20Cuv%C3%A9e%20Pertichor%20Rouge/PETRICHOR_st.png"
+      },
+      {
+        "file": "lib/wines.ts",
+        "line": 180,
+        "path": "/page/Nos Cuvée-ok/Gamme Petrichor/Page Cuvée Petrichor Rosé/PETRICHOR__Ros_SF.png",
+        "encoded": "/page/Nos%20Cuv%C3%A9e-ok/Gamme%20Petrichor/Page%20Cuv%C3%A9e%20Petrichor%20Ros%C3%A9/PETRICHOR__Ros_SF.png"
+      },
+      {
+        "file": "lib/wines.ts",
+        "line": 197,
+        "path": "/page/Nos Cuvée-ok/Gamme Confidentiel/Page cuvée Claire de Lune/CLAIRE_DE_LUNE_sf.png",
+        "encoded": "/page/Nos%20Cuv%C3%A9e-ok/Gamme%20Confidentiel/Page%20cuv%C3%A9e%20Claire%20de%20Lune/CLAIRE_DE_LUNE_sf.png"
+      },
+      {
+        "file": "lib/wines.ts",
+        "line": 205,
+        "path": "/page/Nos Cuvée-ok/Gamme Confidentiel/Page Cuvée Pigeonnier/PIGEONNIER_sf.png",
+        "encoded": "/page/Nos%20Cuv%C3%A9e-ok/Gamme%20Confidentiel/Page%20Cuv%C3%A9e%20Pigeonnier/PIGEONNIER_sf.png"
+      },
+      {
+        "file": "lib/news-data.ts",
+        "line": 19,
+        "path": "/page/Page Actualité - ok/vin-rose-gastronomique-elevage-barrique-petrichor.jpg",
+        "encoded": "/page/Page%20Actualit%C3%A9%20-%20ok/vin-rose-gastronomique-elevage-barrique-petrichor.jpg"
+      },
+      {
+        "file": "lib/news-data.ts",
+        "line": 70,
+        "path": "/page/Page Actualité - ok/machine-a-vendanger-chateau-lastours-gaillac-2025.jpg",
+        "encoded": "/page/Page%20Actualit%C3%A9%20-%20ok/machine-a-vendanger-chateau-lastours-gaillac-2025.jpg"
+      },
+      {
+        "file": "lib/news-data.ts",
+        "line": 87,
+        "path": "/page/Page Actualité - ok/actualite-evenements-chateau-lastours-gaillac-france.jpg",
+        "encoded": "/page/Page%20Actualit%C3%A9%20-%20ok/actualite-evenements-chateau-lastours-gaillac-france.jpg"
+      },
+      {
+        "file": "lib/news-data.ts",
+        "line": 104,
+        "path": "/page/La vigne - ok/travail-dans-la-vigne-palissage.jpg",
+        "encoded": "/page/La%20vigne%20-%20ok/travail-dans-la-vigne-palissage.jpg"
+      },
+      {
+        "file": "lib/news-data.ts",
+        "line": 121,
+        "path": "/page/Page Actualité - ok/Salon-Vignerons-Independants-Paris-2025-france.jpg",
+        "encoded": "/page/Page%20Actualit%C3%A9%20-%20ok/Salon-Vignerons-Independants-Paris-2025-france.jpg"
+      },
+      {
+        "file": "lib/news-data.ts",
+        "line": 138,
+        "path": "/page/Page Actualité - ok/portrait-artiste-placticien-francais-arnaud-liard.jpeg",
+        "encoded": "/page/Page%20Actualit%C3%A9%20-%20ok/portrait-artiste-placticien-francais-arnaud-liard.jpeg"
+      },
+      {
+        "file": "app/page.tsx",
+        "line": 221,
+        "path": "/page/Home page - ok/bouteille-de-vin-rouge-tonneau-en-bois.jpg",
+        "encoded": "/page/Home%20page%20-%20ok/bouteille-de-vin-rouge-tonneau-en-bois.jpg"
+      },
+      {
+        "file": "app/page.tsx",
+        "line": 280,
+        "path": "/page/Visite - ok/jardins-a-la française-buis-chateau-lastours-gaillac-france.jpg",
+        "encoded": "/page/Visite%20-%20ok/jardins-a-la%20fran%C3%A7aise-buis-chateau-lastours-gaillac-france.jpg"
+      },
+      {
+        "file": "app/page.tsx",
+        "line": 334,
+        "path": "/page/La vigne - ok/vignes-hiver-chapelle-saint-vincent-d-avens-gaillac-france.jpeg",
+        "encoded": "/page/La%20vigne%20-%20ok/vignes-hiver-chapelle-saint-vincent-d-avens-gaillac-france.jpeg"
+      },
+      {
+        "file": "app/page.tsx",
+        "line": 387,
+        "path": "/page/Home page - ok/repas-mariage-longue-table-en-bois-chateau-lastours.jpg",
+        "encoded": "/page/Home%20page%20-%20ok/repas-mariage-longue-table-en-bois-chateau-lastours.jpg"
+      },
+      {
+        "file": "lib/asset-mapping.ts",
+        "line": 68,
+        "path": "/page/nos-evenements-ok/PIANO JARDINS.jpg",
+        "encoded": "/page/nos-evenements-ok/PIANO%20JARDINS.jpg"
+      },
+      {
+        "file": "lib/asset-mapping.ts",
+        "line": 95,
+        "path": "/page/page-actualite-ok/Article Petrichor En.docx",
+        "encoded": "/page/page-actualite-ok/Article%20Petrichor%20En.docx"
+      },
+      {
+        "file": "lib/asset-mapping.ts",
+        "line": 96,
+        "path": "/page/page-actualite-ok/Article Petrichor Fr.docx",
+        "encoded": "/page/page-actualite-ok/Article%20Petrichor%20Fr.docx"
+      },
+      {
+        "file": "lib/asset-mapping.ts",
+        "line": 97,
+        "path": "/page/page-actualite-ok/Article fête des vins de Gaillac En.docx",
+        "encoded": "/page/page-actualite-ok/Article%20f%C3%AAte%20des%20vins%20de%20Gaillac%20En.docx"
+      },
+      {
+        "file": "lib/asset-mapping.ts",
+        "line": 98,
+        "path": "/page/page-actualite-ok/Article fête des vins de Gaillac Fr.docx",
+        "encoded": "/page/page-actualite-ok/Article%20f%C3%AAte%20des%20vins%20de%20Gaillac%20Fr.docx"
+      },
+      {
+        "file": "lib/asset-mapping.ts",
+        "line": 99,
+        "path": "/page/page-actualite-ok/Page Actualité En.docx",
+        "encoded": "/page/page-actualite-ok/Page%20Actualit%C3%A9%20En.docx"
+      },
+      {
+        "file": "lib/asset-mapping.ts",
+        "line": 100,
+        "path": "/page/page-actualite-ok/Page Actualité Fr.docx",
+        "encoded": "/page/page-actualite-ok/Page%20Actualit%C3%A9%20Fr.docx"
+      },
+      {
+        "file": "lib/asset-mapping.ts",
+        "line": 101,
+        "path": "/page/page-actualite-ok/Article Arnaud Liard.docx",
+        "encoded": "/page/page-actualite-ok/Article%20Arnaud%20Liard.docx"
+      },
+      {
+        "file": "lib/asset-mapping.ts",
+        "line": 102,
+        "path": "/page/page-actualite-ok/Article sur vendanges 2025.docx",
+        "encoded": "/page/page-actualite-ok/Article%20sur%20vendanges%202025.docx"
+      },
+      {
+        "file": "lib/asset-mapping.ts",
+        "line": 114,
+        "path": "/page/nos-cuvee-ok/gamme-methode-ancestral/page-methode Blanche/FT_la_méthode_blanc.pdf",
+        "encoded": "/page/nos-cuvee-ok/gamme-methode-ancestral/page-methode%20Blanche/FT_la_m%C3%A9thode_blanc.pdf"
+      },
+      {
+        "file": "lib/asset-mapping.ts",
+        "line": 115,
+        "path": "/page/nos-cuvee-ok/gamme-methode-ancestral/page-methode Blanche/LA METHODE BLANC.jpg",
+        "encoded": "/page/nos-cuvee-ok/gamme-methode-ancestral/page-methode%20Blanche/LA%20METHODE%20BLANC.jpg"
+      },
+      {
+        "file": "lib/asset-mapping.ts",
+        "line": 120,
+        "path": "/page/nos-cuvee-ok/gamme-methode-ancestral/page-methode Rosé/FT_la_méthode_rosée_23.pdf",
+        "encoded": "/page/nos-cuvee-ok/gamme-methode-ancestral/page-methode%20Ros%C3%A9/FT_la_m%C3%A9thode_ros%C3%A9e_23.pdf"
+      },
+      {
+        "file": "lib/asset-mapping.ts",
+        "line": 121,
+        "path": "/page/nos-cuvee-ok/gamme-methode-ancestral/page-methode Rosé/LA METHODE ROSE.jpg",
+        "encoded": "/page/nos-cuvee-ok/gamme-methode-ancestral/page-methode%20Ros%C3%A9/LA%20METHODE%20ROSE.jpg"
+      }
+    ],
+    "specialCharacters": [],
+    "missingFiles": [],
+    "buildIssues": []
+  },
+  "summary": {
+    "pathsWithSpaces": 52,
+    "missingFiles": 0,
+    "compliant": true
+  }
+}

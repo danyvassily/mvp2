@@ -1,0 +1,93 @@
+{
+  "timestamp": "2025-11-12T11:06:59.584Z",
+  "summary": {
+    "total": 34,
+    "found": 15,
+    "variations": 0,
+    "missing": 19
+  },
+  "found": [
+    {
+      "referenced": "/page/nos-cuvee-ok/gamme-confidentiel/page-cuvee-claire-de-lune/FT_blanc_claire_de_lune_2023.pdf",
+      "actual": "/page/Nos Cuvée-ok/Gamme Confidentiel/Page cuvée Claire de Lune/FT_blanc_claire_de_lune_2023.pdf"
+    },
+    {
+      "referenced": "/page/nos-cuvee-ok/gamme-domeni/page-cuvee-domeni-blanc/FT_blanc_Domeni 2024.pdf",
+      "actual": "/page/Nos Cuvée-ok/Gamme Domeni/Page Cuvée Domeni blanc/FT_blanc_Domeni 2024.pdf"
+    },
+    {
+      "referenced": "/page/nos-cuvee-ok/gamme-domeni/page-cuvee-domeni-rose/FT_rosé_Domeni_2024 (1).pdf",
+      "actual": "/page/Nos Cuvée-ok/Gamme Domeni/Page Cuvée domeni Rosé/FT_rosé_Domeni_2024 (1).pdf"
+    },
+    {
+      "referenced": "/page/nos-cuvee-ok/gamme-domeni/page-cuvee-domeni-rouge/FT_rouge_Domeni_2022.pdf",
+      "actual": "/page/Nos Cuvée-ok/Gamme Domeni/Page Cuvée Domeni Rouge/FT_rouge_Domeni_2022.pdf"
+    },
+    {
+      "referenced": "/page/nos-cuvee-ok/gamme-opus/page-cuvee-opus-blanc/FT_blanc_Opus_2023.pdf",
+      "actual": "/page/Nos Cuvée-ok/Gamme Opus/Page Cuvée Opus Blanc/FT_blanc_Opus_2023.pdf"
+    },
+    {
+      "referenced": "/page/nos-cuvee-ok/gamme-opus/page-cuvee-opus-rouge/FT_rouge_opus_2021.pdf",
+      "actual": "/page/Nos Cuvée-ok/Gamme Opus/Page Cuvée Opus Rouge/FT_rouge_opus_2021.pdf"
+    },
+    {
+      "referenced": "/page/nos-cuvee-ok/gamme-petrichor/page-cuvee-pertichor-rouge/FT_Rouge_Petrichor_2020.pdf",
+      "actual": "/page/Nos Cuvée-ok/Gamme Petrichor/Page Cuvée Pertichor Rouge/FT_Rouge_Petrichor_2020.pdf"
+    },
+    {
+      "referenced": "/page/nos-cuvee-ok/gamme-petrichor/page-cuvee-petrichor-rose/FT_Rosé_Petrichor_2024.pdf",
+      "actual": "/page/Nos Cuvée-ok/Gamme Petrichor/Page Cuvée Petrichor Rosé/FT_Rosé_Petrichor_2024.pdf"
+    },
+    {
+      "referenced": "/page/nos-cuvee-ok/gamme-confidentiel/page-cuvee-pigeonnier/FT_Rouge_Cuvée_du_Pigeonnier_2022.pdf",
+      "actual": "/page/Nos Cuvée-ok/Gamme Confidentiel/Page Cuvée Pigeonnier/FT_Rouge_Cuvée_du_Pigeonnier_2022.pdf"
+    },
+    {
+      "referenced": "/page/nos-cuvee-ok/gamme-perle/page-cuvee-perle/FT_perlé_2023.pdf",
+      "actual": "/page/Nos Cuvée-ok/Gamme perlé/Page cuvée Perlé/FT_perlé_2023.pdf"
+    },
+    {
+      "referenced": "/page/nos-cuvee-ok/gamme-poussin/page-cuvee-poussin-blanc/FT_poussin_moelleux_2024.pdf",
+      "actual": "/page/Nos Cuvée-ok/Gamme poussin/Page Cuvée poussin Blanc/FT_poussin_moelleux_2024.pdf"
+    },
+    {
+      "referenced": "/page/nos-cuvee-ok/gamme-poussin/page-cuvee-poussin-rose/FT_poussin rosé_moelleux_2024.pdf",
+      "actual": "/page/Nos Cuvée-ok/Gamme poussin/Page Cuvée Poussin Rosé/FT_poussin rosé_moelleux_2024.pdf"
+    },
+    {
+      "referenced": "/page/nos-cuvee-ok/gamme-methode-ancestral/page-methode-blanche/FT_la_méthode_blanc.pdf",
+      "actual": "/page/Nos Cuvée-ok/Gamme Méthode Ancestral/Page Méthode Blanche/FT_la_méthode_blanc.pdf"
+    },
+    {
+      "referenced": "/page/nos-cuvee-ok/gamme-methode-ancestral/page-methode-rose/FT_la_méthode_rosée_23.pdf",
+      "actual": "/page/Nos Cuvée-ok/Gamme Méthode Ancestral/Page Méthode Rosé/FT_la_méthode_rosée_23.pdf"
+    },
+    {
+      "referenced": "/gamme-methode.jpg",
+      "actual": "/gamme-methode.jpg"
+    }
+  ],
+  "variations": [],
+  "missing": [
+    "/page/nos-cuvee-ok/gamme-domeni/page-cuvee-domeni-blanc/blanc-domeni-sf.png",
+    "/page/nos-cuvee-ok/gamme-domeni/page-cuvee-domeni-rose/rose-domeni-sf.png",
+    "/page/nos-cuvee-ok/gamme-domeni/page-cuvee-domeni-rouge/rouge-domeni-sf.png",
+    "/page/nos-cuvee-ok/gamme-opus/page-cuvee-opus-blanc/blanc-opus-sf.png",
+    "/page/nos-cuvee-ok/gamme-opus/page-cuvee-opus-rouge/rouge-opus-sf.png",
+    "/page/nos-cuvee-ok/gamme-methode-ancestral/page-methode-blanche/la-methode-blanc-st.png",
+    "/page/nos-cuvee-ok/gamme-methode-ancestral/page-methode-rose/la-methode-rose-sf.png",
+    "/page/nos-cuvee-ok/gamme-perle/page-cuvee-perle/blanc-perle-sf.png",
+    "/page/nos-cuvee-ok/gamme-poussin/page-cuvee-poussin-blanc/poussin-blanc-sf.png",
+    "/page/nos-cuvee-ok/gamme-poussin/page-cuvee-poussin-rose/poussin-rose-sf.png",
+    "/page/nos-cuvee-ok/gamme-petrichor/page-cuvee-pertichor-rouge/petrichor-st.png",
+    "/page/nos-cuvee-ok/gamme-petrichor/page-cuvee-petrichor-rose/petrichor-ros-sf.png",
+    "/page/nos-cuvee-ok/gamme-confidentiel/page-cuvee-claire-de-lune/claire-de-lune-sf.png",
+    "/page/nos-cuvee-ok/gamme-confidentiel/page-cuvee-pigeonnier/pigeonnier-sf.png",
+    "/gamme-domeni.jpg",
+    "/gamme-opus.jpg",
+    "/gamme-poussin.jpg",
+    "/gamme-confidentielle.jpg",
+    "/page/homepage/nos-vins-gamme-petrichor.jpg"
+  ]
+}

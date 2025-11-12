@@ -34,7 +34,7 @@ export const events: EventItem[] = [
     price: "Gratuit",
     description:
       "Participez à notre traditionnelle fête des vendanges ! Au programme : participation aux vendanges, dégustation, repas convivial et animations musicales.",
-    image: "/harvest-festival-celebration-vineyard.png",
+    image: "/harvest-festival-event.png",
     featured: true,
     spots: "Illimité",
     location: { name: "Châteaux Lastours, Gaillac" },
@@ -54,7 +54,7 @@ export const events: EventItem[] = [
     price: "85€",
     description:
       "Une soirée exclusive pour découvrir nos cuvées les plus prestigieuses accompagnées d'un menu gastronomique conçu par le chef étoilé Laurent Dubois.",
-    image: "/prestige-wine-tasting-evening-elegant.png",
+    image: "/wine-tasting-event.png",
     featured: true,
     spots: "24 places",
     location: { name: "Chais historiques" },
@@ -74,7 +74,7 @@ export const events: EventItem[] = [
     price: "120€",
     description:
       "Apprenez l'art de l'assemblage avec notre œnologue Marie Lastours. Créez votre propre cuvée et repartez avec votre bouteille personnalisée.",
-    image: "/wine-blending-masterclass-workshop.png",
+    image: "/wine-education-workshop.png",
     featured: false,
     spots: "12 places",
     location: { name: "Salle de dégustation privée" },
@@ -90,7 +90,7 @@ export const events: EventItem[] = [
     price: "45€ adulte, 15€ enfant",
     description:
       "Célébrez Noël dans la magie de notre domaine. Visite féerique, dégustation de vins chauds épicés, ateliers pour enfants et marché de Noël.",
-    image: "/christmas-celebration-wine-estate-family.png",
+    image: "/harvest-festival-event.png",
     featured: false,
     spots: "50 places",
     tags: ["noel", "famille"],
@@ -105,7 +105,7 @@ export const events: EventItem[] = [
     price: "150€ par couple",
     description:
       "Un dîner romantique aux chandelles dans nos chais historiques, avec menu 5 services et accords mets-vins exceptionnels.",
-    image: "/romantic-valentine-dinner-wine-cellar.png",
+    image: "/private-dinner-event.png",
     featured: true,
     spots: "20 couples",
     tags: ["romantique", "dîner"],
@@ -120,7 +120,7 @@ export const events: EventItem[] = [
     price: "35€",
     description:
       "Découvrez en avant-première nos nouveaux millésimes dans l'ambiance printanière de notre domaine fleuri.",
-    image: "/spring-wine-tasting-new-vintages.png",
+    image: "/wine-tasting-event.png",
     featured: false,
     spots: "40 places",
     tags: ["millésimes", "printemps"],

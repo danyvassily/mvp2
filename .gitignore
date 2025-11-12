@@ -60,7 +60,7 @@ STRUCTURE.md
 # public/photos/ - DÉSACTIVÉ : Vérifier si ce dossier existe réellement
 public/*backup*/
 public/*old*/
-public/*clean*/
+
 *.zip
 *.rar
 *.tar.gz

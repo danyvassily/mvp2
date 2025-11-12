@@ -1,0 +1,445 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>
+      Château Lastours – Visite et dégustation raffinée des vins AOC Gaillac et
+      Sud-Ouest | Domaine d’exception
+    </title>
+    <meta
+      name="description"
+      content="Plongez au cœur du Château Lastours, domaine viticole d’exception en AOC Gaillac, Sud-Ouest. Visites guidées, dégustations haut de gamme de vins blancs, rouges, rosés et effervescents. Réservez votre expérience unique."
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+
+    <style>
+      /* Palette élégante */
+      :root {
+        --color-primary: #7b4e19; /* brun chocolat */
+        --color-secondary: #bfa97f; /* beige doré */
+        --color-bg: #fdf8f0;
+        --color-text: #3e3e3e;
+        --color-accent: #a67329;
+      }
+
+      body {
+        background-color: var(--color-bg);
+        color: var(--color-text);
+        font-family: 'Merriweather', serif;
+        line-height: 1.7;
+        padding-top: 70px; /* pour navbar fixe */
+      }
+
+      h1,
+      h2,
+      h3 {
+        color: var(--color-primary);
+        font-family: 'Playfair Display', serif;
+        font-weight: 700;
+      }
+
+      h1 {
+        border-bottom: 3px solid var(--color-secondary);
+        padding-bottom: 0.5rem;
+        margin-bottom: 1.5rem;
+      }
+
+      h2 {
+        border-bottom: 1.5px solid var(--color-secondary);
+        padding-bottom: 0.4rem;
+        margin-top: 2.5rem;
+        margin-bottom: 1rem;
+      }
+
+      hr {
+        border-top: 1px solid var(--color-secondary);
+        margin: 3rem 0;
+      }
+
+      ul li {
+        margin-bottom: 0.6rem;
+        font-size: 1.05rem;
+      }
+
+      p {
+        font-size: 1.1rem;
+      }
+
+      a.cta-btn {
+        background-color: var(--color-primary);
+        border: none;
+        color: white !important;
+        padding: 0.75rem 1.75rem;
+        border-radius: 50px;
+        font-weight: 600;
+        box-shadow: 0 5px 15px rgba(123, 78, 25, 0.4);
+        transition: background-color 0.3s ease;
+        display: inline-block;
+        margin: 1.8rem 0;
+        text-decoration: none;
+        font-size: 1.2rem;
+      }
+
+      a.cta-btn:hover,
+      a.cta-btn:focus {
+        background-color: var(--color-accent);
+        color: white !important;
+        text-decoration: none;
+      }
+
+      /* Navbar */
+      .navbar {
+        background-color: var(--color-bg);
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        position: fixed;
+        width: 100%;
+        top: 0;
+        z-index: 1030;
+        padding: 0.75rem 2rem;
+      }
+      .navbar-brand {
+        font-family: 'Playfair Display', serif;
+        font-weight: 700;
+        color: var(--color-primary);
+        font-size: 1.6rem;
+        letter-spacing: 1.5px;
+      }
+      .navbar-toggler {
+        border-color: var(--color-primary);
+      }
+      .navbar-toggler-icon {
+        background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='%237b4e19' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+      }
+
+      /* Lang Switcher Button */
+      #langSwitcher {
+        background: var(--color-primary);
+        border: none;
+        color: white;
+        border-radius: 25px;
+        padding: 0.4rem 1rem;
+        font-weight: 600;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+        font-size: 1rem;
+      }
+      #langSwitcher:hover,
+      #langSwitcher:focus {
+        background: var(--color-accent);
+        outline: none;
+        box-shadow: 0 0 8px var(--color-accent);
+      }
+
+      /* Responsive typography tweaks */
+      @media (max-width: 576px) {
+        h1 {
+          font-size: 1.6rem;
+        }
+        h2 {
+          font-size: 1.2rem;
+        }
+        p,
+        ul li {
+          font-size: 1rem;
+        }
+        a.cta-btn {
+          font-size: 1rem;
+          padding: 0.6rem 1.2rem;
+        }
+      }
+    </style>
+
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather&family=Playfair+Display:wght@700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Château Lastours</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navContent"
+          aria-controls="navContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div
+          class="navbar-collapse justify-content-end collapse"
+          id="navContent"
+        >
+          <button id="langSwitcher" aria-label="Changer la langue">
+            English
+          </button>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container my-5">
+      <!-- Section Française -->
+      <section lang="fr" id="francais">
+        <h1>
+          Château Lastours – L’art de la dégustation et du terroir en AOC
+          Gaillac, Sud-Ouest de la France
+        </h1>
+        <p>
+          Découvrez l’âme vibrante du Château Lastours, joyau viticole niché au
+          cœur de l’AOC Gaillac, terroir emblématique du Sud-Ouest français.
+          Plus qu’une visite, une invitation à un voyage sensoriel où
+          authenticité, savoir-faire ancestral et élégance s’entrelacent pour
+          vous offrir une expérience unique.
+        </p>
+
+        <hr />
+
+        <h2>
+          Une parenthèse enchantée : visite privée, patrimoine et dégustation
+          raffinée
+        </h2>
+        <p>
+          Au fil d’une promenade guidée d’une heure trente, laissez-vous
+          envoûter par la beauté intemporelle de nos chais traditionnels, la
+          sérénité majestueuse de nos jardins à la française et l’élégance
+          architecturale du pigeonnier, symbole historique du domaine.
+        </p>
+        <p>
+          Chaque étape se prolonge par une dégustation commentée de nos vins
+          d’exception, révélant la richesse et la diversité de nos cépages,
+          soigneusement cultivés pour exprimer tout le caractère du terroir
+          gaillacois. Une expérience idéale pour les amoureux du vin, en
+          famille, entre amis, seul ou en groupe.
+        </p>
+
+        <hr />
+
+        <h2>
+          Des vins d’exception, reflet authentique du terroir Gaillacois et de
+          la richesse du Sud-Ouest
+        </h2>
+        <ul>
+          <li>
+            <strong>Le Perlé</strong>, vin blanc sec au perlant délicat,
+            fraîcheur élégante idéale pour l’apéritif ou pour accompagner les
+            fruits de mer.
+          </li>
+          <li>
+            <strong>Les blancs secs</strong>, allant du floral, fruité aux
+            blancs plus complexes aux notes beurées apportées par la barrique.
+          </li>
+          <li>
+            <strong>Nos rosés de presse</strong>, allant du fruité et léger,
+            parfait pour illuminer vos instants d’été au vin plus élaboré élevé
+            en barriques.
+          </li>
+          <li>
+            <strong>Les rouges de l’AOC Gaillac</strong>, allant du fruité aux
+            arômes épicés, aux vins plus structurés.
+          </li>
+          <li>
+            <strong>Les vins moelleux</strong>, allant des arômes gourmands de
+            pêche et d’agrumes aux petits fruits frais.
+          </li>
+          <li>
+            <strong>La Méthode Ancestrale Gaillacoise</strong>, effervescence
+            naturelle, parfaite pour célébrer vos événements avec authenticité
+            et élégance.
+          </li>
+        </ul>
+
+        <hr />
+
+        <h2>Horaires, tarifs et réservation</h2>
+        <p>
+          Nous vous accueillons avec plaisir du lundi au samedi, de 9h à 12h30
+          puis de 13h30 à 18h30.
+        </p>
+        <ul>
+          <li>Durée de la visite : 1h30</li>
+          <li>Tarif : 10 € par adulte</li>
+          <li>
+            Tarif : 6 € pour les jeunes 13 à 17 ans (gratuit pour les enfants de
+            moins de 13 ans)
+          </li>
+          <li>Groupes : visites privées sur réservation</li>
+        </ul>
+        <a href="tel:+33563570709" class="cta-btn"
+          >Réservez votre visite exclusive au +33 (0)5 63 57 07 09</a
+        >
+        <p>
+          Ou par email :
+          <a href="mailto:contact@chateau-lastours.com"
+            >contact@chateau-lastours.com</a
+          >
+        </p>
+
+        <hr />
+
+        <h2>Pourquoi choisir Château Lastours ?</h2>
+        <ul>
+          <li>
+            Un domaine viticole d’exception au cœur d’un terroir d’exception
+          </li>
+          <li>
+            Des vins élégants, authentiques et raffinés, issus d’une viticulture
+            respectueuse
+          </li>
+          <li>Un cadre prestigieux, propice à la détente et à la découverte</li>
+          <li>Un savoir-faire ancestral transmis avec passion et rigueur</li>
+        </ul>
+
+        <hr />
+
+        <h2>Offrez-vous un moment d’exception, entre tradition et modernité</h2>
+        <p>
+          Au Château Lastours, vivez la magie du Sud-Ouest, savourez la richesse
+          unique de l’AOC Gaillac, et laissez-vous séduire par une expérience
+          œnologique haut de gamme, pensée pour éveiller tous vos sens.
+        </p>
+      </section>
+
+      <!-- Section Anglaise (cachée par défaut) -->
+      <section lang="en" id="english" style="display: none">
+        <h1>
+          Château Lastours – The Art of Wine and Terroir Discovery in AOC
+          Gaillac, South-West France
+        </h1>
+        <p>
+          Discover the vibrant soul of Château Lastours, a true gem nestled in
+          the heart of the renowned AOC Gaillac, a prestigious terroir in the
+          South-West of France. More than just a visit, it’s an invitation to a
+          sensory journey where authenticity, ancestral know-how, and refined
+          elegance intertwine to offer you an unparalleled experience.
+        </p>
+
+        <hr />
+        <h2>
+          An Enchanting Escape: Private Tours, Heritage & Sophisticated Tastings
+        </h2>
+        <p>
+          During a guided 90-minute walk, be captivated by the timeless beauty
+          of our traditional wine cellars, the serene grandeur of our French
+          formal gardens, and the architectural elegance of the historic
+          dovecote, a symbol of our estate.
+        </p>
+        <p>
+          Each moment is enriched by a carefully curated tasting session
+          featuring our exceptional wines, showcasing the rich diversity of
+          grape varieties meticulously cultivated to express the unique
+          character of the Gaillac terroir. Perfect for wine lovers, families,
+          friends, or groups seeking an exclusive experience.
+        </p>
+
+        <hr />
+
+        <h2>
+          Exceptional Wines – True Expressions of Gaillac Terroir and South-West
+          French Heritage
+        </h2>
+        <ul>
+          <li>
+            <strong>Le Perlé Les Graviers</strong>, a dry white wine with
+            delicate bubbles, offering elegant freshness ideal for aperitifs or
+            seafood pairings.
+          </li>
+          <li>
+            <strong>Our dry white blends</strong>, combining Mauzac, Loin de
+            l’Œil, and Sauvignon grapes, floral and citrus notes enhanced by
+            barrel aging for roundness and complexity.
+          </li>
+          <li>
+            <strong>Claire de Lune</strong>, a barrel-aged Mauzac
+            single-varietal, blending buttery finesse with toasted aromas to
+            delight your palate.
+          </li>
+          <li>
+            <strong>Pressed rosés</strong>, light and fruity, crafted from Duras
+            and Syrah, perfect for brightening your summer moments.
+          </li>
+          <li>
+            <strong>Gaillac red wines</strong>, from fresh fruity styles to
+            spicy, structured cuvées like Rouge Tradition, Rouge Sélection, and
+            the Pigeonnier, aged in new oak barrels for remarkable depth and
+            length.
+          </li>
+          <li>
+            <strong>Sweet wines</strong>, including Poussin, a tribute to our
+            family heritage, bursting with fresh peach and citrus notes.
+          </li>
+          <li>
+            <strong>The Ancestral Method sparkling wines</strong>, crafted
+            exclusively from Mauzac, offering natural effervescence and
+            authenticity, ideal for celebrations and elegant receptions.
+          </li>
+        </ul>
+
+        <hr />
+
+        <h2>Opening Hours, Rates & Reservations</h2>
+        <p>
+          We welcome you from Monday to Saturday, 9:00 AM to 12:30 PM and 1:30
+          PM to 6:30 PM.
+        </p>
+        <ul>
+          <li>Tour duration: 90 minutes</li>
+          <li>Price: €10 per person (free for children)</li>
+          <li>
+            Price: €6 per young people between 13 and 17 years old (Free for a
+            children between 0 and 12 years old)
+          </li>
+          <li>Groups: private tours available upon reservation</li>
+        </ul>
+        <a href="tel:+33563570709" class="cta-btn"
+          >Book your exclusive tour at +33 (0)5 63 57 07 09</a
+        >
+        <p>
+          Or via email:
+          <a href="mailto:contact@chateau-lastours.com"
+            >contact@chateau-lastours.com</a
+          >
+        </p>
+
+        <hr />
+
+        <h2>Why Choose Château Lastours?</h2>
+        <ul>
+          <li>An exceptional vineyard set in a prestigious terroir</li>
+          <li>
+            Elegant, authentic, and refined wines from respectful viticulture
+          </li>
+          <li>A prestigious setting ideal for relaxation and discovery</li>
+          <li>Ancestral expertise passed on with passion and precision</li>
+        </ul>
+
+        <hr />
+
+        <h2>
+          Treat Yourself to an Exceptional Moment, Between Tradition and
+          Modernity
+        </h2>
+        <p>
+          At Château Lastours, experience the magic of the South-West, savor the
+          unique richness of AOC Gaillac, and indulge in a high-end oenological
+          journey designed to awaken all your senses.
+        </p>
+      </section>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+      // Toggle language content visibility const langSwitcher = document.getElementById('langSwitcher'); const frSection = document.getElementById('francais'); const enSection = document.getElementById('english'); langSwitcher.addEventListener('click', () => { if(frSection.style.display === 'none') { // Show FR, hide EN frSection.style.display = 'block'; enSection.style.display = 'none'; langSwitcher.textContent = 'English'; document.documentElement.lang = 'fr'; } else { // Show EN, hide FR frSection.style.display = 'none'; enSection.style.display = 'block'; langSwitcher.textContent = 'Français'; document.documentElement.lang = 'en'; } });
+    </script>
+  </body>
+</html>
