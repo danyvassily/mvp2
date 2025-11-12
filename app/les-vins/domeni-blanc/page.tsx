@@ -13,7 +13,7 @@ export default function DomeniBlancPage() {
     <WinePageLuxe
       wine={wine}
       imagePath="/page/nos-cuvee-ok/gamme-domeni/page-cuvee-domeni-blanc/blanc-domeni.jpg"
-      pdfPath="/page/nos-cuvee-ok/gamme-domeni/page-cuvee-domeni-blanc/FT_blanc_Domeni 2024.pdf"
+      pdfPath="/page/nos-cuvee-ok/gamme-domeni/page-cuvee-domeni-blanc/ft-blanc-domeni-2024.pdf"
     />
   )
 }

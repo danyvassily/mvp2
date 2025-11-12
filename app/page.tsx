@@ -277,7 +277,7 @@ export default function HomePage() {
       <section className="relative h-[75vh] lg:h-[90vh] overflow-hidden mt-6 lg:mt-8">
         <div className="absolute inset-0">
           <Image
-            src="/page/Visite - ok/jardins-a-la française-buis-chateau-lastours-gaillac-france.jpg"
+            src="/page/visite-ok/jardins-a-la-francaise-buis-chateau-lastours-gaillac-france.jpg"
             alt="Château Lastours côté jardin"
             fill
             className="object-cover object-center sm:object-[center_center] lg:object-[center_40%] hover:scale-105 transition-transform duration-700"

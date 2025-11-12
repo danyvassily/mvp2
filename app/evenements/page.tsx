@@ -10,8 +10,8 @@ import { HeroStandard } from "@/components/common/HeroStandard"
 /**
  * Page "Nos Événements"
  * 
- * ✅ Textes extraits depuis ASSET : /public/Page/Nos evenements - ok/Page nos evenement Fr.docx
- * ✅ Images depuis ASSET : /public/Page/Nos evenements - ok/
+ * ✅ Textes extraits depuis ASSET : /public/page/nos-evenements-ok/page-nos-evenement-fr.docx
+ * ✅ Images depuis ASSET : /public/page/nos-evenements-ok/
  */
 
 export default function EvenementsPage() {

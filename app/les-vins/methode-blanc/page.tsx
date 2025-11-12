@@ -13,7 +13,7 @@ export default function MethodeBlancPage() {
     <WinePageLuxe
       wine={wine}
       imagePath="/page/nos-cuvee-ok/gamme-methode-ancestral/page-methode-blanche/la-methode-blanc.jpg"
-      pdfPath="/page/nos-cuvee-ok/gamme-methode-ancestral/page-methode Blanche/FT_la_méthode_blanc.pdf"
+      pdfPath="/page/nos-cuvee-ok/gamme-methode-ancestral/page-methode-blanche/ft-la-methode-blanc.pdf"
     />
   )
 }

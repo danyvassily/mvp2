@@ -16,7 +16,7 @@ export const metadata: Metadata = {
 
 /**
  * Sections du cycle de la vigne
- * IMPORTANT: Les textes doivent être extraits depuis /public/asset/le-cycle-de-la-vigne/La vigne FR.docx
+ * IMPORTANT: Les textes doivent être extraits depuis /public/asset/le-cycle-de-la-vigne/la-vigne-fr.docx
  * Pour l'instant, structure basée sur les images disponibles dans l'ASSET
  */
 const cycleSections = [

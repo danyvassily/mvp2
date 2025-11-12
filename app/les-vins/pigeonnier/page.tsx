@@ -13,7 +13,7 @@ export default function PigeonnierPage() {
     <WinePageLuxe
       wine={wine}
       imagePath="/page/nos-cuvee-ok/gamme-confidentiel/page-cuvee-pigeonnier/pigeonnier.jpg"
-      pdfPath="/page/nos-cuvee-ok/gamme-confidentiel/page-cuvee-pigeonnier/FT_Rouge_Cuvée_du_Pigeonnier_2022.pdf"
+      pdfPath="/page/nos-cuvee-ok/gamme-confidentiel/page-cuvee-pigeonnier/ft-rouge-cuvee-du-pigeonnier-2022.pdf"
     />
   )
 }

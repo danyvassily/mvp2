@@ -118,7 +118,7 @@ export const articles: Article[] = [
     date: "2025-02-15",
     excerpt:
       "Le Château Lastours sera présent au Salon des Vignerons Indépendants à Paris pour présenter ses dernières cuvées et rencontrer les amateurs de vin.",
-    image: "/page/page-actualite-ok/Salon-Vignerons-Independants-Paris-2025-france.jpg",
+    image: "/page/page-actualite-ok/salon-vignerons-independants-paris-2025-france-1.jpg",
     tags: ["Salon", "Paris", "Dégustation"],
     author: "Château Lastours",
     body: [

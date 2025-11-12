@@ -13,7 +13,7 @@ export default function ClaireDeLunePage() {
     <WinePageLuxe
       wine={wine}
       imagePath="/page/nos-cuvee-ok/gamme-confidentiel/page-cuvee-claire-de-lune/claire-de-lune.jpg"
-      pdfPath="/page/nos-cuvee-ok/gamme-confidentiel/page-cuvee-claire-de-lune/FT_blanc_claire_de_lune_2023.pdf"
+      pdfPath="/page/nos-cuvee-ok/gamme-confidentiel/page-cuvee-claire-de-lune/ft-blanc-claire-de-lune-2023.pdf"
     />
   )
 }

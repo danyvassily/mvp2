@@ -51,7 +51,7 @@ const engagementSections = [
       body: "Notre domaine s'étend sur des terres cultivées dans le respect des équilibres naturels. Nous favorisons les pratiques douces : travail mécanique des sols, enherbement naturel, traitements alternatifs et limitation des intrants chimiques. L'objectif : laisser à la nature toute sa place et produire des vins authentiques, reflet de notre terroir.",
     },
     image: {
-      src: "/photos-web-lastours/VIGNES/vignes.jpg",
+      src: "/photos-web-lastours/vignes-1/vignes.jpg",
       alt: "Vignoble durable du Château Lastours",
     },
     layout: "text-first",

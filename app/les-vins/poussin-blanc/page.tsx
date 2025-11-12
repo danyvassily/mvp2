@@ -13,7 +13,7 @@ export default function PoussinBlancPage() {
     <WinePageLuxe
       wine={wine}
       imagePath="/page/nos-cuvee-ok/gamme-poussin/page-cuvee-poussin-blanc/poussin-blanc.jpg"
-      pdfPath="/page/nos-cuvee-ok/gamme-poussin/page-cuvee-poussin-blanc/FT_poussin_moelleux_2024.pdf"
+      pdfPath="/page/nos-cuvee-ok/gamme-poussin/page-cuvee-poussin-blanc/ft-poussin-moelleux-2024.pdf"
     />
   )
 }

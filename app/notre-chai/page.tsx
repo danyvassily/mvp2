@@ -68,7 +68,7 @@ const vinificationSections = [
       body: "Après la macération, vient l'écoulage : nous séparons le « vin de goutte », synonyme de finesse, du « vin de presse », plus puissant. Les marcs issus de cette opération sont délicatement pressés afin d'extraire chaque goutte de jus. Chacun de ces jus sera traité selon ses qualités pour composer nos meilleures cuvées."
     },
     image: {
-      src: "/page/notre-chai-manque-1-photo/décuvage-cuve-inox-chateau-lastours-gaillac-france.jpeg",
+      src: "/page/notre-chai-manque-1-photo/decuvage-cuve-inox-chateau-lastours-gaillac-france.jpeg",
       alt: "Décuvage en cuve inox au Château Lastours",
       ratio: "16/9" as const
     },

@@ -1,114 +1,114 @@
 [
   {
-    "pdf": "public/fiche-technique/FT_Rouge_Cuvée_du_Pigeonnier_2022.pdf",
+    "pdf": "public/fiche-technique/ft-rouge-cuvee-du-pigeonnier-2022.pdf",
     "data": {}
   },
   {
-    "pdf": "public/fiche-technique/FT_Rouge_Petrichor_2020.pdf",
+    "pdf": "public/fiche-technique/ft-rouge-petrichor-2020.pdf",
     "data": {
       "decanting": "carafer 30 minutes à 1 heure"
     }
   },
   {
-    "pdf": "public/fiche-technique/FT_blanc_Domeni 2024.pdf",
+    "pdf": "public/fiche-technique/ft-blanc-domeni-2024.pdf",
     "data": {}
   },
   {
-    "pdf": "public/fiche-technique/FT_blanc_Opus_2023.pdf",
+    "pdf": "public/fiche-technique/ft-blanc-opus-2023.pdf",
     "data": {}
   },
   {
-    "pdf": "public/fiche-technique/FT_blanc_claire_de_lune_2023.pdf",
+    "pdf": "public/fiche-technique/ft-blanc-claire-de-lune-2023.pdf",
     "data": {}
   },
   {
-    "pdf": "public/fiche-technique/FT_la_méthode_blanc.pdf",
+    "pdf": "public/fiche-technique/ft-la-methode-blanc.pdf",
     "data": {}
   },
   {
-    "pdf": "public/fiche-technique/FT_la_méthode_rosée_23.pdf",
+    "pdf": "public/fiche-technique/ft-la-methode-rosee-23.pdf",
     "data": {}
   },
   {
-    "pdf": "public/fiche-technique/FT_perlé_2023.pdf",
+    "pdf": "public/fiche-technique/ft-perle-2023.pdf",
     "data": {}
   },
   {
-    "pdf": "public/fiche-technique/FT_poussin rosé_moelleux_2024.pdf",
+    "pdf": "public/fiche-technique/ft-poussin-rose-moelleux-2024.pdf",
     "data": {}
   },
   {
-    "pdf": "public/fiche-technique/FT_poussin_moelleux_2024.pdf",
+    "pdf": "public/fiche-technique/ft-poussin-moelleux-2024.pdf",
     "data": {}
   },
   {
-    "pdf": "public/fiche-technique/FT_rosé_Domeni_2024.pdf",
+    "pdf": "public/fiche-technique/ft-rose-domeni-2024.pdf",
     "data": {}
   },
   {
-    "pdf": "public/fiche-technique/FT_rouge_Domeni_2022.pdf",
+    "pdf": "public/fiche-technique/ft-rouge-domeni-2022.pdf",
     "data": {
       "decanting": "carafer  1  à  2  heures  avant"
     }
   },
   {
-    "pdf": "public/fiche-technique/FT_rouge_opus_2021.pdf",
+    "pdf": "public/fiche-technique/ft-rouge-opus-2021.pdf",
     "data": {}
   },
   {
-    "pdf": "public/Page/Page Cuvée Domeni Rouge/FT_rouge_Domeni_2022.pdf",
+    "pdf": "public/fiche-technique/ft-rouge-domeni-2022.pdf",
     "data": {
       "decanting": "carafer  1  à  2  heures  avant"
     }
   },
   {
-    "pdf": "public/Page/Page Cuvée Domeni blanc/FT_blanc_Domeni 2024.pdf",
+    "pdf": "public/fiche-technique/ft-blanc-domeni-2024.pdf",
     "data": {}
   },
   {
-    "pdf": "public/Page/Page Cuvée Opus Balnc/FT_blanc_Opus_2023.pdf",
+    "pdf": "public/fiche-technique/ft-blanc-opus-2023.pdf",
     "data": {}
   },
   {
-    "pdf": "public/Page/Page Cuvée Opus Rouge/FT_rouge_opus_2021.pdf",
+    "pdf": "public/fiche-technique/ft-rouge-opus-2021.pdf",
     "data": {}
   },
   {
-    "pdf": "public/Page/Page Cuvée Pertichor Rouge/FT_Rouge_Petrichor_2020.pdf",
+    "pdf": "public/fiche-technique/ft-rouge-petrichor-2020.pdf",
     "data": {
       "decanting": "carafer 30 minutes à 1 heure"
     }
   },
   {
-    "pdf": "public/Page/Page Cuvée Pigeonnier/FT_Rouge_Cuvée_du_Pigeonnier_2022.pdf",
+    "pdf": "public/fiche-technique/ft-rouge-cuvee-du-pigeonnier-2022.pdf",
     "data": {}
   },
   {
-    "pdf": "public/Page/Page Cuvée Poussin Rosé/FT_poussin rosé_moelleux_2024.pdf",
+    "pdf": "public/fiche-technique/ft-poussin-rose-moelleux-2024.pdf",
     "data": {}
   },
   {
-    "pdf": "public/Page/Page Cuvée domeni Rosé/FT_rosé_Domeni_2024 (1).pdf",
+    "pdf": "public/fiche-technique/ft-rose-domeni-2024-1.pdf",
     "data": {}
   },
   {
-    "pdf": "public/Page/Page Cuvée poussin Blanc/FT_poussin_moelleux_2024.pdf",
+    "pdf": "public/fiche-technique/ft-poussin-moelleux-2024.pdf",
     "data": {}
   },
   {
-    "pdf": "public/Page/Page Méthode Blanche/FT_la_méthode_blanc.pdf",
+    "pdf": "public/fiche-technique/ft-la-methode-blanc.pdf",
     "data": {}
   },
   {
-    "pdf": "public/Page/Page Méthode Rosé/FT_la_méthode_rosée_23.pdf",
+    "pdf": "public/fiche-technique/ft-la-methode-rosee-23.pdf",
     "data": {}
   },
   {
-    "pdf": "public/Page/Page cuvée Claire de Lune/FT_blanc_claire_de_lune_2023.pdf",
+    "pdf": "public/fiche-technique/ft-blanc-claire-de-lune-2023.pdf",
     "data": {}
   },
   {
-    "pdf": "public/Page/Page cuvée Perlé/FT_perlé_2023.pdf",
+    "pdf": "public/fiche-technique/ft-perle-2023.pdf",
     "data": {}
   }
 ]

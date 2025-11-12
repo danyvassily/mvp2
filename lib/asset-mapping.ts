@@ -14,7 +14,7 @@ interface PageAssets {
 const ASSETS_MAP: Record<string, string[]> = {
   // Dégustation
   'degustation': [
-    '/Page/Asset page dégustation/Degustation.html',
+    '/page/asset-page-degustation/degustation.html',
     '/page/degustation-ok/aromes-primaires-vin-chateau-lastours-gaillac-sud-ouest-france.jpg',
     '/page/degustation-ok/barrique-bois-cuve-beton-chateau-lastours-gaillac-sud-ouest-france.jpg',
     '/page/degustation-ok/caveau-degustation-cuvees-chateau-lastours-gaillac-france.jpeg',
@@ -24,30 +24,30 @@ const ASSETS_MAP: Record<string, string[]> = {
   
   // La vigne
   'la-vigne': [
-    '/Page/Asset page la vigne/La vigne.docx',
-    '/Page/Asset page la vigne/Page la vigne EN.docx',
-    '/Page/La vigne - ok/[images-si-présentes]'
+    '/page/asset-page-la-vigne/la-vigne.docx',
+    '/page/asset-page-la-vigne/page-la-vigne-en.docx',
+    '/page/la-vigne-ok/images-si-presentes'
   ],
   
   // Notre Chai
   'notre-chai': [
-    '/Page/Asset page Notre Chai/Le chai.docx',
-    '/Page/Asset page Notre Chai/Notre chai En.docx',
-    '/Page/Asset page Notre Chai/Notre chai.html',
-    '/Page/Notre Chai - manque 1 photo/[images-si-présentes]'
+    '/page/asset-page-notre-chai/le-chai.docx',
+    '/page/asset-page-notre-chai/notre-chai-en.docx',
+    '/page/asset-page-notre-chai/notre-chai.html',
+    '/page/notre-chai-manque-1-photo/images-si-presentes'
   ],
   
   // Notre vignoble
   'notre-vignoble': [
-    '/Page/Asset page Notre vignoble/Notre vignoble En.docx',
-    '/Page/Asset page Notre vignoble/Notre vignoble Fr.html',
-    '/Page/Notre vignoble - manque 1 photo/[images-si-présentes]'
+    '/page/asset-page-notre-vignoble/notre-vignoble-en.docx',
+    '/page/asset-page-notre-vignoble/notre-vignoble-fr.html',
+    '/page/notre-vignoble-manque-1-photo/images-si-presentes'
   ],
   
   // Club
   'club': [
-    '/Page/Page Club/Page présentation club FR EN.html',
-    '/Page/Club - ok/[images-si-présentes]'
+    '/page/page-club/page-presentation-club-fr-en.html',
+    '/page/club-ok/images-si-presentes'
   ],
   
   // Nos engagements
@@ -58,52 +58,52 @@ const ASSETS_MAP: Record<string, string[]> = {
     '/page/nos-engagement-ok/libellule-rouge-vigne-grappe-de-raisin.jpg',
     '/page/nos-engagement-ok/fleurs-roses-tronc-de-vigne.jpg',
     '/page/nos-engagement-ok/mobilier-upcycle-chateau-lastours-gaillac.jpg',
-    '/page/nos-engagement-ok/logo-HVE3.png'
+    '/page/nos-engagement-ok/logo-hve3-1.png'
   ],
   
   // Nos événements
   'nos-evenements': [
-    '/page/nos-evenements-ok/UAG-LASTOURS-infinitygraphic-16.jpg',
+    '/page/nos-evenements-ok/uag-lastours-infinitygraphic-16.jpg',
     '/page/nos-evenements-ok/bulle-de-jazz-2021-chazo-087.jpg',
-    '/page/nos-evenements-ok/PIANO JARDINS.jpg',
+    '/page/nos-evenements-ok/piano-jardins.jpg',
     '/page/nos-evenements-ok/007.jpg',
-    '/Page/Page Nos événement/Page Nos Evénement En.docx',
-    '/Page/Page Nos événement/Page nos evenement Fr.docx'
+    '/page/page-nos-evenement/page-nos-evenement-en.docx',
+    '/page/page-nos-evenement/page-nos-evenement-fr.docx'
   ],
   
   // Notre histoire
   'notre-histoire': [
-    '/Page/Notre histoire - ok/[images-si-présentes]',
-    '/Page/Page Notre histoire/Notre Histoire En.docx',
-    '/Page/Page Notre histoire/Notre histoire Fr.docx'
+    '/page/notre-histoire-ok/images-si-presentes',
+    '/page/page-notre-histoire/notre-histoire-en.docx',
+    '/page/page-notre-histoire/notre-histoire-fr.docx'
   ],
   
   // Organiser événement
   'organiser-evenement': [
-    '/Page/Organiser notre évenement - ok/[images-si-présentes]',
-    '/Page/Page organiser votre événement/Page Organiser votre événement FREN.html'
+    '/page/organiser-notre-evenement-ok/images-si-presentes',
+    '/page/page-organiser-votre-evenement/page-organiser-votre-evenement-fren.html'
   ],
   
   // Visite
   'visite': [
-    '/Page/Visite - ok/[images-si-présentes]',
-    '/Page/Page visite/Page visite.html'
+    '/page/visite-ok/images-si-presentes',
+    '/page/page-visite/page-visite.html'
   ],
   
   // Actualités
   'actualites': [
-    '/page/page-actualite-ok/Article Petrichor En.docx',
-    '/page/page-actualite-ok/Article Petrichor Fr.docx',
-    '/page/page-actualite-ok/Article fête des vins de Gaillac En.docx',
-    '/page/page-actualite-ok/Article fête des vins de Gaillac Fr.docx',
-    '/page/page-actualite-ok/Page Actualité En.docx',
-    '/page/page-actualite-ok/Page Actualité Fr.docx',
-    '/page/page-actualite-ok/Article Arnaud Liard.docx',
-    '/page/page-actualite-ok/Article sur vendanges 2025.docx',
+    '/page/page-actualite-ok/article-petrichor-en.docx',
+    '/page/page-actualite-ok/article-petrichor-fr.docx',
+    '/page/page-actualite-ok/article-fete-des-vins-de-gaillac-en.docx',
+    '/page/page-actualite-ok/article-fete-des-vins-de-gaillac-fr.docx',
+    '/page/page-actualite-ok/page-actualite-en.docx',
+    '/page/page-actualite-ok/page-actualite-fr.docx',
+    '/page/page-actualite-ok/article-arnaud-liard.docx',
+    '/page/page-actualite-ok/article-sur-vendanges-2025.docx',
     '/page/page-actualite-ok/actualites-chateau-lastours-gaillac-france.jpeg',
     '/page/page-actualite-ok/portrait-artiste-placticien-francais-arnaud-liard.jpeg',
     '/page/page-actualite-ok/actualite-evenements-chateau-lastours-gaillac-france.jpg',
-    '/page/page-actualite-ok/Salon-Vignerons-Independants-Paris-2025-france.jpg',
+    '/page/page-actualite-ok/salon-vignerons-independants-paris-2025-france-1.jpg',
     '/page/page-actualite-ok/machine-a-vendanger-chateau-lastours-gaillac-2025.jpg',
     '/page/page-actualite-ok/fete-des-vins-2025-gaillac-sud-ouest-france.jpeg',
     '/page/page-actualite-ok/vin-rose-gastronomique-elevage-barrique-petrichor.jpg'
@@ -111,14 +111,14 @@ const ASSETS_MAP: Record<string, string[]> = {
   
   // Méthode Blanche
   'methode-blanche': [
-    '/page/nos-cuvee-ok/gamme-methode-ancestral/page-methode Blanche/FT_la_méthode_blanc.pdf',
-    '/page/nos-cuvee-ok/gamme-methode-ancestral/page-methode Blanche/LA METHODE BLANC.jpg'
+    '/page/nos-cuvee-ok/gamme-methode-ancestral/page-methode-blanche/ft-la-methode-blanc.pdf',
+    '/page/nos-cuvee-ok/gamme-methode-ancestral/page-methode-blanche/la-methode-blanc.jpg'
   ],
   
   // Méthode Rosé
   'methode-rose': [
-    '/page/nos-cuvee-ok/gamme-methode-ancestral/page-methode Rosé/FT_la_méthode_rosée_23.pdf',
-    '/page/nos-cuvee-ok/gamme-methode-ancestral/page-methode Rosé/LA METHODE ROSE.jpg'
+    '/page/nos-cuvee-ok/gamme-methode-ancestral/page-methode-rose/ft-la-methode-rosee-23.pdf',
+    '/page/nos-cuvee-ok/gamme-methode-ancestral/page-methode-rose/la-methode-rose.jpg'
   ]
 }
 
