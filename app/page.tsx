@@ -218,7 +218,7 @@ export default function HomePage() {
             <div className="relative wine-image">
               <div className="relative h-[400px] lg:h-[550px] rounded-sm overflow-hidden shadow-2xl">
                 <Image
-                  src="/page/Home page - ok/bouteille-de-vin-rouge-tonneau-en-bois.jpg"
+                  src="/page/home-page-ok/bouteille-de-vin-rouge-tonneau-en-bois.jpg"
                   alt="Gamme de vins Pétrichor du Château Lastours"
                   fill
                   className="object-cover object-center sm:object-[center_center] lg:object-[center_30%] hover:scale-105 transition-transform duration-700"
@@ -331,7 +331,7 @@ export default function HomePage() {
       <section className="relative h-[70vh] lg:h-[85vh] overflow-hidden mt-6 lg:mt-8">
         <div className="absolute inset-0">
           <Image
-            src="/page/La vigne - ok/vignes-hiver-chapelle-saint-vincent-d-avens-gaillac-france.jpeg"
+            src="/page/la-vigne-ok/vignes-hiver-chapelle-saint-vincent-d-avens-gaillac-france.jpeg"
             alt="Chapelle et vignes du Château Lastours"
             fill
             className="object-cover object-center sm:object-[center_center] lg:object-[center_50%] hover:scale-105 transition-transform duration-700"
@@ -384,7 +384,7 @@ export default function HomePage() {
       <section className="relative h-[70vh] lg:h-[85vh] overflow-hidden mt-6 lg:mt-8 mb-6 lg:mb-8">
         <div className="absolute inset-0">
           <Image
-            src="/page/Home page - ok/repas-mariage-longue-table-en-bois-chateau-lastours.jpg"
+            src="/page/home-page-ok/repas-mariage-longue-table-en-bois-chateau-lastours.jpg"
             alt="Mariage au Château Lastours"
             fill
             className="object-cover object-center sm:object-[center_center] lg:object-[center_45%] hover:scale-105 transition-transform duration-700"

@@ -16,7 +16,7 @@ export const articles: Article[] = [
     date: "2024-11-15",
     excerpt:
       "Découvrez notre nouvelle cuvée Petrichor Rouge 2024, expression pure de notre terroir argilo-calcaire et de nos cépages autochtones.",
-    image: "/page/Page Actualité - ok/vin-rose-gastronomique-elevage-barrique-petrichor.jpg",
+    image: "/page/page-actualite-ok/vin-rose-gastronomique-elevage-barrique-petrichor.jpg",
     tags: ["Nouveauté", "Petrichor", "Terroir"],
     author: "Louis de Faramond",
     body: [
@@ -67,7 +67,7 @@ export const articles: Article[] = [
     date: "2025-09-20",
     excerpt:
       "Retour sur des vendanges 2025 marquées par des conditions climatiques idéales, offrant des raisins d'une maturité et d'une concentration remarquables.",
-    image: "/page/Page Actualité - ok/machine-a-vendanger-chateau-lastours-gaillac-2025.jpg",
+    image: "/page/page-actualite-ok/machine-a-vendanger-chateau-lastours-gaillac-2025.jpg",
     tags: ["Vendanges", "Millésime", "Qualité"],
     author: "Louis de Faramond",
     body: [
@@ -84,7 +84,7 @@ export const articles: Article[] = [
     date: "2024-06-12",
     excerpt:
       "Le Château Lastours renouvelle sa certification Haute Valeur Environnementale, témoignant de son engagement constant pour une viticulture respectueuse de l'environnement.",
-    image: "/page/Page Actualité - ok/actualite-evenements-chateau-lastours-gaillac-france.jpg",
+    image: "/page/page-actualite-ok/actualite-evenements-chateau-lastours-gaillac-france.jpg",
     tags: ["HVE", "Durabilité", "Environnement"],
     author: "Château Lastours",
     body: [
@@ -101,7 +101,7 @@ export const articles: Article[] = [
     date: "2025-01-20",
     excerpt:
       "Découvrez nos nouveaux assemblages 2025 qui repoussent les limites de l'expression de nos cépages autochtones tout en respectant l'identité unique de Gaillac.",
-    image: "/page/La vigne - ok/travail-dans-la-vigne-palissage.jpg",
+    image: "/page/la-vigne-ok/travail-dans-la-vigne-palissage.jpg",
     tags: ["Innovation", "Assemblage", "Cépages"],
     author: "Louis de Faramond",
     body: [
@@ -118,7 +118,7 @@ export const articles: Article[] = [
     date: "2025-02-15",
     excerpt:
       "Le Château Lastours sera présent au Salon des Vignerons Indépendants à Paris pour présenter ses dernières cuvées et rencontrer les amateurs de vin.",
-    image: "/page/Page Actualité - ok/Salon-Vignerons-Independants-Paris-2025-france.jpg",
+    image: "/page/page-actualite-ok/Salon-Vignerons-Independants-Paris-2025-france.jpg",
     tags: ["Salon", "Paris", "Dégustation"],
     author: "Château Lastours",
     body: [
@@ -135,7 +135,7 @@ export const articles: Article[] = [
     date: "2024-12-10",
     excerpt:
       "Découvrez la collaboration du Château Lastours avec l'artiste plasticien Arnaud Liard, créant un pont entre l'art contemporain et l'art de la vigne.",
-    image: "/page/Page Actualité - ok/portrait-artiste-placticien-francais-arnaud-liard.jpeg",
+    image: "/page/page-actualite-ok/portrait-artiste-placticien-francais-arnaud-liard.jpeg",
     tags: ["Art", "Collaboration", "Culture"],
     author: "Château Lastours",
     body: [

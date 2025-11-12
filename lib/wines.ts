@@ -18,20 +18,20 @@ type Gamme = {
 
 // Map des PDFs avec noms spécifiques (overrides) - Chemins mis à jour selon la structure réelle du dossier public
 const pdfOverrides: Record<string, string> = {
-  "claire-de-lune": "/page/Nos Cuvée-ok/Gamme Confidentiel/Page cuvée Claire de Lune/FT_blanc_claire_de_lune_2023.pdf",
-  "domeni-blanc": "/page/Nos Cuvée-ok/Gamme Domeni/Page Cuvée Domeni blanc/FT_blanc_Domeni 2024.pdf",
-  "domeni-rose": "/page/Nos Cuvée-ok/Gamme Domeni/Page Cuvée domeni Rosé/FT_rosé_Domeni_2024 (1).pdf",
-  "domeni-rouge": "/page/Nos Cuvée-ok/Gamme Domeni/Page Cuvée Domeni Rouge/FT_rouge_Domeni_2022.pdf",
-  "opus-blanc": "/page/Nos Cuvée-ok/Gamme Opus/Page Cuvée Opus Blanc/FT_blanc_Opus_2023.pdf",
-  "opus-rouge": "/page/Nos Cuvée-ok/Gamme Opus/Page Cuvée Opus Rouge/FT_rouge_opus_2021.pdf",
-  "petrichor-rouge": "/page/Nos Cuvée-ok/Gamme Petrichor/Page Cuvée Pertichor Rouge/FT_Rouge_Petrichor_2020.pdf",
-  "petrichor-rose": "/page/Nos Cuvée-ok/Gamme Petrichor/Page Cuvée Petrichor Rosé/FT_Rosé_Petrichor_2024.pdf",
-  "pigeonnier": "/page/Nos Cuvée-ok/Gamme Confidentiel/Page Cuvée Pigeonnier/FT_Rouge_Cuvée_du_Pigeonnier_2022.pdf",
-  "perle": "/page/Nos Cuvée-ok/Gamme perlé/Page cuvée Perlé/FT_perlé_2023.pdf",
-  "poussin-blanc": "/page/Nos Cuvée-ok/Gamme poussin/Page Cuvée poussin Blanc/FT_poussin_moelleux_2024.pdf",
-  "poussin-rose": "/page/Nos Cuvée-ok/Gamme poussin/Page Cuvée Poussin Rosé/FT_poussin rosé_moelleux_2024.pdf",
-  "methode-blanc": "/page/Nos Cuvée-ok/Gamme Méthode Ancestral/Page Méthode Blanche/FT_la_méthode_blanc.pdf",
-  "methode-rose": "/page/Nos Cuvée-ok/Gamme Méthode Ancestral/Page Méthode Rosé/FT_la_méthode_rosée_23.pdf"
+  "claire-de-lune": "/page/nos-cuvee-ok/Gamme Confidentiel/Page cuvée Claire de Lune/FT_blanc_claire_de_lune_2023.pdf",
+  "domeni-blanc": "/page/nos-cuvee-ok/Gamme Domeni/Page Cuvée Domeni blanc/FT_blanc_Domeni 2024.pdf",
+  "domeni-rose": "/page/nos-cuvee-ok/Gamme Domeni/Page Cuvée domeni Rosé/FT_rosé_Domeni_2024 (1).pdf",
+  "domeni-rouge": "/page/nos-cuvee-ok/Gamme Domeni/Page Cuvée Domeni Rouge/FT_rouge_Domeni_2022.pdf",
+  "opus-blanc": "/page/nos-cuvee-ok/Gamme Opus/Page Cuvée Opus Blanc/FT_blanc_Opus_2023.pdf",
+  "opus-rouge": "/page/nos-cuvee-ok/Gamme Opus/Page Cuvée Opus Rouge/FT_rouge_opus_2021.pdf",
+  "petrichor-rouge": "/page/nos-cuvee-ok/Gamme Petrichor/Page Cuvée Pertichor Rouge/FT_Rouge_Petrichor_2020.pdf",
+  "petrichor-rose": "/page/nos-cuvee-ok/Gamme Petrichor/Page Cuvée Petrichor Rosé/FT_Rosé_Petrichor_2024.pdf",
+  "pigeonnier": "/page/nos-cuvee-ok/Gamme Confidentiel/Page Cuvée Pigeonnier/FT_Rouge_Cuvée_du_Pigeonnier_2022.pdf",
+  "perle": "/page/nos-cuvee-ok/Gamme perlé/Page cuvée Perlé/FT_perlé_2023.pdf",
+  "poussin-blanc": "/page/nos-cuvee-ok/Gamme poussin/Page Cuvée poussin Blanc/FT_poussin_moelleux_2024.pdf",
+  "poussin-rose": "/page/nos-cuvee-ok/Gamme poussin/Page Cuvée Poussin Rosé/FT_poussin rosé_moelleux_2024.pdf",
+  "methode-blanc": "/page/nos-cuvee-ok/Gamme Méthode Ancestral/Page Méthode Blanche/FT_la_méthode_blanc.pdf",
+  "methode-rose": "/page/nos-cuvee-ok/Gamme Méthode Ancestral/Page Méthode Rosé/FT_la_méthode_rosée_23.pdf"
 };
 
 // Helper pour obtenir le PDF path
@@ -53,7 +53,7 @@ export const gammes: Gamme[] = [
         route: "/les-vins/domeni-blanc",
         pdf: getPdfPath("domeni-blanc"),
         colorTag: "Blanc",
-        image: "/page/Nos Cuvée-ok/Gamme Domeni/Page Cuvée Domeni blanc/BLANC_DOMENI_sf.png"
+        image: "/page/nos-cuvee-ok/Gamme Domeni/Page Cuvée Domeni blanc/BLANC_DOMENI_sf.png"
       },
       {
         title: "Doméni Rosé", 
@@ -61,7 +61,7 @@ export const gammes: Gamme[] = [
         route: "/les-vins/domeni-rose",
         pdf: getPdfPath("domeni-rose"),
         colorTag: "Rosé",
-        image: "/page/Nos Cuvée-ok/Gamme Domeni/Page Cuvée domeni Rosé/ROSE DOMENI-sf.png"
+        image: "/page/nos-cuvee-ok/Gamme Domeni/Page Cuvée domeni Rosé/ROSE DOMENI-sf.png"
       },
       {
         title: "Doméni Rouge",
@@ -69,7 +69,7 @@ export const gammes: Gamme[] = [
         route: "/les-vins/domeni-rouge",
         pdf: getPdfPath("domeni-rouge"),
         colorTag: "Rouge",
-        image: "/page/Nos Cuvée-ok/Gamme Domeni/Page Cuvée Domeni Rouge/ROUGE_DOMENI_sf.png"
+        image: "/page/nos-cuvee-ok/Gamme Domeni/Page Cuvée Domeni Rouge/ROUGE_DOMENI_sf.png"
       }
     ]
   },
@@ -86,7 +86,7 @@ export const gammes: Gamme[] = [
         route: "/les-vins/opus-blanc", 
         pdf: getPdfPath("opus-blanc"),
         colorTag: "Blanc",
-        image: "/page/Nos Cuvée-ok/Gamme Opus/Page Cuvée Opus Blanc/BLANC_OPUS_sf.png"
+        image: "/page/nos-cuvee-ok/Gamme Opus/Page Cuvée Opus Blanc/BLANC_OPUS_sf.png"
       },
       {
         title: "Opus Rouge",
@@ -94,7 +94,7 @@ export const gammes: Gamme[] = [
         route: "/les-vins/opus-rouge",
         pdf: getPdfPath("opus-rouge"),
         colorTag: "Rouge",
-        image: "/page/Nos Cuvée-ok/Gamme Opus/Page Cuvée Opus Rouge/ROUGE_OPUS_sf.png"
+        image: "/page/nos-cuvee-ok/Gamme Opus/Page Cuvée Opus Rouge/ROUGE_OPUS_sf.png"
       }
     ]
   },
@@ -111,7 +111,7 @@ export const gammes: Gamme[] = [
         route: "/les-vins/methode-blanc",
         pdf: getPdfPath("methode-blanc"), 
         colorTag: "Effervescent",
-        image: "/page/Nos Cuvée-ok/Gamme Méthode Ancestral/Page Méthode Blanche/LA_METHODE_BLANC_st.png"
+        image: "/page/nos-cuvee-ok/Gamme Méthode Ancestral/Page Méthode Blanche/LA_METHODE_BLANC_st.png"
       },
       {
         title: "Méthode Rosé",
@@ -119,7 +119,7 @@ export const gammes: Gamme[] = [
         route: "/les-vins/methode-rose",
         pdf: getPdfPath("methode-rose"),
         colorTag: "Effervescent", 
-        image: "/page/Nos Cuvée-ok/Gamme Méthode Ancestral/Page Méthode Rosé/LA_METHODE_ROSE_sf.png"
+        image: "/page/nos-cuvee-ok/Gamme Méthode Ancestral/Page Méthode Rosé/LA_METHODE_ROSE_sf.png"
       },
       {
         title: "Perlé",
@@ -127,7 +127,7 @@ export const gammes: Gamme[] = [
         route: "/les-vins/perle",
         pdf: getPdfPath("perle"),
         colorTag: "Effervescent",
-        image: "/page/Nos Cuvée-ok/Gamme perlé/Page cuvée Perlé/BLANC_PERLE_sf.png"
+        image: "/page/nos-cuvee-ok/Gamme perlé/Page cuvée Perlé/BLANC_PERLE_sf.png"
       }
     ]
   },
@@ -144,7 +144,7 @@ export const gammes: Gamme[] = [
         route: "/les-vins/poussin-blanc",
         pdf: getPdfPath("poussin-blanc"),
         colorTag: "Blanc",
-        image: "/page/Nos Cuvée-ok/Gamme poussin/Page Cuvée poussin Blanc/POUSSIN_BLANC_sf.png"
+        image: "/page/nos-cuvee-ok/Gamme poussin/Page Cuvée poussin Blanc/POUSSIN_BLANC_sf.png"
       },
       {
         title: "Poussin Rosé",
@@ -152,7 +152,7 @@ export const gammes: Gamme[] = [
         route: "/les-vins/poussin-rose",
         pdf: getPdfPath("poussin-rose"),
         colorTag: "Rosé",
-        image: "/page/Nos Cuvée-ok/Gamme poussin/Page Cuvée Poussin Rosé/POUSSIN_ROSE_sf.png"
+        image: "/page/nos-cuvee-ok/Gamme poussin/Page Cuvée Poussin Rosé/POUSSIN_ROSE_sf.png"
       }
     ]
   },
@@ -161,7 +161,7 @@ export const gammes: Gamme[] = [
     title: "Petrichor",
     description: "Signature de notre savoir-faire. Cette gamme évoque l'odeur si particulière de la terre après la pluie, capturant l'essence même de notre terroir dans des cuvées d'exception.",
     accent: "#8B7355", // Terre cuite
-    cover: "/page/Home page - ok/bouteille-de-vin-rouge-tonneau-en-bois.jpg",
+    cover: "/page/home-page-ok/bouteille-de-vin-rouge-tonneau-en-bois.jpg",
     cuvees: [
       {
         title: "Petrichor Rouge",
@@ -169,7 +169,7 @@ export const gammes: Gamme[] = [
         route: "/les-vins/petrichor-rouge", 
         pdf: getPdfPath("petrichor-rouge"),
         colorTag: "Rouge",
-        image: "/page/Nos Cuvée-ok/Gamme Petrichor/Page Cuvée Pertichor Rouge/PETRICHOR_st.png"
+        image: "/page/nos-cuvee-ok/Gamme Petrichor/Page Cuvée Pertichor Rouge/PETRICHOR_st.png"
       },
       {
         title: "Petrichor Rosé",
@@ -177,7 +177,7 @@ export const gammes: Gamme[] = [
         route: "/les-vins/petrichor-rose",
         pdf: getPdfPath("petrichor-rose"),
         colorTag: "Rosé",
-        image: "/page/Nos Cuvée-ok/Gamme Petrichor/Page Cuvée Petrichor Rosé/PETRICHOR__Ros_SF.png"
+        image: "/page/nos-cuvee-ok/Gamme Petrichor/Page Cuvée Petrichor Rosé/PETRICHOR__Ros_SF.png"
       }
     ]
   },
@@ -194,7 +194,7 @@ export const gammes: Gamme[] = [
         route: "/les-vins/claire-de-lune",
         pdf: getPdfPath("claire-de-lune"),
         colorTag: "Blanc",
-        image: "/page/Nos Cuvée-ok/Gamme Confidentiel/Page cuvée Claire de Lune/CLAIRE_DE_LUNE_sf.png"
+        image: "/page/nos-cuvee-ok/Gamme Confidentiel/Page cuvée Claire de Lune/CLAIRE_DE_LUNE_sf.png"
       },
       {
         title: "Pigeonnier",
@@ -202,7 +202,7 @@ export const gammes: Gamme[] = [
         route: "/les-vins/pigeonnier",
         pdf: getPdfPath("pigeonnier"),
         colorTag: "Rouge",
-        image: "/page/Nos Cuvée-ok/Gamme Confidentiel/Page Cuvée Pigeonnier/PIGEONNIER_sf.png"
+        image: "/page/nos-cuvee-ok/Gamme Confidentiel/Page Cuvée Pigeonnier/PIGEONNIER_sf.png"
       }
     ]
   }
