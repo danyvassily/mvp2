@@ -1,84 +1,71 @@
-# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
-
-# dependencies
+# Dependencies
 /node_modules
 /.pnp
 .pnp.js
 
-# testing
+# Testing
 /coverage
 
-# next.js
+# Next.js
 /.next/
 /out/
 
-# production
+# Production
 /build
 /dist
 
-# misc
+# Misc
 .DS_Store
 *.pem
 .vscode/
 .idea/
 
-# debug
+# Debug logs
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 .pnpm-debug.log*
 lerna-debug.log*
 
-# env files
+# Environment files
 .env*
+!.env.example
 
-# vercel
+# Vercel
 .vercel
 
-# netlify
+# Netlify
 .netlify
 
-# typescript
+# TypeScript
 *.tsbuildinfo
 next-env.d.ts
 
-# backup and temporary files
+# Backup and temporary files
 *_backup/
 *_old/
 *.log
 *.bak
 build-errors.log
 
-# scripts et fichiers de nettoyage
-/scripts/
+# Scripts and cleanup files
 structure.html
 STRUCTURE.md
 *.md.backup
 
-# Dossiers de photos volumineux (éviter Git LFS)
-# public/PHOTOS-WEB-LASTOURS*/ - DÉSACTIVÉ : Les images sont nécessaires pour le déploiement Vercel
-# public/photos/ - DÉSACTIVÉ : Vérifier si ce dossier existe réellement
-public/*backup*/
-public/*old*/
+# Exclude unused photo directories (CRITICAL: Keep images used in /page)
+public/PHOTOS-WEB-LASTOURS/
 
+# Temp files
 *.zip
 *.rar
 *.tar.gz
-
-
 *.mov
+*.avi
 
-*.avi# Fichiers d'optimisation temporaires
-
-
-
-# Dossiers de développement
+# Development directories
 audit/
 public/_netlify
 
-# Logs de build
-build-errors.log
-
-# Sauvegarde complète des assets (non utilisée)
+# Backup assets
 public_backup_full/
-
