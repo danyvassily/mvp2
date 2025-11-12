@@ -360,12 +360,12 @@ export function Header() {
           <div className="flex-shrink-0 mx-4 lg:mx-6">
             <Link href="/" className="flex items-center">
               <Image
-                src="/photos-web-lastours/logo/logo-chateau-lastours.jpg"
+                src="/photos-web-lastours/logo/logo.png"
                 alt="Château Lastours"
-                width={60}
-                height={50}
+                width={120}
+                height={78}
                 priority
-                className="transition-all duration-300 opacity-100 hover:scale-105 object-contain lg:w-[70px] lg:h-[58px]"
+                className="transition-all duration-300 opacity-100 hover:scale-105 object-contain lg:w-[130px] lg:h-[80px]"
               />
             </Link>
           </div>

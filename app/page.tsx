@@ -160,10 +160,10 @@ export default function HomePage() {
         >
           <Image
             src="/chateau-lastours-hero.jpg"
-            alt="Vignoble du Château Lastours au coucher du soleil"
+            alt="Façade du Château Lastours et jardins à la française"
             fill
             priority
-            className="object-cover object-center sm:object-[center_center] lg:object-[center_40%]"
+            className="object-cover object-center sm:object-[center_center] lg:object-[center_45%]"
             sizes="100vw"
           />
         </div>
